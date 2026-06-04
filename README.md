@@ -19,7 +19,7 @@
 | **TOP 1** | [极连云](#1-极连云) | ￥7/月起(年付) | IPLC专线 | 无倍率不限速、解锁AI/流媒体 | ⭐⭐⭐⭐⭐ | [👉 前往官网](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) |
 | **TOP 2** | [瞬云机场](#2-瞬云机场) | ￥8.25/月起(年付) | ANYCAST直连 | 无倍率不限速、解锁GPT/流媒体 | ⭐⭐⭐⭐⭐ | [👉 前往官网](https://bbb.jichang.best/#/register?code=o4I4kToe) |
 | **TOP 3** | [寰宇云](#3-寰宇云) | ￥7.4/月起(年付) | 全IEPL专线+直连 | 原生IP解锁、最大2.5Gbps不限速 | ⭐⭐⭐⭐⭐ | [👉 前往官网](https://vip3.huanyuyunbest.com/#/register?code=K6h5VWw2) |
-| **TOP 4** | [光年梯](#4-光年梯) | ￥18/月起 | IEPL专线 | 老牌稳定、近百节点覆盖广 | ⭐⭐⭐⭐⭐ | [👉 前往官网](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) |
+| **TOP 4** | [光年梯](#4-光年梯) | ￥7.5/月起 | IEPL专线 | 老牌稳定、近百节点覆盖广 | ⭐⭐⭐⭐⭐ | [👉 前往官网](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) |
 | **TOP 5** | [边界云](#5-边界云) | ￥12.33/月起(年付) | IEPL企业级专线 | 50+全球节点、支持UDP、3天无理由退款 | ⭐⭐⭐⭐⭐ | [👉 前往官网](https://www.lvpn.cc/r/6UQDZT) |
 | **TOP 6** | [极速云](#6-极速云) | ￥15.99/月起 | 中转+直连高速 | 解锁GPT/流媒体、超低月付 | ⭐⭐⭐⭐⭐ | [👉 前往官网](https://ask.xsccusm.com:8888/#/register?code=RENHYxqv) |
 | **TOP 7** | [山水云](#7-山水云) | ￥14.99/月起 | 中转+直连高速 | 解锁GPT/Tiktok全流媒体、4~10设备 | ⭐⭐⭐⭐⭐ | [👉 前往官网](https://ss2.byvvcsx.com/#/register?code=jkziWeb8) |
@@ -127,6 +127,7 @@
 #### 💵 阶梯价格参考
 | 套餐 | 流量 | 月付价格 | 年付价格 |
 | :--- | :--- | :--- | :--- |
+| 限定年付小包 | 50G/月 | ¥89.00/年 |
 | 入门版 | 110G | ¥18 | ¥160 |
 | 晋级版 | 220G | ¥34 | ¥320 |
 | 专业版 | 450G | ¥68 | ¥667 |
