@@ -1,13 +1,13 @@
 # 2026 梯子推荐与机场推荐清单 | 稳定专线 / 平价月付 / ChatGPT纯净节点(19 家,每日自动测速同步)
 
-![更新日期](https://img.shields.io/badge/更新-2026--10--26-00e676) ![收录机场](https://img.shields.io/badge/收录机场-19%20家-00b0ff) ![晚高峰实测](https://img.shields.io/badge/晚高峰实测-已接入-fbbf24) [![主站官网](https://img.shields.io/badge/主站-clash--jichang.com-00e676)](https://clash-jichang.com/) [![Telegram](https://img.shields.io/badge/Telegram-%40clashjichang-26A5E4?logo=telegram&logoColor=white)](https://t.me/clashjichang)
+![更新日期](https://img.shields.io/badge/更新-2026--10--26-00e676) ![收录机场](https://img.shields.io/badge/收录机场-19%20家-00b0ff) ![晚高峰实测](https://img.shields.io/badge/晚高峰实测-已接入-fbbf24) [![主站官网](https://img.shields.io/badge/主站-clash--jichang.com-00e676)](https://clash-jichang.com/) [![Telegram](https://img.shields.io/badge/Telegram-%40JLYCloud-26A5E4?logo=telegram&logoColor=white)](https://t.me/JLYCloud)
 
 ![2026 机场推荐清单与梯子节点导航](images/banner.svg)
 
 这是 [clash-jichang.com](https://clash-jichang.com/) 品牌知识库的 GitHub 开源镜像：**精选 19 家主流科学上网梯子与加速器节点，按“高端专线 / 高性价比 / AI生产力 / 平价轻量”四大核心场景分类整理**[cite: 1]。每家服务商均明确标注入口线路架构（IPLC/IEPL/BGP）、主力协议、月付起步价格及专属优惠码；拒绝空洞宣传，实测品牌附带完整测试环境与测速口径[cite: 2, 3, 4, 5, 6, 7, 8]。
 
 > 🏠 **完整测速图表、各平台客户端下载、长尾避坑指南见主站：[clash-jichang.com](https://clash-jichang.com/)**
-> 📣 **每日测速节点 / 节点超时排查 / 跑路风险预警，TG 频道自动同步：[@clashjichang](https://t.me/clashjichang)**
+> 📣 **每日测速节点 / 节点超时排查 / 跑路风险预警，TG 交流群自动同步：[@JLYCloud](https://t.me/JLYCloud)**
 > 💡 **防坑红线：** 订阅链接等同账号密钥，严禁公开发布；任何新机场第一个月均**强烈建议月付体验**，晚高峰验证稳定后再考虑季付/年付[cite: 1, 2]。
 
 ---
@@ -260,3 +260,10 @@
 3. 本指南仅供网络安全技术交流、学术科研与跨境电商从业者合法合规使用，严禁利用相关工具从事违反当地法律法规的行为[cite: 1, 2]。
 
 ⭐ **如果本清单对你有帮助，欢迎点亮右上角 Star 收藏！数据与状态每日持续同步。**
+```<FollowUp>
+<Suggestions>
+- 生成配套的 GitHub Actions 每日自动化提交脚本 (.github/workflows/sync.yml)
+- 为 clash-jichang.com 编写配套的静态站点生成器 (Astro/Hexo) 导入脚本
+- 生成包含这 19 家机场的结构化数据 JSON 文件 (airports.json)
+</Suggestions>
+</FollowUp>
