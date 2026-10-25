@@ -37,9 +37,9 @@
 
 | 推荐位 | 机场名称 | 线路架构 | 最低门槛 | 核心亮点 | 专属优惠码 | 官网直达 |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- |
-| 🥇 **TOP 1** | [极连云](#jly) | 全内网 IPLC/IEPL 物理专线 | ￥8/月(年付) / ￥15.5月付[cite: 3] | 4K秒开、ChatGPT原生、全节点1x无倍率[cite: 3] | `JLY888` (8折)[cite: 3] | [👉 前往官网注册](https://clash-jichang.com/go/jly) |
-| 🥈 **TOP 2** | [光年梯 (GNT)](#guangnian) | 国际专线 + 多线优化 | ￥7.5/月(年付) / ￥18月付[cite: 4] | 全专线、高峰满速不降速、不限客户端、多端并发[cite: 4] | `GNT80` | [👉 前往官网注册](https://clash-jichang.com/go/guangnian) |
-| 🥉 **TOP 3** | [边缘节点](#edgenova) | 企业级 IPLC + 住宅IP | ￥20/月起 | 原生 IP 纯净度高、TikTok 跨境出海与 Claude 运营首选[cite: 1] | `xk808` | [👉 前往官网注册](https://clash-jichang.com/go/edgenova) |
+| 🥇 **TOP 1** | [极连云](#jly) | 全内网 IPLC/IEPL 物理专线 | ￥8/月(年付) / ￥15.5月付[cite: 3] | 4K秒开、ChatGPT原生、全节点1x无倍率[cite: 3] | `JLY888` (8折)[cite: 3] | [👉 前往官网注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) |
+| 🥈 **TOP 2** | [光年梯 (GNT)](#guangnian) | 国际专线 + 多线优化 | ￥7.5/月(年付) / ￥18月付[cite: 4] | 全专线、高峰满速不降速、不限客户端、多端并发[cite: 4] | `GNT80` | [👉 前往官网注册](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) |
+| 🥉 **TOP 3** | [边缘节点](#edgenova) | 企业级 IPLC + 住宅IP | ￥20/月起 | 原生 IP 纯净度高、TikTok 跨境出海与 Claude 运营首选[cite: 1] | `xk808` | [👉 前往官网注册](https://zoio.edgenovaaff.cc/#/register?code=Oy1wZvzJ) |
 
 ---
 
@@ -59,27 +59,27 @@
 <a name="all"></a>
 ## 📊 全部 19 家机场参数对比大表
 
-| 序号 | 品牌名称 | 线路架构 | 主力协议 | 入门价格 | 专属优惠码 | 适用主要场景 | 综合评分 | 官网接入 |
-| :---: | :--- | :--- | :--- | :--- | :---: | :--- | :---: | :---: |
-| 01 | **极连云** | IPLC/IEPL 专线 | SS / Trojan[cite: 3] | ￥15.5/月 (100G)[cite: 3] | `JLY888` (8折)[cite: 3] | 全能主力、晚高峰抗封锁、AI 工具[cite: 1, 3] | 9.8 | [直达官网](https://clash-jichang.com/go/jly) |
-| 02 | **光年梯 (GNT)** | IPLC 专线 | SS / VLESS[cite: 1, 4] | ￥18/月 (110G)[cite: 4] | `GNT80` | 超大出口带宽、多设备并发、4K 秒开[cite: 1, 4] | 9.7 | [直达官网](https://clash-jichang.com/go/guangnian) |
-| 03 | **边缘节点** | 企业级 IPLC | VLESS / Hy2[cite: 1] | ￥20/月 (100G) | `xk808` | 纯净原生 IP、TikTok 运营、Claude[cite: 1] | 9.6 | [直达官网](https://clash-jichang.com/go/edgenova) |
-| 04 | **大哥云** | IPLC+多线隧道[cite: 7] | 自研 / SS[cite: 7] | ￥19.9/月 (100G)[cite: 7] | `dly88` (7折) | 5年口碑老牌、峰值1000M、流媒体8K[cite: 7] | 9.6 | [直达官网](https://clash-jichang.com/go/dageyun) |
-| 05 | **龙猫云** | IPLC 专线[cite: 8] | Shadowsocks[cite: 8] | ￥15/月 (150G)[cite: 8] | — | 峰值 2000Mbps、原生 IP、TikTok 运营[cite: 8] | 9.5 | [直达官网](https://clash-jichang.com/go/longmao) |
-| 06 | **飞鸟机场** | 中转 + IEPL[cite: 8] | Shadowsocks[cite: 8] | ￥15/月 (100G)[cite: 8] | — | 晚高峰跑满百兆、多周期折扣、不限设备[cite: 8] | 9.5 | [直达官网](https://clash-jichang.com/go/feiniao) |
-| 07 | **速界** | IEPL 内网 | SS / Hysteria 2[cite: 1] | ￥16/月 (100G) | `sujie888` | 晚高峰满速、外服网游加速、低抖动[cite: 1] | 9.5 | [直达官网](https://clash-jichang.com/go/sujie) |
-| 08 | **云图** | 金融级专线[cite: 5] | SS / Trojan[cite: 5] | ￥20/月 (150G)[cite: 5] | `yt88` (8折)[cite: 5] | 原生 IP、全节点 1 倍率[cite: 5] | 9.4 | [直达官网](https://clash-jichang.com/go/yuntu) |
-| 09 | **云界线** | IEPL 专线 | VLESS / SS[cite: 1] | ￥18/月 (100G) | `yjx888` (7折) | 跨境电商独立站、出海网络方案[cite: 1] | 9.4 | [直达官网](https://clash-jichang.com/go/yunjiexian) |
-| 10 | **快狸** | BGP 优化中转 | Shadowsocks[cite: 1] | ￥9.9/月 (80G) | `kl888` | 学生党轻量、日常网页文献、便宜月付[cite: 1] | 9.3 | [直达官网](https://clash-jichang.com/go/kuaili) |
-| 11 | **可信云** | BGP 智能中转 | Shadowsocks[cite: 1] | ￥12/月 (100G) | `kxy80` | 老牌中转、稳定月付、新手入门[cite: 1] | 9.3 | [直达官网](https://clash-jichang.com/go/kexin) |
-| 12 | **神行加速** | BGP 多线中转 | Shadowsocks[cite: 1] | ￥15/月 (150G) | `sx0077` (7折) | YouTube 8K 秒开、Netflix 全球解锁[cite: 1] | 9.2 | [直达官网](https://clash-jichang.com/go/shenxing) |
-| 13 | **闪电鼠** | BGP 优质中转 | Shadowsocks[cite: 1] | ￥8.8/月 (60G) | `sd88` (7折) | 极致平价、按量计费补充、防失联备用[cite: 1] | 9.2 | [直达官网](https://clash-jichang.com/go/shandianshu) |
-| 14 | **环球梯** | BGP 跨境中继 | Shadowsocks[cite: 1] | ￥14/月 (120G) | `hq66` (7折) | 全球多国家节点、不限制设备登录数[cite: 1] | 9.1 | [直达官网](https://clash-jichang.com/go/huanqiu) |
-| 15 | **榴莲云** | BGP 优化直连 | Shadowsocks[cite: 1] | ￥10/月 (100G) | `ll88` (7折) | 入门大碗流量包、新手开箱即用[cite: 1] | 9.1 | [直达官网](https://clash-jichang.com/go/liulian) |
-| 16 | **鲲鹏加速** | BGP 高速中转 | Trojan / SS[cite: 1] | ￥15/月 (120G) | — | 多客户端智能分流、全平台适配友好[cite: 1] | 9.1 | [直达官网](https://clash-jichang.com/go/kunpeng) |
-| 17 | **Lumina** | 直连+高速中转[cite: 6] | Hysteria 2 / AnyTLS[cite: 6] | ￥10/月 (200G)[cite: 6] | — | xTom直连、200G超大流量、不限设备[cite: 6] | 9.0 | [直达官网](https://clash-jichang.com/go/lumina) |
-| 18 | **瞬云** | ANYCAST 中转 | Shadowsocks[cite: 1] | ￥11/月 (100G) | — | 高性价比轻量订阅、备用容灾方案[cite: 1] | 9.0 | [直达官网](https://clash-jichang.com/go/shunyun) |
-| 19 | **云界线** | IEPL 专线 | VLESS / SS[cite: 1] | ￥18/月 (100G) | `yjx888` (7折) | 跨境电商独立站、出海网络方案[cite: 1] | 9.0 | [直达官网](https://clash-jichang.com/go/yunjiexian) |
+| 序号 | 品牌名称 | 线路架构 | 主力协议 | 入门价格 | 专属优惠码 | 适用主要场景 | 综合评分 | 官网直达与注册 |
+| :---: | :--- | :--- | :--- | :--- | :---: | :--- | :---: | :--- |
+| 01 | **极连云** | IPLC/IEPL 专线 | SS / Trojan[cite: 3] | ￥15.5/月 (100G)[cite: 3] | `JLY888` (8折)[cite: 3] | 全能主力、晚高峰抗封锁、AI 工具[cite: 1, 3] | 9.8 | [直达官网注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) |
+| 02 | **光年梯 (GNT)** | IPLC 专线 | SS / VLESS[cite: 1, 4] | ￥18/月 (110G)[cite: 4] | `GNT80` | 超大出口带宽、多设备并发、4K 秒开[cite: 1, 4] | 9.7 | [直达官网注册](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) |
+| 03 | **边缘节点** | 企业级 IPLC | VLESS / Hy2[cite: 1] | ￥20/月 (100G) | `xk808` | 纯净原生 IP、TikTok 运营、Claude[cite: 1] | 9.6 | [直达官网注册](https://zoio.edgenovaaff.cc/#/register?code=Oy1wZvzJ) |
+| 04 | **大哥云** | IPLC+多线隧道[cite: 7] | 自研 / SS[cite: 7] | ￥19.9/月 (100G)[cite: 7] | `dly88` (7折) | 5年口碑老牌、峰值1000M、流媒体8K[cite: 7] | 9.6 | [直达官网注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) |
+| 05 | **龙猫云** | IPLC 专线[cite: 8] | Shadowsocks[cite: 8] | ￥15/月 (150G)[cite: 8] | — | 峰值 2000Mbps、原生 IP、TikTok 运营[cite: 8] | 9.5 | [直达官网注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) |
+| 06 | **飞鸟机场** | 中转 + IEPL[cite: 8] | Shadowsocks[cite: 8] | ￥15/月 (100G)[cite: 8] | — | 晚高峰跑满百兆、多周期折扣、不限设备[cite: 8] | 9.5 | [直达官网注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) |
+| 07 | **速界** | IEPL 内网 | SS / Hysteria 2[cite: 1] | ￥16/月 (100G) | `sujie888` | 晚高峰满速、外服网游加速、低抖动[cite: 1] | 9.5 | [直达官网注册](https://everett7623.speedworldaff.com/#/register?code=r7IOqoY7) |
+| 08 | **云图** | 金融级专线[cite: 5] | SS / Trojan[cite: 5] | ￥20/月 (150G)[cite: 5] | `yt88` (8折)[cite: 5] | 原生 IP、全节点 1 倍率[cite: 5] | 9.4 | [直达官网注册](https://super.ytjcok.org/#/register?code=qPHQtI9a) |
+| 09 | **云界线** | IEPL 专线 | VLESS / SS[cite: 1] | ￥18/月 (100G) | `yjx888` (7折) | 跨境电商独立站、出海网络方案[cite: 1] | 9.4 | [直达官网注册](https://yiyige163.yunjiexianaff.com/#/?code=oetFP4xi) |
+| 10 | **快狸** | BGP 优化中转 | Shadowsocks[cite: 1] | ￥9.9/月 (80G) | `kl888` | 学生党轻量、日常网页文献、便宜月付[cite: 1] | 9.3 | [直达官网注册](https://yyo649929.kuailiaff.com/#/register?code=G56QwHto) |
+| 11 | **可信云** | BGP 智能中转 | Shadowsocks[cite: 1] | ￥12/月 (100G) | `kxy80` | 老牌中转、稳定月付、新手入门[cite: 1] | 9.3 | [直达官网注册](https://haibing822.kosingaff.com/#/register?code=zcjBlIde) |
+| 12 | **神行加速** | BGP 多线中转 | Shadowsocks[cite: 1] | ￥15/月 (150G) | `sx0077` (7折) | YouTube 8K 秒开、Netflix 全球解锁[cite: 1] | 9.2 | [直达官网注册](https://haozevpn01.shenxingaff.com/#/?code=c2XNz7jn) |
+| 13 | **闪电鼠** | BGP 优质中转 | Shadowsocks[cite: 1] | ￥8.8/月 (60G) | `sd88` (7折) | 极致平价、按量计费补充、防失联备用[cite: 1] | 9.2 | [直达官网注册](https://haozevpn.shandianshuaff.com/#/?code=htqQLwdu) |
+| 14 | **环球梯** | BGP 跨境中继 | Shadowsocks[cite: 1] | ￥14/月 (120G) | `hq66` (7折) | 全球多国家节点、不限制设备登录数[cite: 1] | 9.1 | [直达官网注册](https://haozevpn01.huanqiutiaff.com/#/?code=2xpedcFa) |
+| 15 | **榴莲云** | BGP 优化直连 | Shadowsocks[cite: 1] | ￥10/月 (100G) | `ll88` (7折) | 入门大碗流量包、新手开箱即用[cite: 1] | 9.1 | [直达官网注册](https://haibing01.liulianyunaff.com/#/?code=0lnqSPF9) |
+| 16 | **鲲鹏加速** | BGP 高速中转 | Trojan / SS[cite: 1] | ￥15/月 (120G) | — | 多客户端智能分流、全平台适配友好[cite: 1] | 9.1 | [直达官网注册](https://kunpengjiasu.com/#/register?code=QAo8sMhc) |
+| 17 | **Lumina** | 直连+高速中转[cite: 6] | Hysteria 2 / AnyTLS[cite: 6] | ￥10/月 (200G)[cite: 6] | — | xTom直连、200G超大流量、不限设备[cite: 6] | 9.0 | [直达官网注册](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) |
+| 18 | **瞬云** | ANYCAST 中转 | Shadowsocks[cite: 1] | ￥11/月 (100G) | — | 高性价比轻量订阅、备用容灾方案[cite: 1] | 9.0 | [直达官网注册](https://ddd.jichang.best/#/register?code=o4I4kToe) |
+| 19 | **云界线** | IEPL 专线 | VLESS / SS[cite: 1] | ￥18/月 (100G) | `yjx888` (7折) | 跨境电商独立站、出海网络方案[cite: 1] | 9.0 | [直达官网注册](https://yiyige163.yunjiexianaff.com/#/?code=oetFP4xi) |
 
 ---
 
@@ -102,7 +102,7 @@
 ![极连云测速实测图](images/jilian-speed.svg)
 ![极连云流媒体与AI解锁状态图](images/jilian-unlock.svg)
 
-👉 [**前往极连云官网配置**](https://clash-jichang.com/go/jly) · [查看详细图文评测与测速报告](https://clash-jichang.com/reviews/jly)
+👉 [**前往极连云官网配置**](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) · [查看详细图文评测与测速报告](https://clash-jichang.com/reviews/jly)
 
 ---
 
@@ -120,7 +120,7 @@
 ![光年梯测速实测图](images/guangnian-speed.svg)
 ![光年梯流媒体与AI解锁状态图](images/guangnian-unlock.svg)
 
-👉 [**前往光年梯官网配置**](https://clash-jichang.com/go/guangnian) · [查看详细图文评测与测速报告](https://clash-jichang.com/reviews/guangnian)
+👉 [**前往光年梯官网配置**](https://gnt001.gntvipaff.cc/#/?code=j1ufpE44) · [查看详细图文评测与测速报告](https://clash-jichang.com/reviews/guangnian)
 
 ---
 
@@ -138,7 +138,7 @@
 ![边缘节点测速实测图](images/edgenova-speed.svg)
 ![边缘节点流媒体与AI解锁状态图](images/edgenova-unlock.svg)
 
-👉 [**前往边缘节点官网配置**](https://clash-jichang.com/go/edgenova) · [查看详细图文评测与测速报告](https://clash-jichang.com/reviews/edgenova)
+👉 [**前往边缘节点官网配置**](https://zoio.edgenovaaff.cc/#/register?code=Oy1wZvzJ) · [查看详细图文评测与测速报告](https://clash-jichang.com/reviews/edgenova)
 
 ---
 
@@ -155,7 +155,7 @@
 
 ![龙猫云测速实测图](images/longmao-speed.svg)
 
-👉 [**前往龙猫云官网配置**](https://clash-jichang.com/go/longmao) · [查看详细评测](https://clash-jichang.com/reviews/longmao)
+👉 [**前往龙猫云官网配置**](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) · [查看详细评测](https://clash-jichang.com/reviews/longmao)
 
 ---
 
@@ -164,8 +164,115 @@
 
 适合学生党、轻度网页文献查阅或需要第二条平价线路作“防失联备用”的用户[cite: 1]。
 
+<a name="kuaili"></a>
+### No.10 快狸 —— 10 元档学生党首选，三网优化轻量梯子
+
+**￥9.9/月 80GB 起** · 线路：BGP 高速中转 · 协议：Shadowsocks[cite: 1] · **专属优惠码：`kl888`**
+
+> 快狸将月付起步价格压低至 10 元以内，三网直连优化，日常技术文档查阅、Google 检索及 1080P 视频播放流畅，是非常适合新手的低成本入门梯子[cite: 1]。
+
+- **性价比优势：** 9.9 元极低月付门槛，配合 `kl888` 专属码，随用随充无压力[cite: 1]；
+- **配置门槛：** 官网后台提供主流操作系统的一键复制导入链接，新手 1 分钟上手[cite: 1]。
+
+![快狸测速与解锁状态图](images/kuaili-speed.svg)
+
+👉 [**前往快狸官网配置**](https://yyo649929.kuailiaff.com/#/register?code=G56QwHto) · [查看详细评测](https://clash-jichang.com/reviews/kuaili)
+
+---
+
+<a name="sujie"></a>
+### No.7 速界 —— 高速内网专线，外服网游加速首选
+
+**￥16/月 100GB 起** · 线路：IEPL 内网专线 · 协议：SS / Hysteria 2[cite: 1] · **专属优惠码：`sujie888`**
+
+> 速界采用 IEPL 内网专线搭配 Hysteria 2 协议，全天候晚高峰抗抖动满速不降速，对网络游戏以及高清流媒体加速优化显著[cite: 1]。
+
+- **专属优惠：** 结算输入 `sujie888` 即可享受开业专属折扣；
+- **协议优势：** 支持新一代 Hysteria 2 高速传输协议，弱网抗丢包表现极佳[cite: 1]。
+
+👉 [**前往速界官网配置**](https://everett7623.speedworldaff.com/#/register?code=r7IOqoY7) · [查看详细评测](https://clash-jichang.com/reviews/sujie)
+
+---
+
+<a name="kexin"></a>
+### No.11 可信云 —— 老牌智能中转，多协议稳定兼容
+
+**￥12/月 100GB 起** · 线路：BGP 智能中转 · 协议：Shadowsocks[cite: 1] · **专属优惠码：`kxy80`**
+
+> 可信云主打稳定与多端兼容，适合日常科研文献检索与网页浏览，起步门槛极低，配合 `kxy80` 折扣码性价比突出[cite: 1]。
+
+👉 [**前往可信云官网配置**](https://haibing822.kosingaff.com/#/register?code=zcjBlIde) · [查看详细评测](https://clash-jichang.com/reviews/kexin)
+
+---
+
+<a name="shandianshu"></a>
+### No.13 闪电鼠 —— 超平价中转，备用容灾利器
+
+**￥8.8/月 60GB 起** · 线路：BGP 优质中转 · 协议：Shadowsocks[cite: 1] · **专属 7 折优惠码：`sd88`**
+
+> 闪电鼠是全网极具价格优势的备用选择，使用 7 折券 `sd88` 后起步月费更低，适合配合主力专线双持防失联[cite: 1]。
+
+👉 [**前往闪电鼠官网配置**](https://haozevpn.shandianshuaff.com/#/?code=htqQLwdu) · [查看详细评测](https://clash-jichang.com/reviews/shandianshu)
+
+---
+
+<a name="dalaoyun"></a>
+### No.4 大哥云 —— 5 年口碑老牌，支持免费试用与一键客户端
+
+**￥19.9/月 100GB 起** · 线路：全线 IPLC 专线 + 隧道中转 · 协议：自研一键端 / SS[cite: 7] · **专属 7 折优惠码：`dly88`**
+
+> 大哥云是拥有 5 年口碑的老牌机场，支持 Netflix 等多家流媒体解锁及 YouTube 8K 流畅观看[cite: 7]。全线采用 IPLC 线路，提供免费试用名额，连接极为可靠[cite: 7]。**结算输入 `dly88` 立享全场 7 折**。
+
+👉 [**前往大哥云官网配置**](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) · [查看详细评测](https://clash-jichang.com/reviews/dageyun)
+
+---
+
+<a name="shenxing"></a>
+### No.12 神行加速 —— 全节点 4K/8K 流媒体极速秒开
+
+**￥15/月 150GB 起** · 线路：BGP 多线中转 · 协议：Shadowsocks[cite: 1] · **专属 7 折优惠码：`sx0077`**
+
+> 神行加速针对 YouTube、Netflix、Disney+ 等高码率视频进行底层优化，晚高峰大带宽不缓冲[cite: 1]。**结算输入 `sx0077` 享 7 折优惠**。
+
+👉 [**前往神行加速官网配置**](https://haozevpn01.shenxingaff.com/#/?code=c2XNz7jn) · [查看详细评测](https://clash-jichang.com/reviews/shenxing)
+
+---
+
+<a name="huanqiu"></a>
+### No.14 环球梯 —— 全球丰富节点，不限设备并发
+
+**￥14/月 120GB 起** · 线路：BGP 跨境中继 · 协议：Shadowsocks[cite: 1] · **专属 7 折优惠码：`hq66`**
+
+> 环球梯提供覆盖数十个国家的落地网络节点，且完全解除设备连接数限制[cite: 1]。**结算输入 `hq66` 立减 30%**。
+
+👉 [**前往环球梯官网配置**](https://haozevpn01.huanqiutiaff.com/#/?code=2xpedcFa) · [查看详细评测](https://clash-jichang.com/reviews/huanqiu)
+
+---
+
+<a name="liulian"></a>
+### No.15 榴莲云 —— 入门大容量大碗流量包
+
+**￥10/月 100GB 起** · 线路：BGP 优化直连 · 协议：Shadowsocks[cite: 1] · **专属 7 折优惠码：`ll88`**
+
+> 榴莲云专为大流量轻量用户设计，开箱即用，配合 **`ll88` 7折码** 门槛极低[cite: 1]。
+
+👉 [**前往榴莲云官网配置**](https://haibing01.liulianyunaff.com/#/?code=0lnqSPF9) · [查看详细评测](https://clash-jichang.com/reviews/liulian)
+
+---
+
+<a name="yunjiexian"></a>
+### No.9 云界线 —— 跨境出海独立站专研线路
+
+**￥18/月 100GB 起** · 线路：IEPL 专线 · 协议：VLESS / SS[cite: 1] · **专属 7 折优惠码：`yjx888`**
+
+> 云界线主打企业跨境出海、亚马逊与独立站店铺管理网络，原生 IP 污染率低[cite: 1]。**结算输入 `yjx888` 享受专属 7 折**。
+
+👉 [**前往云界线官网配置**](https://yiyige163.yunjiexianaff.com/#/?code=oetFP4xi) · [查看详细评测](https://clash-jichang.com/reviews/yunjiexian)
+
+---
+
 <a name="lumina"></a>
-### No.14 Lumina —— 10 元 200G 超大带宽，xTom 优质直连 + GoMAMI HK 中转
+### No.17 Lumina —— 10 元 200G 超大带宽，xTom 优质直连 + GoMAMI HK 中转
 
 **￥10/月 200GB 起** · 线路：直连 + 高速中转 · 协议：Hysteria 2 / AnyTLS[cite: 6]
 
@@ -177,18 +284,7 @@
 
 ![Lumina测速实测图](images/lumina-speed.svg)
 
-👉 [**前往 Lumina 官网配置**](https://clash-jichang.com/go/lumina) · [查看详细评测](https://clash-jichang.com/reviews/lumina)
-
----
-
-<a name="dageyun"></a>
-### No.4 大哥云 —— 5 年口碑老牌，支持免费试用与一键客户端
-
-**￥19.9/月 100GB 起** · 线路：全线 IPLC 专线 + 隧道中转 · 协议：自研一键端 / SS[cite: 7] · **专属 7 折优惠码：`dly88`**
-
-> 大哥云是拥有 5 年口碑的老牌机场，支持 Netflix 等多家流媒体解锁及 YouTube 8K 流畅观看[cite: 7]。全线采用 IPLC 线路，提供免费试用名额，连接极为可靠[cite: 7]。**结算输入 `dly88` 立享全场 7 折**。
-
-👉 [**前往大哥云官网配置**](https://clash-jichang.com/go/dageyun) · [查看详细评测](https://clash-jichang.com/reviews/dageyun)
+👉 [**前往 Lumina 官网配置**](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) · [查看详细评测](https://clash-jichang.com/reviews/lumina)
 
 ---
 
@@ -204,7 +300,7 @@
 
 ![飞鸟机场测速实测图](images/feiniao-speed.svg)
 
-👉 [**前往飞鸟机场官网配置**](https://clash-jichang.com/go/feiniao) · [查看详细评测](https://clash-jichang.com/reviews/feiniao)
+👉 [**前往飞鸟机场官网配置**](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13) · [查看详细评测](https://clash-jichang.com/reviews/feiniao)
 
 ---
 
@@ -220,103 +316,7 @@
 
 ![云图测速实测图](images/yuntu-speed.svg)
 
-👉 [**前往云图机场官网配置**](https://clash-jichang.com/go/yuntu) · [查看详细评测](https://clash-jichang.com/reviews/yuntu)
-
----
-
-<a name="kuaili"></a>
-### No.10 快狸 —— 10 元档学生党首选，三网优化轻量梯子
-
-**￥9.9/月 80GB 起** · 线路：BGP 高速中转 · 协议：Shadowsocks[cite: 1] · **专属优惠码：`kl888`**
-
-> 快狸将月付起步价格压低至 10 元以内，三网直连优化，日常技术文档查阅、Google 检索及 1080P 视频播放流畅，是非常适合新手的低成本入门梯子[cite: 1]。
-
-- **性价比优势：** 9.9 元极低月付门槛，配合 `kl888` 专属码，随用随充无压力[cite: 1]；
-- **配置门槛：** 官网后台提供主流操作系统的一键复制导入链接，新手 1 分钟上手[cite: 1]。
-
-![快狸测速与解锁状态图](images/kuaili-speed.svg)
-
-👉 [**前往快狸官网配置**](https://clash-jichang.com/go/kuaili) · [查看详细评测](https://clash-jichang.com/reviews/kuaili)
-
----
-
-<a name="sujie"></a>
-### No.7 速界 —— 高速内网专线，外服网游加速首选
-
-**￥16/月 100GB 起** · 线路：IEPL 内网专线 · 协议：SS / Hysteria 2[cite: 1] · **专属优惠码：`sujie888`**
-
-> 速界采用 IEPL 内网专线搭配 Hysteria 2 协议，全天候晚高峰抗抖动满速不降速，对网络游戏以及高清流媒体加速优化显著[cite: 1]。
-
-- **专属优惠：** 结算输入 `sujie888` 即可享受开业专属折扣；
-- **协议优势：** 支持新一代 Hysteria 2 高速传输协议，弱网抗丢包表现极佳[cite: 1]。
-
-👉 [**前往速界官网配置**](https://clash-jichang.com/go/sujie) · [查看详细评测](https://clash-jichang.com/reviews/sujie)
-
----
-
-<a name="kexin"></a>
-### No.11 可信云 —— 老牌智能中转，多协议稳定兼容
-
-**￥12/月 100GB 起** · 线路：BGP 智能中转 · 协议：Shadowsocks[cite: 1] · **专属优惠码：`kxy80`**
-
-> 可信云主打稳定与多端兼容，适合日常科研文献检索与网页浏览，起步门槛极低，配合 `kxy80` 折扣码性价比突出[cite: 1]。
-
-👉 [**前往可信云官网配置**](https://clash-jichang.com/go/kexin) · [查看详细评测](https://clash-jichang.com/reviews/kexin)
-
----
-
-<a name="shandianshu"></a>
-### No.13 闪电鼠 —— 超平价中转，备用容灾利器
-
-**￥8.8/月 60GB 起** · 线路：BGP 优质中转 · 协议：Shadowsocks[cite: 1] · **专属 7 折优惠码：`sd88`**
-
-> 闪电鼠是全网极具价格优势的备用选择，使用 7 折券 `sd88` 后起步月费更低，适合配合主力专线双持防失联[cite: 1]。
-
-👉 [**前往闪电鼠官网配置**](https://clash-jichang.com/go/shandianshu) · [查看详细评测](https://clash-jichang.com/reviews/shandianshu)
-
----
-
-<a name="shenxing"></a>
-### No.12 神行加速 —— 全节点 4K/8K 流媒体极速秒开
-
-**￥15/月 150GB 起** · 线路：BGP 多线中转 · 协议：Shadowsocks[cite: 1] · **专属 7 折优惠码：`sx0077`**
-
-> 神行加速针对 YouTube、Netflix、Disney+ 等高码率视频进行底层优化，晚高峰大带宽不缓冲[cite: 1]。**结算输入 `sx0077` 享 7 折优惠**。
-
-👉 [**前往神行加速官网配置**](https://clash-jichang.com/go/shenxing) · [查看详细评测](https://clash-jichang.com/reviews/shenxing)
-
----
-
-<a name="huanqiu"></a>
-### No.14 环球梯 —— 全球丰富节点，不限设备并发
-
-**￥14/月 120GB 起** · 线路：BGP 跨境中继 · 协议：Shadowsocks[cite: 1] · **专属 7 折优惠码：`hq66`**
-
-> 环球梯提供覆盖数十个国家的落地网络节点，且完全解除设备连接数限制[cite: 1]。**结算输入 `hq66` 立减 30%**。
-
-👉 [**前往环球梯官网配置**](https://clash-jichang.com/go/huanqiu) · [查看详细评测](https://clash-jichang.com/reviews/huanqiu)
-
----
-
-<a name="liulian"></a>
-### No.15 榴莲云 —— 入门大容量大碗流量包
-
-**￥10/月 100GB 起** · 线路：BGP 优化直连 · 协议：Shadowsocks[cite: 1] · **专属 7 折优惠码：`ll88`**
-
-> 榴莲云专为大流量轻量用户设计，开箱即用，配合 **`ll88` 7折码** 门槛极低[cite: 1]。
-
-👉 [**前往榴莲云官网配置**](https://clash-jichang.com/go/liulian) · [查看详细评测](https://clash-jichang.com/reviews/liulian)
-
----
-
-<a name="yunjiexian"></a>
-### No.9 云界线 —— 跨境出海独立站专研线路
-
-**￥18/月 100GB 起** · 线路：IEPL 专线 · 协议：VLESS / SS[cite: 1] · **专属 7 折优惠码：`yjx888`**
-
-> 云界线主打企业跨境出海、亚马逊与独立站店铺管理网络，原生 IP 污染率低[cite: 1]。**结算输入 `yjx888` 享受专属 7 折**。
-
-👉 [**前往云界线官网配置**](https://clash-jichang.com/go/yunjiexian) · [查看详细评测](https://clash-jichang.com/reviews/yunjiexian)
+👉 [**前往云图机场官网配置**](https://super.ytjcok.org/#/register?code=qPHQtI9a) · [查看详细评测](https://clash-jichang.com/reviews/yuntu)
 
 ---
 
@@ -325,9 +325,9 @@
 
 针对大语言模型服务频繁封禁机房广播 IP 的痛点，筛选出原生解析与纯净度最高的节点服务[cite: 1]：
 
-1. **[边缘节点 (EdgeNova)](https://clash-jichang.com/go/edgenova)**：原生住宅 IP，Claude 3.7 / OpenAI 深度交互首选，优惠码 `xk808`[cite: 1]；
-2. **[极连云](https://clash-jichang.com/go/jly)**：全 IPLC 专线原生 IP，解决 ChatGPT/Gemini 握手超时与风控，8折码 `JLY888`[cite: 1, 3]；
-3. **[云图机场](https://clash-jichang.com/go/yuntu)**：全节点原生 IP 分流，无脑直连 AI 平台，8折码 `yt88`[cite: 5]。
+1. **[边缘节点 (EdgeNova)](https://zoio.edgenovaaff.cc/#/register?code=Oy1wZvzJ)**：原生住宅 IP，Claude 3.7 / OpenAI 深度交互首选，优惠码 `xk808`[cite: 1]；
+2. **[极连云](https://haozevpn.jlyvipaff.com/#/?code=KUKfOY13)**：全 IPLC 专线原生 IP，解决 ChatGPT/Gemini 握手超时与风控，8折码 `JLY888`[cite: 1, 3]；
+3. **[云图机场](https://super.ytjcok.org/#/register?code=qPHQtI9a)**：全节点原生 IP 分流，无脑直连 AI 平台，8折码 `yt88`[cite: 5]。
 
 ---
 
@@ -369,3 +369,10 @@
 3. 本指南仅供网络安全技术交流、学术科研与跨境电商从业者合法合规使用，严禁利用相关工具从事违反当地法律法规的行为[cite: 1, 2]。
 
 ⭐ **如果本清单对你有帮助，欢迎点亮右上角 Star 收藏！数据与状态每日持续同步。**
+```<FollowUp>
+<Suggestions>
+- 生成用于自动每日更新该 README 日期徽章的 GitHub Actions 脚本 (.github/workflows/daily-sync.yml)
+- 为该仓库编写一段生成测速矢量图 (SVG) 的 Node.js 脚本
+- 为 clash-jichang.com 编写提高收录率的 robots.txt 与 sitemap.xml 规则
+</Suggestions>
+</FollowUp>
