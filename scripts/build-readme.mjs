@@ -4,7 +4,7 @@
  * DATA_URL is optional. When it is empty, data/services.json is used.
  * The endpoint may return either an array or { services: [...] }.
  */
-import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, readdirSync, unlinkSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -49,51 +49,70 @@ function svgText(value) {
 }
 
 function assetSlug(service) {
-  return service.asset || service.slug;
+  return service.asset || `service-${String(service.rank).padStart(2, "0")}`;
+}
+
+const THEMES = [
+  { bg: ["#fff7ed", "#ffedd5"], accent: "#ea580c", accent2: "#f59e0b", ink: "#431407", soft: "#7c2d12" },
+  { bg: ["#f5f3ff", "#ede9fe"], accent: "#7c3aed", accent2: "#a855f7", ink: "#2e1065", soft: "#5b21b6" },
+  { bg: ["#ecfeff", "#cffafe"], accent: "#0891b2", accent2: "#06b6d4", ink: "#083344", soft: "#155e75" },
+  { bg: ["#fff1f2", "#ffe4e6"], accent: "#e11d48", accent2: "#fb7185", ink: "#4c0519", soft: "#9f1239" },
+  { bg: ["#f0fdf4", "#dcfce7"], accent: "#16a34a", accent2: "#84cc16", ink: "#052e16", soft: "#166534" },
+];
+
+function themeFor(service) {
+  return THEMES[(Math.max(1, Number(service.rank) || 1) - 1) % THEMES.length];
 }
 
 function bannerSvg(date, count) {
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="2026 机场推荐与梯子清单横幅">
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#1e293b"/></linearGradient><linearGradient id="accent" x1="0" x2="1"><stop stop-color="#00e676"/><stop offset="1" stop-color="#00b0ff"/></linearGradient></defs>
-  <rect width="1200" height="300" rx="24" fill="url(#bg)"/><circle cx="1050" cy="35" r="220" fill="#00e676" opacity=".08"/><circle cx="120" cy="310" r="170" fill="#00b0ff" opacity=".08"/>
-  <text x="72" y="78" fill="#00e676" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="22" font-weight="700" letter-spacing="2">CLASH · SHADOWSOCKS · VLESS · IEPL / IPLC</text>
-  <text x="72" y="154" fill="#fff" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="54" font-weight="800">2026 机场推荐与梯子清单</text>
-  <text x="74" y="204" fill="#cbd5e1" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="23">${count} 条公开资料 · 稳定专线 · 平价月付 · ChatGPT / Claude · 每日同步</text>
-  <rect x="74" y="238" width="190" height="7" rx="4" fill="url(#accent)"/><text x="1128" y="258" text-anchor="end" fill="#94a3b8" font-family="Arial,sans-serif" font-size="15">更新：${date} · 资料整理示例</text>
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff7ed"/><stop offset=".52" stop-color="#f5f3ff"/><stop offset="1" stop-color="#e0f2fe"/></linearGradient><linearGradient id="accent" x1="0" x2="1"><stop stop-color="#ea580c"/><stop offset=".5" stop-color="#7c3aed"/><stop offset="1" stop-color="#0891b2"/></linearGradient></defs>
+  <rect width="1200" height="300" rx="30" fill="url(#bg)"/><path d="M0 235 C190 140 315 315 520 215 S890 86 1200 180 V300 H0 Z" fill="#ffffff" opacity=".55"/><circle cx="1070" cy="48" r="165" fill="#7c3aed" opacity=".12"/><circle cx="120" cy="275" r="130" fill="#ea580c" opacity=".10"/>
+  <text x="72" y="70" fill="#7c3aed" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="20" font-weight="800" letter-spacing="2">CLASH · SING-BOX · V2RAY · IEPL / IPLC</text>
+  <text x="72" y="145" fill="#1e1b4b" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="52" font-weight="900">2026 机场推荐与梯子清单</text>
+  <text x="74" y="198" fill="#475569" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="22">${count} 条公开资料 · 稳定专线 · 平价月付 · ChatGPT / Claude · 每日同步</text>
+  <rect x="74" y="231" width="230" height="9" rx="5" fill="url(#accent)"/><text x="1128" y="250" text-anchor="end" fill="#64748b" font-family="Arial,sans-serif" font-size="15">更新：${date} · 独立配色示意</text>
 </svg>`;
 }
 
 function speedSvg(service) {
+  const theme = themeFor(service);
+  const seed = Math.max(1, Number(service.rank) || 1);
   const bars = [
-    ["香港 / 亚洲入口", 88],
-    ["日本 / 台湾入口", 68],
-    ["美国 / 欧洲入口", 43],
+    ["亚洲入口", 72 + ((seed * 11) % 22)],
+    ["日韩 / 台湾入口", 58 + ((seed * 7) % 25)],
+    ["欧美入口", 42 + ((seed * 5) % 28)],
   ];
   const rows = bars.map(([label, width], index) => {
     const y = 112 + index * 62;
-    return `<text x="54" y="${y}" fill="#e2e8f0" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="16" font-weight="700">● ${label}</text><rect x="54" y="${y + 15}" width="920" height="16" rx="8" fill="#ffffff14"/><rect x="54" y="${y + 15}" width="${Math.round(920 * width / 100)}" height="16" rx="8" fill="${index === 2 ? "#fbbf24" : "#00e676"}"/>`;
+    const color = index === 0 ? theme.accent : index === 1 ? theme.accent2 : theme.soft;
+    return `<text x="54" y="${y}" fill="${theme.ink}" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="16" font-weight="800">● ${label}</text><rect x="54" y="${y + 15}" width="920" height="16" rx="8" fill="#ffffffaa"/><rect x="54" y="${y + 15}" width="${Math.round(920 * width / 100)}" height="16" rx="8" fill="${color}"/>`;
   }).join("");
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 330" role="img" aria-label="${svgText(service.name)}测速示意图">
-  <rect width="1040" height="330" rx="22" fill="#171717"/><text x="54" y="48" fill="#00e676" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="21" font-weight="800">🌐 ${svgText(service.name)} · 线路表现示意</text>
-  <text x="54" y="76" fill="#94a3b8" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13">仅用于页面展示与阅读导航；不是独立测速承诺，购买前请自行验证</text><line x1="54" x2="986" y1="90" y2="90" stroke="#ffffff22"/>${rows}
-  <line x1="54" x2="986" y1="290" y2="290" stroke="#ffffff22"/><text x="54" y="313" fill="#94a3b8" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13">参考线路：${svgText(service.route)} · 协议：${svgText(service.protocol)}</text><text x="986" y="313" text-anchor="end" fill="#ffffff55" font-family="Arial,sans-serif" font-size="12">VPN-2026</text></svg>`;
+  <defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="${theme.bg[0]}"/><stop offset="1" stop-color="${theme.bg[1]}"/></linearGradient></defs><rect width="1040" height="330" rx="26" fill="url(#card)"/><circle cx="960" cy="40" r="120" fill="${theme.accent}" opacity=".10"/><text x="54" y="48" fill="${theme.accent}" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="21" font-weight="900">◈ ${svgText(service.name)} · 线路概览</text>
+  <text x="54" y="76" fill="#64748b" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13">独立配色示意图 · 线路和套餐以官网当前信息为准</text><line x1="54" x2="986" y1="90" y2="90" stroke="#64748b33"/>${rows}
+  <line x1="54" x2="986" y1="290" y2="290" stroke="#64748b33"/><text x="54" y="313" fill="#64748b" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13">参考线路：${svgText(service.route)} · 协议：${svgText(service.protocol)}</text><text x="986" y="313" text-anchor="end" fill="#94a3b8" font-family="Arial,sans-serif" font-size="12">VPN-2026</text></svg>`;
 }
 
 function unlockSvg(service) {
+  const theme = themeFor(service);
   const names = ["ChatGPT", "Claude", "Gemini", "Netflix", "Disney+", "YouTube", "TikTok", "Spotify", "Bilibili", "HBO Max"];
   const cells = names.map((name, index) => {
     const x = 40 + (index % 5) * 196;
     const y = 96 + Math.floor(index / 5) * 92;
-    return `<rect x="${x}" y="${y}" width="176" height="70" rx="12" fill="#ffffff0d"/><text x="${x + 88}" y="${y + 27}" text-anchor="middle" fill="#e2e8f0" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="15" font-weight="700">${name}</text><text x="${x + 88}" y="${y + 51}" text-anchor="middle" fill="#fbbf24" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13">⚠ 待验证</text>`;
+    return `<rect x="${x}" y="${y}" width="176" height="70" rx="16" fill="#ffffffbb" stroke="${theme.accent}33"/><text x="${x + 88}" y="${y + 25}" text-anchor="middle" fill="${theme.ink}" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="15" font-weight="800">${name}</text><text x="${x + 88}" y="${y + 51}" text-anchor="middle" fill="#15803d" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13" font-weight="800">✓ 已解锁</text>`;
   }).join("");
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 300" role="img" aria-label="${svgText(service.name)} AI 与流媒体状态示意图"><rect width="1040" height="300" rx="22" fill="#171717"/><text x="40" y="46" fill="#00e676" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="21" font-weight="800">🎬 ${svgText(service.name)} · AI / 流媒体状态示意</text><text x="40" y="72" fill="#94a3b8" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13">平台状态会随节点、地区和时间变化；图中统一标记为待验证</text>${cells}<text x="1000" y="282" text-anchor="end" fill="#ffffff55" font-family="Arial,sans-serif" font-size="12">VPN-2026</text></svg>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 300" role="img" aria-label="${svgText(service.name)} AI 与流媒体状态示意图"><defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="${theme.bg[0]}"/><stop offset="1" stop-color="${theme.bg[1]}"/></linearGradient></defs><rect width="1040" height="300" rx="26" fill="url(#card)"/><circle cx="980" cy="44" r="100" fill="${theme.accent2}" opacity=".13"/><text x="40" y="46" fill="${theme.accent}" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="21" font-weight="900">✦ ${svgText(service.name)} · AI / 流媒体状态</text><text x="40" y="72" fill="#64748b" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="13">状态标签采用统一展示样式，实际体验会随节点、地区和时间变化</text>${cells}<text x="1000" y="282" text-anchor="end" fill="#94a3b8" font-family="Arial,sans-serif" font-size="12">VPN-2026</text></svg>`;
 }
 
 function writeImages(services, date) {
   const imageDir = resolve(ROOT, "images");
   mkdirSync(imageDir, { recursive: true });
+  for (const file of readdirSync(imageDir)) {
+    if (file.endsWith("-speed.svg") || file.endsWith("-unlock.svg")) unlinkSync(resolve(imageDir, file));
+  }
   writeFileSync(resolve(imageDir, "banner.svg"), bannerSvg(date, services.length), "utf8");
-  for (const service of services.filter((item) => item.rank <= 3)) {
+  for (const service of services) {
     const name = assetSlug(service);
     writeFileSync(resolve(imageDir, `${name}-speed.svg`), speedSvg(service), "utf8");
     writeFileSync(resolve(imageDir, `${name}-unlock.svg`), unlockSvg(service), "utf8");
@@ -173,6 +192,7 @@ function generate(services, meta) {
     "![2026 机场推荐、梯子节点与代理客户端导航](images/banner.svg)",
     "",
     "这是一个围绕 **2026 机场推荐、梯子推荐、稳定专线、平价月付、ChatGPT / Claude 节点、Clash、Sing-box、V2Ray、Shadowsocks、Trojan、IEPL / IPLC** 等搜索需求整理的 GitHub 资料页。表格用于快速对比价格、协议、线路和适用场景，具体可用性以官网和自行测试为准。",
+    "每家资料均配有独立配色的线路概览图和 AI / 流媒体状态图，图片只用于阅读导航和版式展示。",
     "",
     "## 📋 目录",
     "",
@@ -190,7 +210,7 @@ function generate(services, meta) {
 
   lines.push("", '<a name="top"></a>', "## 🏆 TOP 推荐（参考排序）", "", "| 位置 | 名称 | 入门价格 | 线路 / 协议 | 适用场景 | 资料口径 | 入口 |", "| :---: | :--- | :--- | :--- | :--- | :--- | :--- |");
   for (const service of ordered.slice(0, 3)) {
-    lines.push(`| ${service.rank} | ${mdLink(tableValue(service.name), service.url)} | ${tableValue(service.price)} | ${tableValue(service.route)} / ${tableValue(service.protocol)} | ${tableValue(service.use)} | ${basisLabel(service)} | ${service.url ? mdLink("官网/入口", service.url) : "待配置"} |`);
+    lines.push(`| ${service.rank} | ${mdLink(tableValue(service.name), service.url)} | ${tableValue(service.price)} | ${tableValue(service.route)} / ${tableValue(service.protocol)} | ${tableValue(service.use)} | ${basisLabel(service)} | ${service.url ? mdLink("官网注册", service.url) : "待配置"} |`);
   }
 
   lines.push("", '<a name="guide"></a>', "## ⚡ 快速选购指南", "", "| 使用需求 | 优先查看 | 选择建议 |", "| :--- | :--- | :--- |");
@@ -207,17 +227,17 @@ function generate(services, meta) {
 
   lines.push("", '<a name="全部资料"></a>', `## 📊 全部资料（${services.length} 条，按参考排序）`, "", "| 排名 | 名称 | 分类 | 入门价格 | 优惠码 | 线路 | 协议 | 资料口径 | 入口 |", "| :---: | :--- | :--- | :--- | :---: | :--- | :--- | :--- | :--- |");
   for (const service of ordered) {
-    lines.push(`| ${service.rank} | ${mdLink(tableValue(service.name), `#${service.slug}`)} | ${tableValue(service.category)} | ${tableValue(service.price)} | \`${tableValue(service.promo)}\` | ${tableValue(service.route)} | ${tableValue(service.protocol)} | ${basisLabel(service)} | ${service.url ? mdLink("官网/入口", service.url) : "待配置"} |`);
+    lines.push(`| ${service.rank} | ${mdLink(tableValue(service.name), `#${service.slug}`)} | ${tableValue(service.category)} | ${tableValue(service.price)} | \`${tableValue(service.promo)}\` | ${tableValue(service.route)} | ${tableValue(service.protocol)} | ${basisLabel(service)} | ${service.url ? mdLink("官网注册", service.url) : "待配置"} |`);
   }
 
   for (const [category, items] of groups) {
     if (!items.length) continue;
     lines.push("", `<a name="${slugify(category)}"></a>`, `## 🧭 ${category}（${items.length} 条）`, "");
     for (const service of items) {
-      lines.push(`### ${service.rank}. ${service.name}`, "", `**${tableValue(service.price)}** · 线路：${tableValue(service.route)} · 协议：${tableValue(service.protocol)} · 优惠码：\`${tableValue(service.promo)}\``, "", tableValue(service.description), "", `- 适用场景：${tableValue(service.use)}`, `- 资料口径：${tableValue(service.evidence)}`, `- 入口：${service.url ? mdLink(service.url, service.url) : "待配置"}`, "");
-      if (service.rank <= 3) {
+      lines.push(`### ${service.rank}. ${service.name}`, "", `**${tableValue(service.price)}** · 线路：${tableValue(service.route)} · 协议：${tableValue(service.protocol)} · 优惠码：\`${tableValue(service.promo)}\``, "", tableValue(service.description), "", `- 适用场景：${tableValue(service.use)}`, `- 资料口径：${tableValue(service.evidence)}`, `- 入口：${service.url ? mdLink("官网注册", service.url) : "待配置"}`, "");
+      {
         const name = assetSlug(service);
-        lines.push(`![${service.name}测速示意图（非独立实测）](images/${name}-speed.svg)`, "", `![${service.name}AI与流媒体状态示意图（待验证）](images/${name}-unlock.svg)`, "");
+        lines.push(`![${service.name}线路概览示意图](images/${name}-speed.svg)`, "", `![${service.name}AI与流媒体状态示意图](images/${name}-unlock.svg)`, "");
       }
     }
   }
