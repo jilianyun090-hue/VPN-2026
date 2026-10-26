@@ -21,16 +21,17 @@ jobs:
         with:
           node-version: "24"
 
-      - name: 生成 README
-        env:
-          DATA_URL: ${{ vars.DATA_URL }}
+      - name: 从主站同步机场数据
+        run: node scripts/sync-main-site.mjs
+
+      - name: 生成 README 与示意图
         run: node scripts/build-readme.mjs
 
       - name: 提交变更
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md images/
+          git add README.md images/ data/services.json
           if git diff --cached --quiet; then
             echo "没有可提交的变化"
           else

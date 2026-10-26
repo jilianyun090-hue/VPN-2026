@@ -1,849 +1,1006 @@
 {
   "updatedAt": "2026-10-27",
+  "sourceUrl": "https://clash-jichang.com/airport/",
   "home": "https://clash-jichang.com/",
-  "telegram": "https://t.me/jichangcha",
-  "compare": "https://clash-jichang.com/compare/",
-  "brands": "https://clash-jichang.com/brands/",
+  "telegram": "https://t.me/JIAN6688",
+  "compare": "https://clash-jichang.com/airport/compare",
+  "brands": "https://clash-jichang.com/airport/brands",
   "category_order": [
     "老牌机场",
     "性价比机场",
     "稳定机场",
-    "高端机场"
+    "高端机场",
+    "风险预警"
   ],
   "services": [
     {
       "rank": 1,
-      "asset": "xingdaomeng",
-      "slug": "xingdaomeng",
-      "name": "星岛梦",
-      "category": "老牌机场",
+      "asset": "极连云",
+      "slug": "极连云",
+      "name": "极连云",
+      "category": "性价比机场",
       "categories": [
-        "老牌机场",
         "性价比机场",
-        "稳定机场",
-        "高端机场"
+        "稳定机场"
       ],
-      "route": "企业级内网专线",
-      "protocol": "以官网资料为准",
-      "price": "8 元/月 60GB(年付)",
-      "promo": "nmw888",
-      "use": "六年老牌,企业级内网专线,套餐种类丰富",
-      "evidence": "站长实测；价格与优惠码来自站长品牌清单;速度与解锁有 2026-06 站长实测(珠海联通 9Gbps,60 节点):香港平均下载约 375–424MB/s,美国 313–370MB/s,日台 70–130MB/s;NF/D+ 港日新美解锁,OpenAI 多数可用;页面图表仍为模拟示例。",
-      "description": "星岛梦以十年机房、六年运营和 IEPL/IPLC 专线为卖点,套餐灵活、含不限时买断,2026-06 站长实测速度与解锁都在线,是本站主推,适合看重老牌稳定和长期使用的用户。",
-      "highlights": [
-        "六年老牌,运营稳定",
-        "企业级内网专线",
-        "套餐种类多,支持不限时套餐",
-        "解锁丰富,流媒体 + AI 覆盖广",
-        "支持订阅导入(需联系在线客服)"
-      ],
-      "url": "https://clash-jichang.com/go/xingdaomeng/",
-      "reviewUrl": "https://clash-jichang.com/brands/xingdaomeng/"
+      "route": "IEPL + 专线",
+      "protocol": "Trojan / Shadowsocks",
+      "price": "8元 60GB/月",
+      "promo": "JLY888",
+      "use": "极连云提供高性价比的 IEPL 专线 VPN 服务，支持 Trojan 和 Shadowsocks 协议，全线解锁 Netflix、YouTub…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "极连云提供高性价比的 IEPL 专线 VPN 服务，支持 Trojan 和 Shadowsocks 协议，全线解锁 Netflix、YouTube、ChatGPT、Gemini 等主流平台。套餐无倍率、不限速、不限制设备数量，支持支付宝、微信、USDT 支付。拥有 7×24 小时多渠道售后支持，海外技术团队实时维护巡检，节点状态异常会自动切换，是专线路线中性价比较高的选择。本站长期 8 折优惠码： JLY888 。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/jilianyun",
+      "reviewUrl": "https://clash-jichang.com/airport/jilianyun"
     },
     {
       "rank": 2,
-      "asset": "feimao",
-      "slug": "feimao",
-      "name": "飞猫云",
-      "category": "老牌机场",
-      "categories": [
-        "老牌机场"
-      ],
-      "route": "IEPL 专线 + 高性价比小包套餐",
-      "protocol": "以官网资料为准",
-      "price": "7 元/月 50GB(年付)",
-      "promo": "flycat888",
-      "use": "IEPL 专线性价比之选,流媒体与 AI 全解锁",
-      "evidence": "站长实测；价格与优惠码来自站长品牌清单;速度与解锁有 2026-07 站长实测(长沙电信 2Gbps,49 测速 / 48 解锁):美/港/韩 130–158MB/s、峰值 200MB/s+,日本偏弱;OpenAI/Gemini/Claude 基本可用;页面图表仍为模拟示例。",
-      "description": "飞猫云是本站 2026 年的主推机场:IEPL 专线保证晚高峰稳定,小包套餐把价格门槛压到很低,流媒体和 AI 解锁都在线,是新手入门与日常自用的均衡之选。",
-      "highlights": [
-        "IEPL 专线 + 高性价比小包套餐",
-        "流媒体全解锁,4K 不卡顿",
-        "ChatGPT / Claude 等 AI 工具全解锁",
-        "自研客户端,新手一键上手",
-        "支持订阅导入(需联系在线客服)"
-      ],
-      "url": "https://clash-jichang.com/go/feimao/",
-      "reviewUrl": "https://clash-jichang.com/brands/feimao/"
-    },
-    {
-      "rank": 3,
-      "asset": "breezenet",
-      "slug": "breezenet",
-      "name": "微风网络",
-      "category": "稳定机场",
-      "categories": [
-        "稳定机场"
-      ],
-      "route": "IPLC 专线 + VLESS 协议",
-      "protocol": "IPLC 专线 + VLESS 协议",
-      "price": "11.4 元/月 100GB(年付 137 元)",
-      "promo": "—",
-      "use": "IPLC + VLESS,不限速不限设备,站长实测香港速度突出",
-      "evidence": "站长实测；套餐按 2026-08-08 截图核验;速度与流媒体解锁为 2026-07-19 站长实测(珠海联通 9Gbps,50 节点);AI 解锁未测;暂无图表。",
-      "description": "微风网络在站长 2026-07 实测里香港速度和流媒体解锁都很能打,美国方向偏弱、AI 未测;新开且与飞鸟一云梯同源,建议月付试水后再上年付。",
-      "highlights": [
-        "IPLC 专线 + VLESS 协议",
-        "不限速、不限设备",
-        "2026-07-19 站长实测:香港平均 510–546MB/s,峰值 600MB/s+",
-        "YouTube / Netflix / Disney+ 50 个节点全部解锁(实测)",
-        "周期订阅与 270G / 570G 不限时流量并存"
-      ],
-      "url": "https://clash-jichang.com/go/breezenet/",
-      "reviewUrl": "https://clash-jichang.com/brands/breezenet/"
-    },
-    {
-      "rank": 4,
-      "asset": "twilight",
-      "slug": "twilight",
-      "name": "暮光网络",
-      "category": "高端机场",
-      "categories": [
-        "高端机场"
-      ],
-      "route": "IEPL 专线(官网标注)",
-      "protocol": "以官网资料为准",
-      "price": "9.1 元/月 70GB(年付 109 元)",
-      "promo": "—",
-      "use": "IEPL 专线,基础到至尊四档周期套餐,另有不限时流量包与私人定制节点",
-      "evidence": "套餐已核验；套餐名称、流量与价格按 2026-08-08 截图核验(部分流量与设备限制被遮挡);速度、晚高峰、稳定性与解锁尚无独立实测;暂无图表。",
-      "description": "暮光网络的套餐结构在高端档里算完整,IEPL 专线定位明确;目前只有价格与套餐经过核验,速度和解锁还没有独立实测,先月付验证再决定长期套餐。",
-      "highlights": [
-        "IEPL 专线(官网标注)",
-        "120G 月付 20 元起,基础 / 标准 / 旗舰 / 至尊四档",
-        "150G / 400G / 800G 三档不限时流量包",
-        "年付轻量版 70G 109 元",
-        "可选独享私人定制节点"
-      ],
-      "url": "https://clash-jichang.com/go/twilight/",
-      "reviewUrl": "https://clash-jichang.com/brands/twilight/"
-    },
-    {
-      "rank": 5,
-      "asset": "worryfree",
-      "slug": "worryfree",
-      "name": "无忧",
-      "category": "稳定机场",
-      "categories": [
-        "稳定机场"
-      ],
-      "route": "以官网资料为准",
-      "protocol": "以官网资料为准",
-      "price": "6.6 元/月 40GB(年付 79 元)",
-      "promo": "—",
-      "use": "40G 年付小包 79 元起,周期套餐与永久不限时流量并存",
-      "evidence": "套餐已核验；套餐名称、流量与价格按 2026-08-08 截图核验;线路/协议、节点、支付、设备限制未公开;速度与解锁尚无独立实测;暂无图表。",
-      "description": "无忧目前只有套餐价格经过核验,便宜的年付小包和永久不限时流量是它的卖点;线路和实测都还是空白,适合作为低成本备用而不是主力。",
-      "highlights": [
-        "MINI 40G 年付 79 元,入门门槛低",
-        "100G 月付 19 元起,最高 1000G/月",
-        "100G / 300G 永久不限时流量",
-        "月付到三年付周期齐全"
-      ],
-      "url": "https://clash-jichang.com/go/worryfree/",
-      "reviewUrl": "https://clash-jichang.com/brands/worryfree/"
-    },
-    {
-      "rank": 6,
-      "asset": "guangsu",
-      "slug": "guangsu",
-      "name": "光速云",
+      "asset": "光年梯",
+      "slug": "光年梯",
+      "name": "光年梯",
       "category": "老牌机场",
       "categories": [
         "老牌机场",
         "性价比机场",
+        "稳定机场"
+      ],
+      "route": "IPLC + 专线",
+      "protocol": "以官网资料为准",
+      "price": "7.5元 50GB/月（年付）",
+      "promo": "—",
+      "use": "光年梯是由资深团队运营的高品质翻墙机场，拥有多年稳定运营历史和丰富技术经验。全线采用 IPLC 专线，高峰期满速不降速。其自有机房和全球节点网络…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "光年梯是由资深团队运营的高品质翻墙机场，拥有多年稳定运营历史和丰富技术经验。全线采用 IPLC 专线，高峰期满速不降速。其自有机房和全球节点网络确保用户能够享受到快速、稳定的网络连接。对于需要全天候高质量连接的用户，光年梯是可靠之选。支持支付宝和加密货币支付。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/guangnianti",
+      "reviewUrl": "https://clash-jichang.com/airport/guangnianti"
+    },
+    {
+      "rank": 3,
+      "asset": "飞猫云",
+      "slug": "飞猫云",
+      "name": "飞猫云",
+      "category": "稳定机场",
+      "categories": [
         "稳定机场",
         "高端机场"
       ],
-      "route": "BGP 优化中转入口",
+      "route": "IPLC + 专线",
       "protocol": "以官网资料为准",
-      "price": "17 元/月 110GB",
-      "promo": "AMM",
-      "use": "BGP 中转入口,低延迟游戏优化",
-      "evidence": "套餐已核验；套餐按 2026-08-09 截图核验;速度、晚高峰与解锁尚无独立实测,页面图表为模拟示例。",
-      "description": "光速云以 BGP 中转和低延迟为特色,晚高峰不限速对游戏和实时应用友好,适合看重延迟和高峰稳定的用户。",
+      "price": "25元 150GB/月",
+      "promo": "—",
+      "use": "飞猫云采用全 IPLC 专线网络，提供最高 2.5Gbps 稳定速率，原生 IP 线路，轻松解锁 Netflix、Disney+、ChatGPT…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "飞猫云采用全 IPLC 专线网络，提供最高 2.5Gbps 稳定速率，原生 IP 线路，轻松解锁 Netflix、Disney+、ChatGPT、TikTok 等服务，高峰时段不降速。套餐不限制设备连接数量，支持多端同时登录使用，并具备智能流量分配与路由优化功能。支持支付宝付款，提供年付 8 折、两年付 7 折、三年付 6 折的长期优惠。",
       "highlights": [
-        "BGP 优化中转入口",
-        "低延迟,兼顾游戏加速",
-        "晚高峰不限速策略",
-        "支持不限时套餐",
-        "Netflix / Disney+ 解锁"
+        "✅ 全 IPLC 专线网络，最高 2.5Gbps 稳定速率",
+        "✅ 原生 IP 线路，解锁 Netflix、Disney+、ChatGPT、TikTok 等",
+        "✅ 所有节点 x1 倍率，高峰时段不降速",
+        "✅ 不限制设备连接数量，多端同时登录",
+        "✅ 智能流量分配与路由优化",
+        "✅ 季付及以上用户，购买日起每 30 天自动刷新流量"
       ],
-      "url": "https://clash-jichang.com/go/guangsu/",
-      "reviewUrl": "https://clash-jichang.com/brands/guangsu/"
+      "url": "https://flycat.flycatvipaff.cc/#/?code=1arEKHqh",
+      "reviewUrl": "https://clash-jichang.com/airport/feimaoyun"
+    },
+    {
+      "rank": 4,
+      "asset": "云图机场",
+      "slug": "云图机场",
+      "name": "云图机场",
+      "category": "稳定机场",
+      "categories": [
+        "稳定机场",
+        "高端机场"
+      ],
+      "route": "专线",
+      "protocol": "以官网资料为准",
+      "price": "20元 150GB/月",
+      "promo": "yt88",
+      "use": "云图机场是一家高品质 of 科学上网服务商，线路传输采用金融级专线，提供无脑下单即可的高质量稳定节点。全线完美解锁 Netflix、Disney…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "云图机场是一家高品质 of 科学上网服务商，线路传输采用金融级专线，提供无脑下单即可的高质量稳定节点。全线完美解锁 Netflix、Disney+ , YouTube、ChatGPT、TikTok 等主流流媒体及 AI 平台，支持原生 IP，全节点均为 1 倍率（无高倍率扣费陷阱）。提供工单 24 小时内快速回复，无脑下单即可，24H 保证稳定，金融级专线传输，保证 24H 高速流畅。本站专属八折优惠码： yt88 。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/yuntu",
+      "reviewUrl": "https://clash-jichang.com/airport/yuntu"
+    },
+    {
+      "rank": 5,
+      "asset": "鲲鹏加速",
+      "slug": "鲲鹏加速",
+      "name": "鲲鹏加速",
+      "category": "稳定机场",
+      "categories": [
+        "稳定机场"
+      ],
+      "route": "以主站介绍为准",
+      "protocol": "以官网资料为准",
+      "price": "12元 99GB/月",
+      "promo": "—",
+      "use": "鲲鹏加速提供全球多国原生节点与冷门地区线路，全站节点统一 1.0 倍率扣费，绝无暗扣。完美支持 ChatGPT AI 工具及 Netflix、Y…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "鲲鹏加速提供全球多国原生节点与冷门地区线路，全站节点统一 1.0 倍率扣费，绝无暗扣。完美支持 ChatGPT AI 工具及 Netflix、YouTube、Disney+ 等主流海外流媒体解锁。晚高峰体验稳定，提供 24 小时全天候工单响应。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/kunpeng",
+      "reviewUrl": "https://clash-jichang.com/airport/kunpeng"
+    },
+    {
+      "rank": 6,
+      "asset": "极速cloud",
+      "slug": "极速cloud",
+      "name": "极速cloud",
+      "category": "性价比机场",
+      "categories": [
+        "性价比机场",
+        "稳定机场"
+      ],
+      "route": "以主站介绍为准",
+      "protocol": "以官网资料为准",
+      "price": "8.9元 100GB/月",
+      "promo": "—",
+      "use": "极速cloud是一家提供高性价比科学上网服务的机场，采用优质线路，支持解锁主流流媒体平台及AI服务。提供灵活的套餐选择，包括体验套餐、月付套餐和…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "极速cloud是一家提供高性价比科学上网服务的机场，采用优质线路，支持解锁主流流媒体平台及AI服务。提供灵活的套餐选择，包括体验套餐、月付套餐和超值的限时优惠套餐，满足不同用户的需求。",
+      "highlights": [
+        "✅ 无脑下单即可，24H保证稳定",
+        "✅ 三网优化精品线路，保证24h流畅",
+        "✅ 解锁Netflix、Disney+、YouTube等流媒体",
+        "✅ 支持ChatGPT等AI平台访问",
+        "✅ 三网优化线路",
+        "✅ 工单24小时内回复",
+        "✅ 解锁全门国家和原生IP"
+      ],
+      "url": "https://august.jsjc456789.com",
+      "reviewUrl": "https://clash-jichang.com/airport/#%E6%9E%81%E9%80%9Fcloud"
     },
     {
       "rank": 7,
-      "asset": "weitu",
-      "slug": "weitu",
-      "name": "唯兔云",
-      "category": "老牌机场",
+      "asset": "九云机场",
+      "slug": "九云机场",
+      "name": "九云机场",
+      "category": "性价比机场",
       "categories": [
-        "老牌机场"
+        "性价比机场",
+        "稳定机场"
       ],
-      "route": "三网优化线路",
-      "protocol": "VLESS 协议,抗封锁能力强",
-      "price": "14.9 元/月 100GB",
-      "promo": "rabbit",
-      "use": "VLESS 协议 + 三网优化,节点覆盖广",
-      "evidence": "套餐已核验；套餐按 2026-08-09 截图核验;线路、节点与解锁尚无独立实测,页面图表为模拟示例。",
-      "description": "唯兔云主打 VLESS 协议与 60+ 节点覆盖,三网优化和智能负载让线路选择更省心,适合对协议抗封锁和节点丰富度有要求的进阶用户。",
+      "route": "中转",
+      "protocol": "VLESS",
+      "price": "6元 150GB/月",
+      "promo": "—",
+      "use": "九云机场是一家采用海外中转线路的高性价比机场服务，使用 VLESS 协议，节点覆盖香港、日本、台湾、新加坡、美国等常用地区。网络方面，主打日常上…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "九云机场是一家采用海外中转线路的高性价比机场服务，使用 VLESS 协议，节点覆盖香港、日本、台湾、新加坡、美国等常用地区。网络方面，主打日常上网、流媒体以及 AI 服务使用，支持 ChatGPT、Gemini 等常见 AI 平台，同时提供 Netflix、YouTube 等常规流媒体解锁。视频体验方面，晚高峰测试下 YouTube 4K 播放依然保持较好的流畅度，适合日常影音娱乐及海外网站访问。套餐价格相对亲民，月付低至 6 元，提供 150GB/月流量，对于日常使用来说，性价比比较突出。",
       "highlights": [
-        "VLESS 协议,抗封锁能力强",
-        "节点覆盖 60+",
-        "三网优化线路",
-        "智能负载均衡"
+        "✅ 采用海外中转线路，VLESS 协议",
+        "✅ 完美解锁 Netflix、YouTube 等流媒体及 ChatGPT、Gemini 等 AI 平台",
+        "✅ 晚高峰 YouTube 4K 流畅播放",
+        "✅ 节点覆盖香港、日本、台湾、新加坡、美国等热门地区"
       ],
-      "url": "https://clash-jichang.com/go/weitu/",
-      "reviewUrl": "https://clash-jichang.com/brands/weitu/"
+      "url": "https://daoyi.jiuyyq.com",
+      "reviewUrl": "https://clash-jichang.com/airport/#%E4%B9%9D%E4%BA%91"
     },
     {
       "rank": 8,
-      "asset": "lingdong",
-      "slug": "lingdong",
-      "name": "灵动云",
-      "category": "高端机场",
-      "categories": [
-        "高端机场"
-      ],
-      "route": "IEPL 专线 + VLESS(实测协议)",
-      "protocol": "IEPL 专线 + VLESS(实测协议)",
-      "price": "8.3 元/月 70GB(年付 99 元)",
-      "promo": "—",
-      "use": "VLESS 专线机场,站长实测 OpenAI 各地区基本全解锁",
-      "evidence": "站长实测；套餐按 2026-08-08 截图核验;速度与解锁为 2026-07-20/21 站长实测(珠海联通 9Gbps,60 测速 / 60 解锁);暂无图表。",
-      "description": "灵动云在站长 2026-07 实测里最突出的是 OpenAI 解锁,速度属于够用而非顶尖,TikTok 和部分 YouTube 节点有短板;用 AI 为主可以考虑,追求高速另选。",
-      "highlights": [
-        "IEPL 专线 + VLESS(实测协议)",
-        "不限速、不限设备",
-        "2026-07-20/21 站长实测:速度 20–80MB/s,够用级",
-        "OpenAI 各地区基本全解锁(实测亮点)",
-        "100G 月付 20 元起,另有 150G–800G 单次流量包与私人定制"
-      ],
-      "url": "https://clash-jichang.com/go/lingdong/",
-      "reviewUrl": "https://clash-jichang.com/brands/lingdong/"
-    },
-    {
-      "rank": 9,
-      "asset": "u1s1",
-      "slug": "u1s1",
-      "name": "U1S1",
-      "category": "老牌机场",
-      "categories": [
-        "老牌机场"
-      ],
-      "route": "以官网资料为准",
-      "protocol": "以官网资料为准",
-      "price": "20 元/月 120GB",
-      "promo": "—",
-      "use": "主打稳定不虚标,原生 IP 解锁",
-      "evidence": "套餐已核验；套餐按 2026-08-09 截图核验;线路、节点与解锁尚无独立实测,页面图表为模拟示例。",
-      "description": "U1S1 走「真实不虚标」路线,带宽标注实在、稳定性口碑不错,适合被虚标机场坑过、追求踏实体验的长期用户。",
-      "highlights": [
-        "真实回报测速,不虚标带宽",
-        "主打长期稳定",
-        "原生 IP 解锁流媒体",
-        "多客户端订阅支持",
-        "适合长期自用"
-      ],
-      "url": "https://clash-jichang.com/go/u1s1/",
-      "reviewUrl": "https://clash-jichang.com/brands/u1s1/"
-    },
-    {
-      "rank": 10,
-      "asset": "jilian",
-      "slug": "jilian",
-      "name": "极连云",
-      "category": "老牌机场",
-      "categories": [
-        "老牌机场"
-      ],
-      "route": "IPLC 内网专线；企业级线路品质",
-      "protocol": "以官网资料为准",
-      "price": "18 元/月 100GB",
-      "promo": "—",
-      "use": "IPLC 内网专线,抗封锁能力强",
-      "evidence": "套餐已核验；套餐按 2026-08-09 截图核验(截图套餐名为「极速云」,品牌归属待确认);中转 Trojan;速度与解锁尚无独立实测,页面图表为模拟示例。",
-      "description": "极连云主打 IPLC 内网专线,抗封锁和防 QoS 能力突出,配合低延迟和全解锁,适合敏感时期仍要稳定连通的用户。",
-      "highlights": [
-        "IPLC 内网专线",
-        "抗封锁能力强,防 QoS",
-        "香港 / 日本低延迟",
-        "AI 与流媒体全解锁",
-        "企业级线路品质"
-      ],
-      "url": "https://clash-jichang.com/go/jilian/",
-      "reviewUrl": "https://clash-jichang.com/brands/jilian/"
-    },
-    {
-      "rank": 11,
-      "asset": "quanqiu",
-      "slug": "quanqiu",
-      "name": "全球云",
-      "category": "老牌机场",
-      "categories": [
-        "老牌机场"
-      ],
-      "route": "以官网资料为准",
-      "protocol": "以官网资料为准",
-      "price": "20 元/月 120GB",
-      "promo": "—",
-      "use": "全球多地区节点,智能分流大流量",
-      "evidence": "套餐已核验；套餐按 2026-08-09 截图核验;「BGP 智能优化」为套餐名口径;速度与解锁尚无独立实测,页面图表为模拟示例。",
-      "description": "全球云胜在节点地区覆盖最全、计费灵活,TikTok 与短视频体验友好,适合需要多国出口 IP 的外贸和内容用户。",
-      "highlights": [
-        "全球多地区节点",
-        "TikTok / YouTube 4K 流畅",
-        "智能分流规则",
-        "按量与月付灵活",
-        "大流量高性价比"
-      ],
-      "url": "https://clash-jichang.com/go/quanqiu/",
-      "reviewUrl": "https://clash-jichang.com/brands/quanqiu/"
-    },
-    {
-      "rank": 12,
-      "asset": "guangnian",
-      "slug": "guangnian",
-      "name": "光年梯",
-      "category": "老牌机场",
-      "categories": [
-        "老牌机场"
-      ],
-      "route": "三网优化线路",
-      "protocol": "以官网资料为准",
-      "price": "18 元/月 110GB",
-      "promo": "—",
-      "use": "新手友好客户端,一键订阅导入",
-      "evidence": "套餐已核验；套餐按 2026-08-09 截图核验;线路、节点与解锁尚无独立实测,页面图表为模拟示例。",
-      "description": "光年梯把「新手友好」做到位,一键订阅导入和简洁客户端降低了上手门槛,适合第一次接触机场、只用主流节点的用户。",
-      "highlights": [
-        "新手友好客户端",
-        "一键订阅导入",
-        "三网优化线路",
-        "ChatGPT 原生解锁",
-        "稳定月付套餐"
-      ],
-      "url": "https://clash-jichang.com/go/guangnian/",
-      "reviewUrl": "https://clash-jichang.com/brands/guangnian/"
-    },
-    {
-      "rank": 13,
-      "asset": "yuzhou",
-      "slug": "yuzhou",
-      "name": "宇宙云",
-      "category": "性价比机场",
-      "categories": [
-        "性价比机场"
-      ],
-      "route": "三网优化中转线路",
-      "protocol": "Trojan / VLESS 多协议支持",
-      "price": "14.9 元/月 100GB",
-      "promo": "YUZHOU553",
-      "use": "全球节点覆盖广,多协议三网中转",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "宇宙云走「全球节点 + 大流量性价比」路线,多协议和三网中转让兼容性不错,适合需要广覆盖节点和较大流量的日常用户。",
-      "highlights": [
-        "全球多地区节点覆盖",
-        "Trojan / VLESS 多协议支持",
-        "三网优化中转线路",
-        "流媒体与 ChatGPT 解锁",
-        "大流量高性价比套餐"
-      ],
-      "url": "https://clash-jichang.com/go/yuzhou/",
-      "reviewUrl": "https://clash-jichang.com/brands/yuzhou/"
-    },
-    {
-      "rank": 14,
-      "asset": "sogo",
-      "slug": "sogo",
-      "name": "sogo云",
-      "category": "性价比机场",
-      "categories": [
-        "性价比机场"
-      ],
-      "route": "全球节点 + 专线线路",
-      "protocol": "以官网资料为准",
-      "price": "25 元/月 150GB",
-      "promo": "SOGO10000",
-      "use": "全球节点 + 专线,4K 流媒体多设备",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "sogo云以全球节点 + 专线和多设备在线为卖点,4K 流媒体与 AI 解锁都在线,适合多设备、重流媒体的家庭或团队用户。",
-      "highlights": [
-        "全球节点 + 专线线路",
-        "4K 流媒体流畅",
-        "ChatGPT / Claude 解锁",
-        "多设备在线",
-        "稳定大流量套餐"
-      ],
-      "url": "https://clash-jichang.com/go/sogo/",
-      "reviewUrl": "https://clash-jichang.com/brands/sogo/"
-    },
-    {
-      "rank": 15,
-      "asset": "ermao",
-      "slug": "ermao",
-      "name": "二猫云",
-      "category": "性价比机场",
-      "categories": [
-        "性价比机场"
-      ],
-      "route": "中转 + 专线混合线路",
-      "protocol": "以官网资料为准",
-      "price": "20 元/月 130GB",
-      "promo": "ermao888",
-      "use": "中转 + 专线混合,原生 IP 解锁",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "二猫云用「中转 + 专线」混合线路平衡成本与稳定,原生 IP 解锁齐全(含 HBO Max),适合流媒体需求高、预算适中的用户。",
-      "highlights": [
-        "中转 + 专线混合线路",
-        "晚高峰稳定",
-        "原生 IP 节点",
-        "Netflix / Disney+ / HBO 解锁",
-        "订阅导入方便"
-      ],
-      "url": "https://clash-jichang.com/go/ermao/",
-      "reviewUrl": "https://clash-jichang.com/brands/ermao/"
-    },
-    {
-      "rank": 16,
-      "asset": "yifan",
-      "slug": "yifan",
-      "name": "一翻云",
-      "category": "性价比机场",
-      "categories": [
-        "性价比机场"
-      ],
-      "route": "以官网资料为准",
-      "protocol": "VLESS + Reality 协议",
-      "price": "20 元/月 150GB",
-      "promo": "1FLYYUN",
-      "use": "超大流量 150G,VLESS + Reality 抗封锁",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "一翻云用 150G 超大流量和 VLESS + Reality 协议主打「量大又抗封」,适合下载/流媒体消耗大、又想要新协议抗封锁的重度用户。",
-      "highlights": [
-        "超大流量 150G 套餐",
-        "VLESS + Reality 协议",
-        "多平台客户端支持",
-        "流媒体全解锁",
-        "高性价比年付"
-      ],
-      "url": "https://clash-jichang.com/go/yifan/",
-      "reviewUrl": "https://clash-jichang.com/brands/yifan/"
-    },
-    {
-      "rank": 17,
-      "asset": "edgenova",
-      "slug": "edgenova",
-      "name": "edgenova",
-      "category": "性价比机场",
-      "categories": [
-        "性价比机场"
-      ],
-      "route": "以官网资料为准",
-      "protocol": "Reality 协议抗封锁",
-      "price": "20 元/月 100GB",
-      "promo": "TH888",
-      "use": "海外团队运营,Reality 协议抗封锁",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "edgenova 由海外团队运营,Reality 协议 + 原生 IP 让抗封锁和 AI 解锁(含 Gemini)表现突出,适合能接受英文界面的进阶用户。",
-      "highlights": [
-        "海外团队运营",
-        "Reality 协议抗封锁",
-        "原生 IP 节点",
-        "AI 工具全解锁",
-        "面向进阶用户"
-      ],
-      "url": "https://clash-jichang.com/go/edgenova/",
-      "reviewUrl": "https://clash-jichang.com/brands/edgenova/"
-    },
-    {
-      "rank": 18,
-      "asset": "kexin",
-      "slug": "kexin",
+      "asset": "可信云",
+      "slug": "可信云",
       "name": "可信云",
       "category": "性价比机场",
       "categories": [
-        "性价比机场"
+        "性价比机场",
+        "稳定机场"
       ],
-      "route": "IEPL 专线线路",
+      "route": "IEPL + 专线",
       "protocol": "以官网资料为准",
-      "price": "25 元/月 150GB",
+      "price": "8元 60GB/月（年付）",
       "promo": "—",
-      "use": "主打信任与长期稳定,IEPL 专线全平台",
-      "evidence": "资料整理；仅确认品牌名称与独立入口;套餐、线路、节点尚未核验,页面图表为模拟示例。",
-      "description": "可信云把「信任」写在名字里,IEPL 专线 + 完善售后是其核心卖点,适合愿意为稳定和服务多付一点、打算长期使用的用户。",
+      "use": "可信云是一家提供极高性价比与高稳定性的 IEPL 专线机场，支持通用订阅，不限速且不限制设备数量。全线解锁 Netflix、Disney+ 等主…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "可信云是一家提供极高性价比与高稳定性的 IEPL 专线机场，支持通用订阅，不限速且不限制设备数量。全线解锁 Netflix、Disney+ 等主流流媒体以及 ChatGPT 等 AI 平台，拥有 60+ 顶级专线节点，覆盖港、台、日、美等热门地区，客服全天候高效响应。",
       "highlights": [
-        "主打信任与长期稳定",
-        "IEPL 专线线路",
-        "全平台客户端支持",
-        "流媒体与 AI 解锁",
-        "售后与客服完善"
+        "✅ 全 IEPL 专线，低延迟稳定连接，晚高峰毫不降速",
+        "✅ 完美解锁 Netflix、Disney+ 等流媒体及 ChatGPT 等平台",
+        "✅ 所有套餐均无设备限制、不限速",
+        "✅ 覆盖港、台、日、美、新等多地区，原生 IP 节点多"
       ],
-      "url": "https://clash-jichang.com/go/kexin/",
-      "reviewUrl": "https://clash-jichang.com/brands/kexin/"
+      "url": "https://clash-jichang.com/go/kexinyun",
+      "reviewUrl": "https://clash-jichang.com/airport/kexinyun"
     },
     {
-      "rank": 19,
-      "asset": "sujie",
-      "slug": "sujie",
+      "rank": 9,
+      "asset": "速界",
+      "slug": "速界",
       "name": "速界",
       "category": "性价比机场",
       "categories": [
-        "性价比机场"
+        "性价比机场",
+        "稳定机场"
       ],
-      "route": "高带宽 IPLC 专线",
+      "route": "以主站介绍为准",
       "protocol": "以官网资料为准",
-      "price": "25 元/月 150GB",
-      "promo": "sujie888",
-      "use": "高带宽 IPLC 专线,晚高峰满速",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "速界主打高带宽 IPLC 专线,晚高峰满速、4K/8K 流媒体无压力,适合对带宽和高峰稳定要求最高、预算充足的重度用户。",
+      "price": "7.5元 50GB/月（年付）",
+      "promo": "—",
+      "use": "速界（Speed World）是一家专注于高速稳定代理服务的机场，线路表现出色，特别适合大流量下载和视频流媒体播放。不仅支持 Clash 订阅导…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "速界（Speed World）是一家专注于高速稳定代理服务的机场，线路表现出色，特别适合大流量下载和视频流媒体播放。不仅支持 Clash 订阅导入，更提供了官方一键登录 of 自研客户端，无需复杂配置，对小白极其友好。",
       "highlights": [
-        "高带宽 IPLC 专线",
-        "晚高峰满速不掉档",
-        "4K / 8K 流媒体",
-        "低延迟表现",
-        "适合重度用户"
+        "✅ 高速节点架构，不限速不限制设备数量",
+        "✅ 完美解锁各大流媒体与 AI 工具",
+        "✅ 官方提供专属自研客户端，一键极速连接",
+        "✅ 60+ 节点广泛覆盖港、台、日、美、马来西亚等多地区"
       ],
-      "url": "https://clash-jichang.com/go/sujie/",
-      "reviewUrl": "https://clash-jichang.com/brands/sujie/"
+      "url": "https://clash-jichang.com/go/sujie",
+      "reviewUrl": "https://clash-jichang.com/airport/sujie"
     },
     {
-      "rank": 20,
-      "asset": "kuaili",
-      "slug": "kuaili",
+      "rank": 10,
+      "asset": "快狸",
+      "slug": "快狸",
       "name": "快狸",
       "category": "性价比机场",
       "categories": [
-        "性价比机场"
+        "性价比机场",
+        "稳定机场"
       ],
-      "route": "中转优化线路；三网直连优化",
+      "route": "专线",
       "protocol": "以官网资料为准",
-      "price": "25 元/月 150GB",
-      "promo": "theo66",
-      "use": "中转优化线路,上手简单三网直连",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "快狸走中转优化 + 简单上手路线,三网直连和月付大流量让它成为好用的日常备选,适合偏好月付、不想折腾配置的用户。",
+      "price": "10元 30GB/月（年付）",
+      "promo": "—",
+      "use": "快狸是一家致力于提供极高性价比与专属一键客户端的专线机场，拥有丰富的全球节点与良好的解锁能力。支持自研客户端，能够帮助新手用户一键跨越繁琐配置，…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "快狸是一家致力于提供极高性价比与专属一键客户端的专线机场，拥有丰富的全球节点与良好的解锁能力。支持自研客户端，能够帮助新手用户一键跨越繁琐配置，并在敏感时期依然保持出色的连通率。",
       "highlights": [
-        "中转优化线路",
-        "上手简单,配置友好",
-        "三网直连优化",
-        "流媒体解锁",
-        "月付大流量高性价比"
+        "✅ 高速专线支持，全程不限速，稳定性强",
+        "✅ 专属自研客户端，一键安装连接",
+        "✅ 支持主流流媒体与热门 AI 软件 of 解锁访问",
+        "✅ 60+ 全球优质节点覆盖港、台、日、美、新等多地区"
       ],
-      "url": "https://clash-jichang.com/go/kuaili/",
-      "reviewUrl": "https://clash-jichang.com/brands/kuaili/"
+      "url": "https://clash-jichang.com/go/kuaili",
+      "reviewUrl": "https://clash-jichang.com/airport/kuaili"
+    },
+    {
+      "rank": 11,
+      "asset": "边缘节点",
+      "slug": "边缘节点",
+      "name": "边缘节点",
+      "category": "性价比机场",
+      "categories": [
+        "性价比机场",
+        "稳定机场"
+      ],
+      "route": "中转",
+      "protocol": "以官网资料为准",
+      "price": "9元 45GB/月（年付）",
+      "promo": "—",
+      "use": "边缘节点（Edge Node）是一家专注于高性价比且节点覆盖全面的代理服务商，通过中转加速架构提供极为稳定的连接。不仅支持通用的 Clash 订…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "边缘节点（Edge Node）是一家专注于高性价比且节点覆盖全面的代理服务商，通过中转加速架构提供极为稳定的连接。不仅支持通用的 Clash 订阅，还提供了专属自研客户端，并带有年付优惠方案。",
+      "highlights": [
+        "✅ 稳定中转架构，最高不限速，支持多设备同时在线",
+        "✅ 60+ 节点广泛覆盖港、台、日、美、马来西亚等多地区",
+        "✅ 解锁主流流媒体与 ChatGPT 等 AI 工具",
+        "✅ 官方自研客户端，一键傻瓜式导入使用"
+      ],
+      "url": "https://clash-jichang.com/go/bianyuanjiedian",
+      "reviewUrl": "https://clash-jichang.com/airport/bianyuanjiedian"
+    },
+    {
+      "rank": 12,
+      "asset": "灯塔机场",
+      "slug": "灯塔机场",
+      "name": "灯塔机场",
+      "category": "稳定机场",
+      "categories": [
+        "稳定机场"
+      ],
+      "route": "以主站介绍为准",
+      "protocol": "以官网资料为准",
+      "price": "16.6元 120GB/月（年付）",
+      "promo": "—",
+      "use": "灯塔机场（灯塔加速器）全平台节点可用，提供高达 300Mbps 的高带宽速率。不仅拥有高性价比的轻量与 VIP/SVIP 套餐，还针对重度流量用…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "灯塔机场（灯塔加速器）全平台节点可用，提供高达 300Mbps 的高带宽速率。不仅拥有高性价比的轻量与 VIP/SVIP 套餐，还针对重度流量用户推出了 1TB 个人无限流量年付套餐，支持多设备同时在线与 24 小时退款保障机制。",
+      "highlights": [
+        "✅ 全平台所有节点可用，支持通用 Clash 订阅及多端一键导入",
+        "✅ 提供 150Mbps - 300Mbps 高速带宽与最高 6 台设备同时在线",
+        "✅ VIP及SVIP套餐提供 24 小时退款保障（流量使用不超过 10%）",
+        "✅ 推出 1TB/年 不限时/限速续航版专属大流量套餐"
+      ],
+      "url": "https://clash-jichang.com/go/dengta",
+      "reviewUrl": "https://clash-jichang.com/airport/dengta"
+    },
+    {
+      "rank": 13,
+      "asset": "光速云",
+      "slug": "光速云",
+      "name": "光速云",
+      "category": "性价比机场",
+      "categories": [
+        "性价比机场",
+        "稳定机场"
+      ],
+      "route": "IEPL + 专线",
+      "protocol": "以官网资料为准",
+      "price": "8.25元 59GB/月",
+      "promo": "—",
+      "use": "光速云是专注于稳定流媒体与跨境业务的 IEPL 专线机场。全线解锁 Netflix、Disney+、YouTube、ChatGPT、Gemini…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "光速云是专注于稳定流媒体与跨境业务的 IEPL 专线机场。全线解锁 Netflix、Disney+、YouTube、ChatGPT、Gemini 等主流平台，适合跨境电商、直播运营和流媒体重度用户。节点覆盖港台、日美新及欧美地区，延迟极低。另提供 1T 大流量永久套餐，适合长期大流量用户一次性购买。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/guangshuyun",
+      "reviewUrl": "https://clash-jichang.com/airport/guangshuyun"
+    },
+    {
+      "rank": 14,
+      "asset": "影子",
+      "slug": "影子",
+      "name": "影子",
+      "category": "稳定机场",
+      "categories": [
+        "稳定机场",
+        "高端机场"
+      ],
+      "route": "IEPL + 专线",
+      "protocol": "以官网资料为准",
+      "price": "18.8元 150GB/月",
+      "promo": "—",
+      "use": "影子是一家专注于高端 IEPL 跨境专线的机场服务商。其采用企业级专线过境，具有极低延迟和极低丢包的表现，能完美绕过敏感时期的封锁，对 Netf…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "影子是一家专注于高端 IEPL 跨境专线的机场服务商。其采用企业级专线过境，具有极低延迟和极低丢包的表现，能完美绕过敏感时期的封锁，对 Netflix、Disney+、TikTok、ChatGPT 做到全线原生解锁。",
+      "highlights": [
+        "✅ 全高速专线 IEPL 跨境，稳定性高、延迟低",
+        "✅ 完美解锁 Netflix, Disney+, Tiktok, ChatGPT",
+        "✅ 仅限个人使用，无退款政策，介意勿买"
+      ],
+      "url": "https://clash-jichang.com/go/yingzi",
+      "reviewUrl": "https://clash-jichang.com/airport/yingzi"
+    },
+    {
+      "rank": 15,
+      "asset": "边界云",
+      "slug": "边界云",
+      "name": "边界云",
+      "category": "稳定机场",
+      "categories": [
+        "稳定机场",
+        "高端机场"
+      ],
+      "route": "IEPL",
+      "protocol": "以官网资料为准",
+      "price": "12.33元 50GB/月（年付）",
+      "promo": "—",
+      "use": "边界云是一家专注高性价比科学上网服务的机场，采用 IEPL 优化线路，提供 50+ 全球节点覆盖。全套餐支持 UDP 协议，主流流媒体（Netf…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "边界云是一家专注高性价比科学上网服务的机场，采用 IEPL 优化线路，提供 50+ 全球节点覆盖。全套餐支持 UDP 协议，主流流媒体（Netflix / Hulu）全线解锁，最高带宽可达 1000Mbps。所有套餐均附带 3 天无理由全额退款保证，支持支付宝等国内常见支付方式。",
+      "highlights": [
+        "✅ IEPL 优化线路，50+ 全球节点",
+        "✅ 最高 1000Mbps 带宽",
+        "✅ 解锁 Netflix / Hulu 及主流流媒体",
+        "✅ 支持 UDP 协议",
+        "✅ 3 天无理由全额退款保证",
+        "✅ 主流流媒体支持（Mini 套餐）"
+      ],
+      "url": "https://clash-jichang.com/go/bianjiyun",
+      "reviewUrl": "https://clash-jichang.com/airport/bianjiyun"
+    },
+    {
+      "rank": 16,
+      "asset": "nice加速",
+      "slug": "nice加速",
+      "name": "Nice加速",
+      "category": "性价比机场",
+      "categories": [
+        "性价比机场",
+        "稳定机场"
+      ],
+      "route": "专线 + IEPL",
+      "protocol": "以官网资料为准",
+      "price": "10元 40G/月（年付）",
+      "promo": "—",
+      "use": "Nice加速是站长长期自用的一款机场，机场运营超过2年，平时极少掉线，专线出口，有专门的纯净AI节点，热门地区都有家宽，高峰期电信联通移动都比较…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "Nice加速是站长长期自用的一款机场，机场运营超过2年，平时极少掉线，专线出口，有专门的纯净AI节点，热门地区都有家宽，高峰期电信联通移动都比较友好，服务器带宽充足，看高清视频非常流畅，如果你不想经常更换机场，Nice加速可以作为长期主力考虑，非常推荐。",
+      "highlights": [
+        "✅ IEPL南北双通道专线，不管身处何地都能有一个稳定的延迟连接",
+        "✅ 完美解锁ChatGPT Claude Gemini Gork等AI平台",
+        "✅ 所有套餐均为专线",
+        "✅ 覆盖香港、台湾、日本、新加坡、美国、英国、德国家宽线路套餐"
+      ],
+      "url": "https://clash-jichang.com/go/nice",
+      "reviewUrl": "https://clash-jichang.com/airport/nice"
+    },
+    {
+      "rank": 17,
+      "asset": "灵猫网络",
+      "slug": "灵猫网络",
+      "name": "灵猫网络",
+      "category": "稳定机场",
+      "categories": [
+        "稳定机场",
+        "高端机场"
+      ],
+      "route": "IPLC + 专线",
+      "protocol": "以官网资料为准",
+      "price": "85元/年（45G/月）",
+      "promo": "—",
+      "use": "灵猫网络是一家主打高性价比企业级全 IPLC 专线的高速机场。所有套餐均采用 IPLC 物理专线，不限制客户端，不限速，最大提供 1000 Mb…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "灵猫网络是一家主打高性价比企业级全 IPLC 专线的高速机场。所有套餐均采用 IPLC 物理专线，不限制客户端，不限速，最大提供 1000 Mbps 带宽。特别提供了原生 IP 解锁，支持解锁 Netflix、Hulu、HBO、Disney+ 等流媒体以及 ChatGPT、Gemini、TikTok 等热门服务。最便宜的年付小包仅需 85 元/年，包含每月 45GB 的专线流量，支持订单日自动重置流量或购买加油包，是极具性价比的长期主力/备份选择。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/lingmao",
+      "reviewUrl": "https://clash-jichang.com/airport/lingmao"
+    },
+    {
+      "rank": 18,
+      "asset": "星岛梦",
+      "slug": "星岛梦",
+      "name": "星岛梦",
+      "category": "稳定机场",
+      "categories": [
+        "稳定机场",
+        "高端机场"
+      ],
+      "route": "IEPL + 专线",
+      "protocol": "Trojan / SS",
+      "price": "16元 100GB/月",
+      "promo": "—",
+      "use": "星岛梦是专选 IEPL 专线的高品质机场，提供 Trojan/SS 协议，全线解锁 Netflix、Disney+、YouTube、ChatGP…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "星岛梦是专选 IEPL 专线的高品质机场，提供 Trojan/SS 协议，全线解锁 Netflix、Disney+、YouTube、ChatGPT、Gemini 等平台与 AI 服务，并支持 TikTok 跨区运营。晚高峰不降速是其核心竞争力，适合对稳定性要求高、需要大流量的用户。提供永久不限时 1TB 流量包选项。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/xingdaomeng",
+      "reviewUrl": "https://clash-jichang.com/airport/xingdaomeng"
+    },
+    {
+      "rank": 19,
+      "asset": "全球云",
+      "slug": "全球云",
+      "name": "全球云",
+      "category": "稳定机场",
+      "categories": [
+        "稳定机场"
+      ],
+      "route": "BGP",
+      "protocol": "以官网资料为准",
+      "price": "20元 120GB/月",
+      "promo": "—",
+      "use": "全球云专注于提供顶级出海加速体验，凭借稳定的网络入口和超低延迟过境节点，不仅是重度游戏爱好者的加速利器，更是享受 4K/8K 流媒体视觉盛宴的绝…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "全球云专注于提供顶级出海加速体验，凭借稳定的网络入口和超低延迟过境节点，不仅是重度游戏爱好者的加速利器，更是享受 4K/8K 流媒体视觉盛宴的绝佳选择。采用 BGP 智能多线路调度，白天与夜间晚高峰均保持稳定带宽。支持 ChatGPT、Claude 等 AI 平台商用级解锁。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/quanqiuyun",
+      "reviewUrl": "https://clash-jichang.com/airport/quanqiuyun"
+    },
+    {
+      "rank": 20,
+      "asset": "瞬云机场",
+      "slug": "瞬云机场",
+      "name": "瞬云机场",
+      "category": "性价比机场",
+      "categories": [
+        "性价比机场",
+        "稳定机场"
+      ],
+      "route": "直连 + 专线 + ANYCAST",
+      "protocol": "以官网资料为准",
+      "price": "8.25元 59GB/月",
+      "promo": "—",
+      "use": "瞬云机场支持解锁各大流媒体，解锁 ChatGPT、Gemini 等 AI 服务，轻松满足跨境电商、直播运营、远程办公及日常冲浪等多场景需求。网络…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "瞬云机场支持解锁各大流媒体，解锁 ChatGPT、Gemini 等 AI 服务，轻松满足跨境电商、直播运营、远程办公及日常冲浪等多场景需求。网络采用直连加专线架构，搭配主流国家 ANYCAST 高速节点，确保连接的低延迟与高稳定性。套餐均承诺无倍率、不限速，且价格透明实在，是专线路线中不可多得的高性价比之选。",
+      "highlights": [
+        "✅ 直连+全节点专线加速，采用 ANYCAST 高速节点，低延迟稳定连接",
+        "✅ 完美解锁 Netflix、Disney+ 等流媒体及 ChatGPT、Gemini 等 AI 平台",
+        "✅ 采用底层稳定的协议，安全可靠，保护用户隐私",
+        "✅ 全线套餐无倍率、不限制峰值速率（不限速）",
+        "✅ 规范设备限制（仅限个人使用），严格把控滥用，保障整体网络环境的高品质"
+      ],
+      "url": "https://clash-jichang.com/go/shunyun",
+      "reviewUrl": "https://clash-jichang.com/airport/shunyun"
     },
     {
       "rank": 21,
-      "asset": "youxin",
-      "slug": "youxin",
-      "name": "优信云",
-      "category": "性价比机场",
+      "asset": "寰宇云",
+      "slug": "寰宇云",
+      "name": "寰宇云",
+      "category": "稳定机场",
       "categories": [
-        "性价比机场"
+        "稳定机场",
+        "高端机场"
       ],
-      "route": "隧道中转 + IPLC 专线,兼顾速度与稳定",
+      "route": "IEPL + 专线 + 直连",
       "protocol": "以官网资料为准",
-      "price": "15 元/月 100GB",
-      "promo": "yx51666",
-      "use": "隧道中转 + IPLC 线路,支持 24 小时不满意退款",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "优信云是 2024 年的新兴 Shadowsocks 服务,隧道中转 + IPLC 线路解锁 ChatGPT/TikTok,最大亮点是 24 小时不满意退款,试错成本低;作为新场建议先月付试水一个完整晚高峰周期再考虑年付。",
+      "price": "89元/年 60GB/月",
+      "promo": "—",
+      "use": "寰宇云机场采用全 IEPL 专线+直连双线路架构，最大提供 2.5Gbps 超大带宽，全线解锁 Netflix、Disney+、Gemini、C…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "寰宇云机场采用全 IEPL 专线+直连双线路架构，最大提供 2.5Gbps 超大带宽，全线解锁 Netflix、Disney+、Gemini、ChatGPT、TikTok 等主流平台，原生 IP 解锁各大流媒体。不限速、不限制同时使用客户端数量，支持支付宝付款，高效客服全天响应，是追求高性价比专线机场的稳定之选。",
       "highlights": [
-        "隧道中转 + IPLC 专线,兼顾速度与稳定",
-        "ChatGPT / TikTok / YouTube 解锁",
-        "套餐分档清晰:15/20/30 元月付对应 100/200/350GB",
-        "24 小时不满意退款,降低试错成本",
-        "年付 69 折码 yx51666、两年付 65 折码 yx51888"
+        "✅ 全 IEPL 专线，最大 2.5Gbps 带宽，低延迟稳定连接",
+        "✅ 解锁 Netflix、Disney+、ChatGPT、Gemini、TikTok 等全主流平台",
+        "✅ 原生 IP，流媒体解锁无障碍",
+        "✅ 不限速、不限制同时使用客户端数量",
+        "✅ 高效客服响应，支持支付宝付款"
       ],
-      "url": "https://clash-jichang.com/go/youxin/",
-      "reviewUrl": "https://clash-jichang.com/brands/youxin/"
+      "url": "https://clash-jichang.com/go/huanyuyun",
+      "reviewUrl": "https://clash-jichang.com/airport/huanyuyun"
     },
     {
       "rank": 22,
-      "asset": "yangfan",
-      "slug": "yangfan",
-      "name": "杨帆云",
+      "asset": "lumina",
+      "slug": "lumina",
+      "name": "Lumina",
       "category": "性价比机场",
       "categories": [
         "性价比机场"
       ],
-      "route": "以官网资料为准",
-      "protocol": "以官网资料为准",
-      "price": "年付 6.9 折起 · 码 yf6189",
-      "promo": "yf6189",
-      "use": "速鹰旗下,StrongVPN 大厂与新加坡团队联合运营",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "杨帆云背靠速鹰 / StrongVPN 大厂与新加坡团队,主打 IP 稳定高速与 24 小时客服,节点覆盖八大地区且持续扩展;具体套餐价格以官网为准,新场同样建议月付先验证晚高峰表现。",
+      "route": "直连 + 中转",
+      "protocol": "Hysteria2 / AnyTLS",
+      "price": "10元 200GB/月",
+      "promo": "—",
+      "use": "Lumina（Lumina Airport）是一家提供直连大带宽与高速中转的多协议混合机场。针对不同需求，提供基于 xTom 数据中心优质网络直…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "Lumina（Lumina Airport）是一家提供直连大带宽与高速中转的多协议混合机场。针对不同需求，提供基于 xTom 数据中心优质网络直连（Hysteria2 协议）以及 GoMAMI HK（香港）中转入口（AnyTLS 协议）的多种节点，不限制设备在线数量，限速达 1000Mbps。",
       "highlights": [
-        "速鹰旗下,StrongVPN 大厂与新加坡团队共建",
-        "24 小时客服在线,响应快",
-        "IP 稳定高速,节点持续扩展",
-        "覆盖美日新台法马港韩八大地区",
-        "年付 6.9 折码 yf6189、两年付 6.5 折码 yf6185"
+        "✅ GoMAMI HK 中转 AnyTLS 与 xTom 数据中心 Hysteria2 直连",
+        "✅ 无在线设备数量限制，最高 1000Mbps 带宽保证",
+        "✅ 完美解锁 Netflix、Disney+、ChatGPT 等主流平台",
+        "✅ 节点丰富，覆盖香港、台湾、日本、美国、德国等地区"
       ],
-      "url": "https://clash-jichang.com/go/yangfan/",
-      "reviewUrl": "https://clash-jichang.com/brands/yangfan/"
+      "url": "https://clash-jichang.com/go/lumina",
+      "reviewUrl": "https://clash-jichang.com/airport/lumina"
     },
     {
       "rank": 23,
-      "asset": "jifeng",
-      "slug": "jifeng",
-      "name": "疾风云",
+      "asset": "拼好连",
+      "slug": "拼好连",
+      "name": "拼好连",
       "category": "性价比机场",
       "categories": [
-        "性价比机场"
+        "性价比机场",
+        "稳定机场"
       ],
-      "route": "隧道中转 + IPLC 专线混合架构；BGP 中转优化线路",
-      "protocol": "兼容 SSR / V2Ray / Trojan 多协议",
-      "price": "年付 6.9 折起 · 码 jf5169",
-      "promo": "jf5169",
-      "use": "隧道中转 + IPLC 专线混合,BGP 中转优化多协议",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "疾风云是 2024 年成立的新机场,隧道中转 + IPLC 专线混合叠加 BGP 优化,多协议多客户端兼容性好,优惠码档位齐全;作为新场口碑尚待时间验证,建议月付试水后再上长期套餐。",
+      "route": "BGP + IEPL + 专线",
+      "protocol": "以官网资料为准",
+      "price": "9.9元 100GB/月",
+      "promo": "—",
+      "use": "拼好连（原 Runway Cloud）是一家主打拼团共享的高性价比机场。全线采用优质 BGP 高速线路与 BGP+IEPL 专线，不限制设备连接…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "拼好连（原 Runway Cloud）是一家主打拼团共享的高性价比机场。全线采用优质 BGP 高速线路与 BGP+IEPL 专线，不限制设备连接数量。网络延迟极低，提供 200M/400M 甚至不限速的带宽保证，晚高峰 4K/8K 视频秒加载。",
       "highlights": [
-        "隧道中转 + IPLC 专线混合架构",
-        "BGP 中转优化线路",
-        "兼容 SSR / V2Ray / Trojan 多协议",
-        "支持 Clash / Shadowrocket / Surge 客户端",
-        "年付 6.9 折 jf5169、两年 6.5 折 jff5165、半年 9 折 JF888"
+        "✅ BGP+IEPL 高速线路保障，SLA 在线率 99.99%",
+        "✅ 不限客户端连接数量，带宽高达 200Mbps - 无限速",
+        "✅ 完美解锁 Netflix、YouTube 等流媒体"
       ],
-      "url": "https://clash-jichang.com/go/jifeng/",
-      "reviewUrl": "https://clash-jichang.com/brands/jifeng/"
+      "url": "https://clash-jichang.com/go/pinhaolian",
+      "reviewUrl": "https://clash-jichang.com/airport/pinhaolian"
     },
     {
       "rank": 24,
-      "asset": "erwan",
-      "slug": "erwan",
-      "name": "尔湾云",
+      "asset": "99吧",
+      "slug": "99吧",
+      "name": "99吧",
       "category": "性价比机场",
       "categories": [
         "性价比机场"
       ],
-      "route": "以官网资料为准",
-      "protocol": "提供 Shadowsocks 与 V2Ray 节点",
-      "price": "年付低至 69 折 · 码 year69",
-      "promo": "year69",
-      "use": "全平台客户端,支持微信 / 支付宝付款",
-      "evidence": "资料整理；价格与优惠码来自站长品牌清单;页面测速与解锁图为统一口径的模拟示例,非站长实测。",
-      "description": "尔湾云是 2024 年成立的新机场,主打全平台客户端与微信 / 支付宝付款便利,节点覆盖 8 个地区,长期套餐折扣力度大;流媒体与 AI 解锁属基础水平,适合对付款方式和多端覆盖有需求的日常用户,建议先月付验证。",
+      "route": "以主站介绍为准",
+      "protocol": "SS",
+      "price": "7.5元 66GB/月（年付）",
+      "promo": "—",
+      "use": "99吧是一家专注于极高性价比与高设备数量上限的 SS 加密代理机场，同时登陆设备数可达 99 台。全线节点限速高达 999Mbps，解锁各大流媒…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "99吧是一家专注于极高性价比与高设备数量上限的 SS 加密代理机场，同时登陆设备数可达 99 台。全线节点限速高达 999Mbps，解锁各大流媒体以及 ChatGPT、Gemini、Grok 等国外主流 AI 平台。",
       "highlights": [
-        "提供 Shadowsocks 与 V2Ray 节点",
-        "安卓 / iOS / macOS / Windows / 路由器全平台客户端",
-        "覆盖马来西亚、韩国、法国、香港、日本、台湾等 8 地区",
-        "支持微信支付与支付宝,付款方便",
-        "年付 69 折 year69、两年 65 折 2year65、三年 60 折 3year60"
+        "✅ SS 协议与加密通道，限速 999Mbps",
+        "✅ 同时登录设备数可达 99 台，无设备受限烦恼",
+        "✅ 解锁 ChatGPT、Gemini、Grok 及各种主流流媒体",
+        "⚠️ 仅限内地使用，校园网、新疆地区用户请试用后购买，不支持退款"
       ],
-      "url": "https://clash-jichang.com/go/erwan/",
-      "reviewUrl": "https://clash-jichang.com/brands/erwan/"
+      "url": "https://clash-jichang.com/go/99bar",
+      "reviewUrl": "https://clash-jichang.com/airport/99bar"
     },
     {
       "rank": 25,
-      "asset": "civet",
-      "slug": "civet",
-      "name": "灵猫",
-      "category": "稳定机场",
+      "asset": "锦云",
+      "slug": "锦云",
+      "name": "锦云",
+      "category": "性价比机场",
       "categories": [
+        "性价比机场",
         "稳定机场"
       ],
-      "route": "以官网资料为准",
+      "route": "以主站介绍为准",
       "protocol": "以官网资料为准",
-      "price": "7.1 元/月 45GB(年付 85 元)",
+      "price": "6元 50GB/月",
       "promo": "—",
-      "use": "套餐结构简单:45G 年付小包,150G / 300G 按月季年直接选",
-      "evidence": "套餐已核验；套餐名称、流量与价格按 2026-08-08 截图核验;线路/协议、节点、支付、设备限制未公开;速度与解锁尚无独立实测;暂无图表。",
-      "description": "灵猫的优点是套餐简单、价格不高;缺点是除了价格什么都还没核验,线路和实测都是空白,适合月付试试,不建议直接年付。",
+      "use": "锦云机场提供极致性价比的科学上网服务，支持流媒体与AI工具解锁，线路优化稳定，提供多种特惠月付、季付与年付套餐。套餐不限速，拥有活跃的专属社群。",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "锦云机场提供极致性价比的科学上网服务，支持流媒体与AI工具解锁，线路优化稳定，提供多种特惠月付、季付与年付套餐。套餐不限速，拥有活跃的专属社群。",
       "highlights": [
-        "45G 年付小包 85 元",
-        "150G 月付 25 元 / 季付 65 元 / 年付 195 元",
-        "300G 月付 45 元 / 季付 125 元 / 年付 295 元",
-        "套餐只有三档,不用纠结"
+        "✅ 极致性价比，月付低至 6 元",
+        "✅ 解锁 Netflix 等主流流媒体与 ChatGPT/Claude 平台",
+        "✅ 季付 6台设备，年付最高 10台设备同时在线",
+        "✅ 专属 TG 群组及 24 小时工单支持"
       ],
-      "url": "https://clash-jichang.com/go/civet/",
-      "reviewUrl": "https://clash-jichang.com/brands/civet/"
+      "url": "https://clash-jichang.com/go/jinyun",
+      "reviewUrl": "https://clash-jichang.com/airport/jinyun"
     },
     {
       "rank": 26,
-      "asset": "flashleap",
-      "slug": "flashleap",
-      "name": "闪跃",
-      "category": "稳定机场",
+      "asset": "极速云机场",
+      "slug": "极速云机场",
+      "name": "极速云机场",
+      "category": "性价比机场",
       "categories": [
-        "稳定机场"
+        "性价比机场"
       ],
-      "route": "IPLC 纯专线(官网口径)",
+      "route": "以主站介绍为准",
       "protocol": "以官网资料为准",
-      "price": "8 元/月 60GB(年付 96 元)",
-      "promo": "shanyue",
-      "use": "IPLC 纯专线、全套餐一倍率的 2026 年新机场",
-      "evidence": "套餐已核验；套餐按 2026-08-08 截图核验;线路定位来自官网资料;速度与解锁尚无独立实测;暂无图表。",
-      "description": "闪跃的 IPLC + 一倍率定位和价格都有吸引力,但成立才半年,又没有独立实测,属于先短期验证再考虑的新机场。",
+      "price": "8.25元 800GB/月（年付）",
+      "promo": "jisu666",
+      "use": "极速云机场是一家高性价比的优质机场，中轮·高速流媒体节点，GPT NFT等流媒体全解锁，解锁全门国家，工单24小时内回复，节点备用6组。支持支付…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "极速云机场是一家高性价比的优质机场，中轮·高速流媒体节点，GPT NFT等流媒体全解锁，解锁全门国家，工单24小时内回复，节点备用6组。支持支付宝付款，提供多种套餐选择。本站长期 8 折优惠码： jisu666 。",
       "highlights": [
-        "IPLC 纯专线(官网口径)",
-        "全套餐 1 倍率",
-        "60G 年付 96 元,150G 月付 24 元起",
-        "官网标注支持 ChatGPT / Claude / Gemini",
-        "新用户优惠码 shanyue 8 折"
+        "✅ 中轮+高速流媒体节点",
+        "✅ GPT、NFT 等流媒体全解锁",
+        "✅ 解锁全门国家",
+        "✅ 工单 24 小时内回复",
+        "✅ 节点备用 6 组"
       ],
-      "url": "https://clash-jichang.com/go/flashleap/",
-      "reviewUrl": "https://clash-jichang.com/brands/flashleap/"
+      "url": "https://clash-jichang.com/go/jisuyun",
+      "reviewUrl": "https://clash-jichang.com/airport/jisuyun"
     },
     {
       "rank": 27,
-      "asset": "firefly",
-      "slug": "firefly",
-      "name": "飞为",
+      "asset": "山水云",
+      "slug": "山水云",
+      "name": "山水云",
       "category": "稳定机场",
       "categories": [
         "稳定机场"
       ],
-      "route": "IPLC 专线 + VLESS 协议(官网口径)",
-      "protocol": "IPLC 专线 + VLESS 协议(官网口径)",
-      "price": "8 元/月 60GB(年付 96 元)",
-      "promo": "firefly",
-      "use": "IPLC + VLESS,原生 IP,不限速不限设备",
-      "evidence": "套餐已核验；套餐按 2026-08-08 截图核验;协议、线路与支付信息来自既有资料;速度与解锁尚无独立实测;暂无图表。",
-      "description": "飞为和微风是同一系的分站,套餐网格也一致;微风有实测、飞为没有,两家里优先看微风,飞为适合作为同系备用。",
+      "route": "中转+直连",
+      "protocol": "以官网资料为准",
+      "price": "14.99元 100GB/月",
+      "promo": "—",
+      "use": "山水云是一家专注高性价比代理服务的机场，采用中转+直连节点架构，支持解锁 GPT、TikTok 等全流媒体。提供轻星套餐和月付套餐两大系列，轻星…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "山水云是一家专注高性价比代理服务的机场，采用中转+直连节点架构，支持解锁 GPT、TikTok 等全流媒体。提供轻星套餐和月付套餐两大系列，轻星系列按年/半年/季付，月付系列灵活按月计费，并提供永久不限时流量包。配有专属 Telegram 群组和频道，支持支付宝等国内支付方式，客服工单24小时响应。",
       "highlights": [
-        "IPLC 专线 + VLESS 协议(官网口径)",
-        "原生 IP,官网标注支持 ChatGPT / Gemini / Meta AI",
-        "60G 年付 96 元,150G 月付 25 元起",
-        "100G 不限时流量 100 元",
-        "新用户优惠码 firefly 8 折,年付 8 折"
+        "✅ 中转+直连节点，稳定高速",
+        "✅ 全流媒体解锁：GPT、TikTok、Netflix、Disney+ 等",
+        "✅ 支持同时在线 3~10 个设备",
+        "✅ 解锁全球众多冷门国家",
+        "✅ 客服+工单 24小时响应",
+        "✅ TG群组频道实时通知"
       ],
-      "url": "https://clash-jichang.com/go/firefly/",
-      "reviewUrl": "https://clash-jichang.com/brands/firefly/"
+      "url": "https://clash-jichang.com/go/shanshuiyun",
+      "reviewUrl": "https://clash-jichang.com/airport/shanshuiyun"
     },
     {
       "rank": 28,
-      "asset": "kuajie",
-      "slug": "kuajie",
-      "name": "跨界",
+      "asset": "秒秒云",
+      "slug": "秒秒云",
+      "name": "秒秒云",
       "category": "稳定机场",
       "categories": [
         "稳定机场"
       ],
-      "route": "以官网资料为准",
+      "route": "中转",
       "protocol": "以官网资料为准",
-      "price": "8 元/月 60GB(年付 96 元)",
+      "price": "14元 128GB/月",
       "promo": "—",
-      "use": "60G 年付小包起步,最高 1800G/月的大流量档",
-      "evidence": "套餐已核验；套餐名称、流量与价格按 2026-08-08 截图核验;线路/协议、节点、支付、设备限制未公开;速度与解锁尚无独立实测;暂无图表。",
-      "description": "跨界的流量单价在同价位里很低,尤其 1800G 档;但线路和实测都还没有,大流量用户可以月付试一档看看。",
+      "use": "秒秒云是一家专注于高性价比出海体验的机场服务商，采用中转高速节点，全面解锁全球众多国家 and GPT、TikTok 等多媒体平台。提供特惠年付…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "秒秒云是一家专注于高性价比出海体验的机场服务商，采用中转高速节点，全面解锁全球众多国家 and GPT、TikTok 等多媒体平台。提供特惠年付套餐 and 灵活月付套餐，以及不限时永久流量包，满足不同预算和使用习惯的用户需求。多媒体 GPT 解锁服务支持24小时实时客服响应，并设有专属 Telegram 群组和频道。",
       "highlights": [
-        "60G 年付 96 元",
-        "120G 月付 20 元起",
-        "无界档 1800G/月 130 元,流量单价低",
-        "月付到三年付周期齐全"
+        "✅ 中转高速节点，高效稳定",
+        "✅ 多媒体 GPT 解锁服务",
+        "✅ 解锁全球众多冷门国家",
+        "✅ 支持24小时实时客服响应",
+        "✅ 仅支持官方静态网：秒秒.com",
+        "✅ TG群组频道实时同步通知"
       ],
-      "url": "https://clash-jichang.com/go/kuajie/",
-      "reviewUrl": "https://clash-jichang.com/brands/kuajie/"
+      "url": "https://clash-jichang.com/go/miaomiaoyun",
+      "reviewUrl": "https://clash-jichang.com/airport/miaomiaoyun"
     },
     {
       "rank": 29,
-      "asset": "flyv",
-      "slug": "flyv",
-      "name": "飞V",
-      "category": "高端机场",
+      "asset": "迅达vpn",
+      "slug": "迅达vpn",
+      "name": "迅达VPN",
+      "category": "稳定机场",
       "categories": [
+        "稳定机场",
         "高端机场"
       ],
-      "route": "IEPL 专线(官网标注)；可选原生 IP 独享黄金专线",
+      "route": "BGP + 专线",
       "protocol": "以官网资料为准",
-      "price": "8.3 元/月 65GB(年付 99 元)",
+      "price": "15元 150GB/月",
       "promo": "—",
-      "use": "IEPL 专线,入门到商业四档,另有单次流量包与原生 IP 独享专线",
-      "evidence": "套餐已核验；套餐名称、流量与价格按 2026-08-08 截图核验(部分被遮挡);速度、晚高峰、稳定性与解锁尚无独立实测;暂无图表。",
-      "description": "飞V 的套餐层级和流量包选择都完整,IEPL 定位明确;价格已核验,实测为空,先月付或买小流量包验证。",
+      "use": "迅达VPN是一家专注高质量跨境代理服务的机场，采用多地BGP跨境企业级专线，支持流媒体无障碍解锁，包括 Netflix、Disney+、Chat…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "迅达VPN是一家专注高质量跨境代理服务的机场，采用多地BGP跨境企业级专线，支持流媒体无障碍解锁，包括 Netflix、Disney+、ChatGPT 等主流平台。套餐灵活，支持月付/季付/年付，并提供一次性流量包选项，适合轻度至重度用户。技术支持7x24小时工单在线，个人使用稳定可靠。",
       "highlights": [
-        "IEPL 专线(官网标注)",
-        "150G 月付 25 元起,最高 1843G/月",
-        "130G / 380G / 600G 单次流量包",
-        "年付标准轻量版 65G 99 元",
-        "可选原生 IP 独享黄金专线"
+        "✅ 多地BGP跨境企业级专线，低延迟高稳定",
+        "✅ 流媒体无障碍，解锁 Netflix / ChatGPT / Disney+",
+        "✅ 支持月付/季付/年付及一次性流量包",
+        "✅ 支持 5~20 台设备同时使用",
+        "✅ 7x24 小时工单技术支持"
       ],
-      "url": "https://clash-jichang.com/go/flyv/",
-      "reviewUrl": "https://clash-jichang.com/brands/flyv/"
+      "url": "https://clash-jichang.com/go/xundavpn",
+      "reviewUrl": "https://clash-jichang.com/airport/xundavpn"
     },
     {
       "rank": 30,
-      "asset": "laddercloud",
-      "slug": "laddercloud",
-      "name": "梯子云",
-      "category": "高端机场",
+      "asset": "edge-x机场",
+      "slug": "edge-x机场",
+      "name": "Edge-X机场",
+      "category": "稳定机场",
       "categories": [
+        "稳定机场",
         "高端机场"
       ],
-      "route": "企业级 IEPL 纯专线 + VLESS(资料口径)",
-      "protocol": "企业级 IEPL 纯专线 + VLESS(资料口径)；自研全平台客户端,兼容 Shadowrocket / Clash / V2Ray / Trojan / Sing-box",
-      "price": "7.4 元/月 60GB(年付 89 元)",
+      "route": "IEPL + 专线",
+      "protocol": "以官网资料为准",
+      "price": "16.8元 100GB/月",
       "promo": "—",
-      "use": "企业级 IEPL + VLESS,智能负载均衡与三网入口优化,自研客户端",
-      "evidence": "套餐已核验；套餐按 2026-08-08 截图核验(部分流量遮挡);线路、节点、客户端为既有资料记录;此前收到的测速/解锁图与灵动云重复,归属待核验,暂不展示实测。",
-      "description": "梯子云资料显示是速鹰旗下、与大哥云同门的专线品牌,线路与客户端口径完整;实测材料尚未核验,先按资料价参考,等实测补上再看排名。",
+      "use": "Edge-X 是一家专注于高品质 IEPL 内网专线的机场服务商，采用企业级线路架构，提供稳定的内外网混合加速体验。节点高峰期 1 倍率，闲时 …",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "Edge-X 是一家专注于高品质 IEPL 内网专线的机场服务商，采用企业级线路架构，提供稳定的内外网混合加速体验。节点高峰期 1 倍率，闲时 0.5 倍率，全面解锁 Netflix、Disney+、YouTube 等主流流媒体及 ChatGPT、Claude 等 AI 服务。仅限个人及家庭使用，支持境外接入，支持 12 小时合理情况退款保障，是追求稳定专线与高性价比的优质选择。",
       "highlights": [
-        "企业级 IEPL 纯专线 + VLESS(资料口径)",
-        "智能负载均衡 + 三网入口优化",
-        "自研全平台客户端,兼容 Shadowrocket / Clash / V2Ray / Trojan / Sing-box",
-        "资料记录 60+ 节点(港日新美台)、2Gbps+ 独立带宽",
-        "125G 月付 25 元起,另有 120G–700G 永不限时买断"
+        "✅ 内网 IEPL 专线，高峰 1 倍率 / 闲时 0.5 倍率",
+        "✅ 解锁主流流媒体（Netflix、Disney+）与 AI 服务（ChatGPT 等）",
+        "✅ 每月订单日重置流量",
+        "✅ 支持境外接入使用",
+        "✅ 可选周期：月度 | 季度 | 半年 | 年度",
+        "✅ 仅限个人及家庭使用",
+        "✅ 支持 12 小时合理情况退款"
       ],
-      "url": "https://clash-jichang.com/go/laddercloud/",
-      "reviewUrl": "https://clash-jichang.com/brands/laddercloud/"
+      "url": "https://clash-jichang.com/go/edge-x",
+      "reviewUrl": "https://clash-jichang.com/airport/edge-x"
     },
     {
       "rank": 31,
-      "asset": "wavenet",
-      "slug": "wavenet",
-      "name": "浪网",
-      "category": "高端机场",
+      "asset": "可达加速器",
+      "slug": "可达加速器",
+      "name": "可达加速器",
+      "category": "性价比机场",
       "categories": [
-        "高端机场"
+        "性价比机场",
+        "稳定机场"
       ],
-      "route": "IEPL 专线(官网标注)；可选定制线路包",
+      "route": "SD-WAN",
       "protocol": "以官网资料为准",
-      "price": "9.9 元/月 80GB(年付 119 元)",
+      "price": "10元 100GB/月",
       "promo": "—",
-      "use": "IEPL 专线,入门到商业四档,流量包与定制线路补充",
-      "evidence": "套餐已核验；套餐名称、流量与价格按 2026-08-08 截图核验(部分被遮挡);速度、晚高峰、稳定性与解锁尚无独立实测;暂无图表。",
-      "description": "浪网的价格层级偏向中高用量用户,入门档比同类贵一点;目前只核验了价格,实测空白,建议先买流量包试用。",
+      "use": "可达加速器是一家专注于高速稳定出海体验的代理服务商，采用 SD-WAN 网络架构，覆盖全球多个节点，不限速使用，适合日常科学上网及流媒体需求。套…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "可达加速器是一家专注于高速稳定出海体验的代理服务商，采用 SD-WAN 网络架构，覆盖全球多个节点，不限速使用，适合日常科学上网及流媒体需求。套餐分为 Basic、Standard、Premium 三档，支持月付、季付、半年付、年付、两年付多种付款周期，灵活满足不同预算需求。",
       "highlights": [
-        "IEPL 专线(官网标注)",
-        "150G 月付 30 元起,商业档 2000G/月",
-        "180G / 450G / 900G 一次性流量包",
-        "年付标准 80G 119 元",
-        "可选定制线路包"
+        "✅ SD-WAN 智能网络，全球节点分布",
+        "✅ 全套餐不限速度",
+        "✅ 支持流媒体解锁",
+        "✅ 多种付款周期灵活选择（月付/季付/半年付/年付/两年付）"
       ],
-      "url": "https://clash-jichang.com/go/wavenet/",
-      "reviewUrl": "https://clash-jichang.com/brands/wavenet/"
+      "url": "https://clash-jichang.com/go/keda",
+      "reviewUrl": "https://clash-jichang.com/airport/keda"
     },
     {
       "rank": 32,
-      "asset": "invisible",
-      "slug": "invisible",
-      "name": "隐形人",
-      "category": "高端机场",
+      "asset": "奈云",
+      "slug": "奈云",
+      "name": "奈云",
+      "category": "风险预警",
       "categories": [
+        "风险预警"
+      ],
+      "route": "以主站介绍为准",
+      "protocol": "以官网资料为准",
+      "price": "10.6元 168GB/月",
+      "promo": "—",
+      "use": "暂无详细介绍，购买前请以主站和官网实时信息为准。",
+      "evidence": "主站风险提示：已确认跑路，主站提示停止充值和续费",
+      "description": "已确认跑路，主站提示停止充值和续费。暂无详细介绍，购买前请以主站和官网实时信息为准。",
+      "highlights": [],
+      "url": "https://airportgo.org/go.php",
+      "reviewUrl": "https://clash-jichang.com/airport/naiyun",
+      "risk": "已确认跑路，主站提示停止充值和续费"
+    },
+    {
+      "rank": 33,
+      "asset": "隐云",
+      "slug": "隐云",
+      "name": "隐云",
+      "category": "风险预警",
+      "categories": [
+        "风险预警"
+      ],
+      "route": "以主站介绍为准",
+      "protocol": "以官网资料为准",
+      "price": "25元 150GB/月",
+      "promo": "—",
+      "use": "暂无详细介绍，购买前请以主站和官网实时信息为准。",
+      "evidence": "主站风险提示：高风险，主站提示停止续费并更换备用机场",
+      "description": "高风险，主站提示停止续费并更换备用机场。暂无详细介绍，购买前请以主站和官网实时信息为准。",
+      "highlights": [],
+      "url": "https://airportgo.org/go.php",
+      "reviewUrl": "https://clash-jichang.com/airport/yinyun",
+      "risk": "高风险，主站提示停止续费并更换备用机场"
+    },
+    {
+      "rank": 34,
+      "asset": "山海机场",
+      "slug": "山海机场",
+      "name": "山海机场",
+      "category": "性价比机场",
+      "categories": [
+        "性价比机场",
+        "稳定机场"
+      ],
+      "route": "中转 + 专线 + 直连",
+      "protocol": "以官网资料为准",
+      "price": "6元 45GB/月",
+      "promo": "—",
+      "use": "山海机场采用中转 + 专线 + 直连综合架构，价格极其亲民，是入门用户性价比最高的选择之一。能够流畅解锁主流影视流媒体以及 ChatGPT 等 …",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "山海机场采用中转 + 专线 + 直连综合架构，价格极其亲民，是入门用户性价比最高的选择之一。能够流畅解锁主流影视流媒体以及 ChatGPT 等 AI 对话工具。多档位套餐满足从轻度到重度的各类需求，大流量用户最高可选 8192G/月套餐。支持支付宝支付。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/shanhai",
+      "reviewUrl": "https://clash-jichang.com/airport/shanhai"
+    },
+    {
+      "rank": 35,
+      "asset": "lizione",
+      "slug": "lizione",
+      "name": "LiZione",
+      "category": "性价比机场",
+      "categories": [
+        "性价比机场",
+        "稳定机场"
+      ],
+      "route": "中转 + 专线",
+      "protocol": "以官网资料为准",
+      "price": "10元 100GB/月",
+      "promo": "—",
+      "use": "LiZione 致力于提供极高性价比的中转与专线服务。全节点支持流媒体解锁（Netflix、Disney+、YouTube）以及 ChatGPT…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "LiZione 致力于提供极高性价比的中转与专线服务。全节点支持流媒体解锁（Netflix、Disney+、YouTube）以及 ChatGPT 等 AI 工具。提供购买日自动重置流量机制，确保用户使用体验的连贯性。拥有活跃的 Telegram 社区，售后响应及时，是追求低预算、高稳定性的不二之选。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/lizione",
+      "reviewUrl": "https://clash-jichang.com/airport/lizione"
+    },
+    {
+      "rank": 36,
+      "asset": "哆啦a梦",
+      "slug": "哆啦a梦",
+      "name": "哆啦A梦",
+      "category": "性价比机场",
+      "categories": [
+        "性价比机场",
+        "稳定机场"
+      ],
+      "route": "中转",
+      "protocol": "以官网资料为准",
+      "price": "10元 100GB/月",
+      "promo": "—",
+      "use": "哆啦A梦机场提供极具性价比的科学上网服务，线路覆盖全球多个核心地区。采用先进的中转与加速技术，确保晚高峰时期依然能够流畅播放 4K 视频。支持多…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "哆啦A梦机场提供极具性价比的科学上网服务，线路覆盖全球多个核心地区。采用先进的中转与加速技术，确保晚高峰时期依然能够流畅播放 4K 视频。支持多种主流代理协议，全线解锁 Netflix、Disney+ 等流媒体及 ChatGPT、Gemini 等 AI 平台。不限速、不限设备数量，是追求高性价比与多设备支持用户的理想选择。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/duolaameng",
+      "reviewUrl": "https://clash-jichang.com/airport/duolaameng"
+    },
+    {
+      "rank": 37,
+      "asset": "大哥云",
+      "slug": "大哥云",
+      "name": "大哥云",
+      "category": "老牌机场",
+      "categories": [
+        "老牌机场",
+        "稳定机场",
         "高端机场"
       ],
-      "route": "IEPL 专线(官网标注)",
+      "route": "IPLC",
       "protocol": "以官网资料为准",
-      "price": "9.1 元/月 80GB(年付 109 元)",
+      "price": "19.9元 100GB/月",
       "promo": "—",
-      "use": "IEPL 专线,白银到钻石四档周期套餐,年付保活与一次性流量齐全",
-      "evidence": "套餐已核验；套餐名称、流量与价格按 2026-08-08 截图核验(部分被遮挡);速度、晚高峰、稳定性与解锁尚无独立实测;暂无图表。",
-      "description": "隐形人的套餐设计和价格层级完整,IEPL 定位明确;和其他只核验了价格的品牌一样,先月付或买小流量包验证。",
-      "highlights": [
-        "IEPL 专线(官网标注)",
-        "144G 月付 24 元起,钻石档 1500G/月",
-        "160G / 420G / 1000G 一次性流量包",
-        "年付保活方案 80G 109 元",
-        "王者定制版 500G 600 元"
+      "use": "大哥云是拥有 5 年口碑的老品牌机场，支持 Netflix 等多家流媒体解锁，支持 YouTube 8K 流畅观看。全线采用 IPLC 线路，提…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "大哥云是拥有 5 年口碑的老品牌机场，支持 Netflix 等多家流媒体解锁，支持 YouTube 8K 流畅观看。全线采用 IPLC 线路，提供免费试用名额，连接极为可靠。峰值带宽高达 1000 Mbps，满足高清直播和游戏加速需求。支持支付宝付款，新用户可先试后买。",
+      "highlights": [],
+      "url": "https://airportgo.org/go.php",
+      "reviewUrl": "https://clash-jichang.com/airport/dageyun"
+    },
+    {
+      "rank": 38,
+      "asset": "龙猫云",
+      "slug": "龙猫云",
+      "name": "龙猫云",
+      "category": "老牌机场",
+      "categories": [
+        "老牌机场",
+        "稳定机场",
+        "高端机场"
       ],
-      "url": "https://clash-jichang.com/go/invisible/",
-      "reviewUrl": "https://clash-jichang.com/brands/invisible/"
+      "route": "IPLC + 专线",
+      "protocol": "以官网资料为准",
+      "price": "15元 150GB/月",
+      "promo": "—",
+      "use": "龙猫云采用 IPLC 深港、沪美、沪日级跨境专线，节点质量极高。所有套餐均不限制设备，晚高峰时期毫不降速。原生解锁全平台流媒体，支持 TikTo…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "龙猫云采用 IPLC 深港、沪美、沪日级跨境专线，节点质量极高。所有套餐均不限制设备，晚高峰时期毫不降速。原生解锁全平台流媒体，支持 TikTok 本土运营和直播。适合对节点稳定性有高要求、需要高带宽的用户群体。",
+      "highlights": [],
+      "url": "https://airportgo.org/go.php",
+      "reviewUrl": "https://clash-jichang.com/airport/longmaoyun"
+    },
+    {
+      "rank": 39,
+      "asset": "飞鸟机场",
+      "slug": "飞鸟机场",
+      "name": "飞鸟机场",
+      "category": "老牌机场",
+      "categories": [
+        "老牌机场",
+        "稳定机场",
+        "高端机场"
+      ],
+      "route": "中转 + IEPL + 专线",
+      "protocol": "以官网资料为准",
+      "price": "15元 100GB/月",
+      "promo": "—",
+      "use": "飞鸟机场是业界有口皆碑的高品质老牌机房，通过巧妙搭配中转 and IEPL 专线，取得了极佳的速度与稳定性平衡。日常带宽余量大，晚高峰跑满百兆宽…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "飞鸟机场是业界有口皆碑的高品质老牌机房，通过巧妙搭配中转 and IEPL 专线，取得了极佳的速度与稳定性平衡。日常带宽余量大，晚高峰跑满百兆宽带、秒开 4K 甚至 8K 视频毫无压力。套餐不限设备，支持季付、半年付、年付多种周期折扣。",
+      "highlights": [],
+      "url": "https://airportgo.org/go.php",
+      "reviewUrl": "https://clash-jichang.com/airport/feiniaojichang"
+    },
+    {
+      "rank": 40,
+      "asset": "青云梯",
+      "slug": "青云梯",
+      "name": "青云梯",
+      "category": "性价比机场",
+      "categories": [
+        "性价比机场",
+        "稳定机场"
+      ],
+      "route": "IPLC + 专线",
+      "protocol": "以官网资料为准",
+      "price": "8元 60GB/月",
+      "promo": "—",
+      "use": "青云梯主打全 IPLC 专线，顶级国际出口线路，最大提供 2.5GBps 超大带宽，无惧网络波动，所有套餐均不限制同时在线设备数量，全家或全公司…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "青云梯主打全 IPLC 专线，顶级国际出口线路，最大提供 2.5GBps 超大带宽，无惧网络波动，所有套餐均不限制同时在线设备数量，全家或全公司共用无压力。节点一律 x1 倍率，买卖透明，原生支持各端主流代理客户端，全线解锁 Netflix、Disney+ TikTok 等流媒体服务。提供 24 小时工单支持及在线客服。",
+      "highlights": [],
+      "url": "https://airportgo.org/go.php",
+      "reviewUrl": "https://clash-jichang.com/airport/qingyunti"
+    },
+    {
+      "rank": 41,
+      "asset": "花云-flowercloud",
+      "slug": "花云-flowercloud",
+      "name": "花云 (FlowerCloud)",
+      "category": "老牌机场",
+      "categories": [
+        "老牌机场",
+        "稳定机场",
+        "高端机场"
+      ],
+      "route": "BGP + 专线",
+      "protocol": "以官网资料为准",
+      "price": "128元/年 20GB/月",
+      "promo": "—",
+      "use": "FlowerCloud 成立于 2020 年，是业内公认的老牌高质量机场之一。采用 BGP 入口专线网络，多线自动优选回程，有效降低延迟和丢包。…",
+      "evidence": "主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）",
+      "description": "FlowerCloud 成立于 2020 年，是业内公认的老牌高质量机场之一。采用 BGP 入口专线网络，多线自动优选回程，有效降低延迟和丢包。节点覆盖港、台、日、新、美、欧等热门地区，可完美解锁 Netflix、Disney+、TikTok、ChatGPT。近期推出了\"全球计划\"，为用户提供更多国际节点与高带宽专线选择，长期保持着良好口碑。",
+      "highlights": [],
+      "url": "https://clash-jichang.com/go/huayunjichang",
+      "reviewUrl": "https://clash-jichang.com/airport/huayunjichang"
     }
   ]
 }

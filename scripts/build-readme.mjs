@@ -188,14 +188,17 @@ function generate(services, meta) {
   const telegram = meta.telegram || "";
   const compare = meta.compare || "";
   const brands = meta.brands || "";
-  const categoryEmoji = { "老牌机场": "🏛️", "性价比机场": "💸", "稳定机场": "🛡️", "高端机场": "👑" };
+  const categoryEmoji = { "老牌机场": "🏛️", "性价比机场": "💸", "稳定机场": "🛡️", "高端机场": "👑", "风险预警": "⚠️" };
   const categoryOf = (service, category) => (Array.isArray(service.categories) ? service.categories : [service.category]).includes(category);
   const namesFor = (predicate, limit = 3) => ordered.filter(predicate).slice(0, limit);
   const linksFor = (items) => items.length ? items.map((item) => mdLink(item.name, `#${item.slug}`)).join("、") : "待补充";
-  const entryLinks = (service) => service.url ? `${mdLink("官网注册", service.url)}${service.reviewUrl ? ` · ${mdLink("完整评测", service.reviewUrl)}` : ""}` : "待配置";
+  const entryLinks = (service) => {
+    if (service.risk) return service.reviewUrl ? `⚠️ ${mdLink("风险说明", service.reviewUrl)}` : "⚠️ 风险条目";
+    return service.url ? `${mdLink("官网注册", service.url)}${service.reviewUrl ? ` · ${mdLink("完整评测", service.reviewUrl)}` : ""}` : "待配置";
+  };
   const topLabel = ["🥇 主推", "🥈 次推", "🥉 次推"];
   const lines = [
-    `# 2026 机场推荐清单｜老牌 / 性价比 / 稳定 / 高端（${services.length} 家，每日自动同步）`,
+    `# 2026 机场推荐与梯子推荐清单｜老牌 / 性价比 / 稳定 / 高端 VPN（${services.length} 家，每日自动同步）`,
     "",
     `![更新日期](https://img.shields.io/badge/更新-${date.replaceAll("-", "--")}-00e676) ![收录机场](https://img.shields.io/badge/收录机场-${services.length}%20家-00b0ff) ![站长实测](https://img.shields.io/badge/站长实测-${tested}%20家-fbbf24) ![每日同步](https://img.shields.io/badge/每日同步-GitHub%20Actions-2088ff)`,
     "",
@@ -272,12 +275,12 @@ function generate(services, meta) {
     "## 🔄 数据如何自动更新",
     "",
     "1. `.github/workflows/daily-sync.yml` 按北京时间每天 00:30 运行，也支持在 Actions 页面手动运行。",
-    "2. 工作流执行 `node scripts/build-readme.mjs`。脚本优先读取 `DATA_URL` 指向的 HTTPS JSON；没有配置时使用仓库内的 `data/services.json`。当前资料结构参考 `clash-jichang.com/airport/`，注册与资料页统一使用 `clash-jichang.com` 域名。",
+    "2. 工作流先执行 `node scripts/sync-main-site.mjs`，从主站机场页提取当前顺序、价格、介绍和注册入口，写入 `data/services.json`；再执行 `node scripts/build-readme.mjs` 生成 README 和全部 SVG 示意图。",
     "3. 脚本重新生成 `README.md`，更新日期、数量徽章和表格；文件有变化时，Actions 自动提交。",
     "",
     "### 接入外部 JSON 接口",
     "",
-    "在 GitHub 仓库的 Settings → Secrets and variables → Actions → Variables 中添加 `DATA_URL`。接口可以直接返回数组，也可以返回 `{\"updatedAt\": \"...\", \"services\": [...]}`。",
+    "如果以后改用 JSON 接口，可在 GitHub 仓库的 Settings → Secrets and variables → Actions → Variables 中添加 `DATA_URL`。接口可以直接返回数组，也可以返回 `{\"updatedAt\": \"...\", \"services\": [...]}`；未配置时仍使用仓库内的 `data/services.json`。",
     "",
     "> 参考仓库的链接本质上是 JSON 数据里的 URL 字段被生成器写成 Markdown `[文字](https://...)`，并不是 GitHub 自动生成的特殊链接。",
     "",
