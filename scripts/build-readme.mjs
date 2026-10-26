@@ -121,11 +121,11 @@ function writeImages(services, date) {
 
 function basisLabel(service) {
   const evidence = String(service.evidence || "");
-  if (evidence.includes("实测")) return "✅ 有实测记录";
-  if (evidence.includes("待独立核验") || evidence.includes("用户提供") || evidence.includes("资料整理")) {
+  if (evidence.startsWith("站长实测") || evidence.startsWith("✅ 站长实测")) return "✅ 有实测记录";
+  if (evidence.startsWith("资料整理") || evidence.includes("待独立核验") || evidence.includes("用户提供")) {
     return "📝 资料整理";
   }
-  if (evidence.includes("核验")) return "📋 套餐已核验";
+  if (evidence.startsWith("套餐已核验") || evidence.includes("📋 套餐已核验")) return "📋 套餐已核验";
   return "📝 资料整理";
 }
 
@@ -142,6 +142,7 @@ function normalize(payload) {
       const service = {
         rank: index + 1,
         category: "其他",
+        categories: ["其他"],
         route: "待核验",
         protocol: "待核验",
         price: "以官网为准",
@@ -149,10 +150,14 @@ function normalize(payload) {
         use: "日常使用",
         evidence: "资料整理，购买前请自行核验",
         description: "暂无详细说明",
+        highlights: [],
         url: "",
+        reviewUrl: "",
         ...item,
       };
       service.rank = Number(service.rank) || index + 1;
+      service.categories = Array.isArray(service.categories) && service.categories.length ? service.categories : String(service.category || "其他").split(/\s*\/\s*/).filter(Boolean);
+      service.category = service.category || service.categories[0] || "其他";
       service.slug = service.slug || slugify(service.name);
       if (seen.has(service.slug)) {
         service.name = `${service.name}（重复记录）`;
@@ -167,78 +172,98 @@ function normalize(payload) {
 
 function generate(services, meta) {
   const date = today();
-  const categories = meta.category_order || ["高端专线", "平价月付", "AI / 原生 IP", "流媒体"];
+  const categories = meta.category_order || ["老牌机场", "性价比机场", "稳定机场", "高端机场"];
   const ordered = [...services].sort((a, b) => a.rank - b.rank || a.name.localeCompare(b.name, "zh"));
   const groups = new Map(categories.map((category) => [category, []]));
   for (const service of ordered) {
-    if (!groups.has(service.category)) groups.set(service.category, []);
-    groups.get(service.category).push(service);
+    const serviceCategories = Array.isArray(service.categories) && service.categories.length ? service.categories : [service.category];
+    for (const category of serviceCategories) {
+      if (!groups.has(category)) groups.set(category, []);
+      groups.get(category).push(service);
+    }
   }
-  const tested = services.filter((service) => String(service.evidence).includes("实测")).length;
+  const tested = services.filter((service) => String(service.evidence).startsWith("站长实测") || String(service.evidence).startsWith("✅ 站长实测")).length;
   const duplicates = services.filter((service) => String(service.evidence).includes("重复记录")).length;
   const home = meta.home || "";
   const telegram = meta.telegram || "";
+  const compare = meta.compare || "";
+  const brands = meta.brands || "";
+  const categoryEmoji = { "老牌机场": "🏛️", "性价比机场": "💸", "稳定机场": "🛡️", "高端机场": "👑" };
+  const categoryOf = (service, category) => (Array.isArray(service.categories) ? service.categories : [service.category]).includes(category);
+  const namesFor = (predicate, limit = 3) => ordered.filter(predicate).slice(0, limit);
+  const linksFor = (items) => items.length ? items.map((item) => mdLink(item.name, `#${item.slug}`)).join("、") : "待补充";
+  const entryLinks = (service) => service.url ? `${mdLink("官网注册", service.url)}${service.reviewUrl ? ` · ${mdLink("完整评测", service.reviewUrl)}` : ""}` : "待配置";
+  const topLabel = ["🥇 主推", "🥈 次推", "🥉 次推"];
   const lines = [
-    `# 2026 梯子推荐与机场推荐清单（${services.length} 条资料，每日自动更新）`,
+    `# 2026 机场推荐清单｜老牌 / 性价比 / 稳定 / 高端（${services.length} 家，每日自动同步）`,
     "",
-    `![更新日期](https://img.shields.io/badge/更新-${date.replaceAll("-", "--")}-00e676) ![收录资料](https://img.shields.io/badge/收录-${services.length}%20条-00b0ff) ![有实测记录](https://img.shields.io/badge/有实测-${tested}%20条-fbbf24) ![每日同步](https://img.shields.io/badge/每日同步-GitHub%20Actions-2088ff)`,
+    `![更新日期](https://img.shields.io/badge/更新-${date.replaceAll("-", "--")}-00e676) ![收录机场](https://img.shields.io/badge/收录机场-${services.length}%20家-00b0ff) ![站长实测](https://img.shields.io/badge/站长实测-${tested}%20家-fbbf24) ![每日同步](https://img.shields.io/badge/每日同步-GitHub%20Actions-2088ff)`,
     "",
-    "> 本仓库是公开资料整理与 GitHub 镜像示例。价格、优惠码、线路和可用性会变化，购买前请在官网核验，并优先月付试用。",
+    `这是 ${home ? mdLink("clash-jichang.com", home) : "clash-jichang.com"} 品牌库的 GitHub 镜像：**${services.length} 家机场按老牌 / 性价比 / 稳定 / 高端四类整理**，每家给出套餐价格、优惠码、线路口径、资料来源和注册入口。`,
+    "> 价格、优惠码、线路和可用性会变化，购买前请在官网核验，并优先月付试用。",
     ">",
-    "> 订阅链接等同账号密钥，请勿公开粘贴或提交到 Issues、日志和截图中。请遵守你所在地的法律法规及服务条款。",
+    "> 订阅链接等同账号密码，请勿公开粘贴或提交到 Issues、日志和截图中。请遵守所在地法律法规及服务条款。",
     "",
-    `**数据更新时间：${date}（Asia/Shanghai）** · ${home ? mdLink("主站", home) : "主站待配置"}${telegram ? ` · ${mdLink("Telegram", telegram)}` : ""}`,
+    `**数据更新时间：${date}（Asia/Shanghai）** · ${home ? mdLink("主站", home) : "主站待配置"}${compare ? ` · ${mdLink("对比总表", compare)}` : ""}${brands ? ` · ${mdLink("品牌库", brands)}` : ""}${telegram ? ` · ${mdLink("Telegram", telegram)}` : ""}`,
     "",
-    "![2026 机场推荐、梯子节点与代理客户端导航](images/banner.svg)",
+    "![2026 机场推荐清单：老牌、性价比、稳定与高端机场](images/banner.svg)",
     "",
-    "这是一个围绕 **2026 机场推荐、梯子推荐、稳定专线、平价月付、ChatGPT / Claude 节点、Clash、Sing-box、V2Ray、Shadowsocks、Trojan、IEPL / IPLC** 等搜索需求整理的 GitHub 资料页。表格用于快速对比价格、协议、线路和适用场景，具体可用性以官网和自行测试为准。",
+    `这是围绕 **2026 机场推荐、机场梯子、老牌机场、性价比机场、稳定机场、高端机场、ChatGPT / Claude、Clash、Sing-box、V2Ray、Shadowsocks、Trojan、IEPL / IPLC** 等搜索需求整理的资料页。表格用于快速对比价格、优惠码、线路、协议和注册入口，具体可用性以官网和自行测试为准。`,
     "每家资料均配有独立配色的线路概览图和 AI / 流媒体状态图，图片只用于阅读导航和版式展示。",
     "",
     "## 📋 目录",
     "",
-    "- [本期摘要](#摘要) · [TOP 推荐](#top) · [快速选购指南](#guide) · [全部资料](#全部资料)",
-    "- [高端专线](#高端专线) · [平价月付](#平价月付) · [AI / 原生 IP](#ai-原生-ip) · [流媒体](#流媒体)",
-    "- [数据如何自动更新](#数据如何自动更新) · [客户端建议](#客户端建议) · [常见问题](#常见问题) · [免责声明](#免责声明)",
+    "- [本期更新](#update) · [本期主推](#top) · [快速选择指南](#guide) · [全部机场速览](#all)",
+    `- ${categories.map((category) => `[${category}](#${slugify(category)})`).join(" · ")}`,
+    "- [数据如何自动更新](#数据如何自动更新) · [客户端建议](#客户端建议) · [常见问题](#常见问题) · [更新与声明](#更新与声明)",
     "",
-    '<a name="摘要"></a>',
-    "## 📢 本期摘要",
+    '<a name="update"></a>',
+    `## 📢 本期更新（${date}）`,
     "",
-    `- 当前展示 **${services.length} 条资料**，其中有明确实测记录的 **${tested} 条**。`,
+    `- 当前收录 **${services.length} 家机场**，其中有站长实测记录的品牌 **${tested} 家**。`,
+    `- 本期主推 **${ordered.slice(0, 3).map((item) => mdLink(item.name, `#${item.slug}`)).join("、")}**；价格、优惠码和入口以 ${home ? mdLink("clash-jichang.com/airport/", `${home}airport/`) : "主站机场页"} 为准。`,
     "- 排名是资料整理的参考顺序，不代表任何时段的速度、稳定性或解锁保证。",
   ];
   if (duplicates) lines.push(`- 检测到 **${duplicates} 条重复记录**，已在列表中标注，建议你补充或删除重复项。`);
 
-  lines.push("", '<a name="top"></a>', "## 🏆 TOP 推荐（参考排序）", "", "| 位置 | 名称 | 入门价格 | 线路 / 协议 | 适用场景 | 资料口径 | 入口 |", "| :---: | :--- | :--- | :--- | :--- | :--- | :--- |");
+  lines.push("", '<a name="top"></a>', "## 🏆 本期主推", "", "| 位置 | 机场 | 最低套餐 | 优惠码 | 一句话 | 资料口径 | 入口 |", "| :---: | :--- | :--- | :---: | :--- | :--- | :--- |");
   for (const service of ordered.slice(0, 3)) {
-    lines.push(`| ${service.rank} | ${mdLink(tableValue(service.name), service.url)} | ${tableValue(service.price)} | ${tableValue(service.route)} / ${tableValue(service.protocol)} | ${tableValue(service.use)} | ${basisLabel(service)} | ${service.url ? mdLink("官网注册", service.url) : "待配置"} |`);
+    lines.push(`| ${topLabel[service.rank - 1] || `No.${service.rank}`} | ${mdLink(tableValue(service.name), `#${service.slug}`)} | ${tableValue(service.price)} | \`${tableValue(service.promo)}\` | ${tableValue(service.use)} | ${basisLabel(service)} | ${entryLinks(service)} |`);
   }
 
   lines.push("", '<a name="guide"></a>', "## ⚡ 快速选购指南", "", "| 使用需求 | 优先查看 | 选择建议 |", "| :--- | :--- | :--- |");
   const guideRows = [
-    ["追求晚高峰稳定", ordered.filter((item) => item.category === "高端专线").slice(0, 3), "先月付，完整体验晚高峰后再考虑长期套餐"],
-    ["预算敏感 / 备用线路", ordered.filter((item) => item.category === "平价月付").slice(0, 3), "优先看月付价格、流量有效期和退款规则"],
-    ["ChatGPT / Claude / Gemini", ordered.filter((item) => item.category === "AI / 原生 IP").slice(0, 3), "不要只看宣传，购买后逐个节点验证"],
-    ["Netflix / YouTube / 4K 流媒体", ordered.filter((item) => item.category === "流媒体").slice(0, 3), "解锁状态会变动，优先选择可短期试用的套餐"],
+    ["第一次买 / 预算敏感", namesFor((item) => categoryOf(item, "性价比机场")), "优先月付试水，确认流量有效期、退款规则和入口稳定性"],
+    ["求稳 / 打算长期用", namesFor((item) => categoryOf(item, "老牌机场") || categoryOf(item, "稳定机场")), "先体验完整晚高峰，再考虑季付或年付优惠"],
+    ["ChatGPT / Claude 等 AI 工具", namesFor((item) => /AI|OpenAI|ChatGPT|Claude|Gemini/i.test(`${item.use} ${item.description} ${item.highlights?.join(" ") || ""}`)), "优先查看原生 IP、协议和实测日期，逐个节点验证"],
+    ["大流量 / 重度下载", namesFor((item) => /大流量|1800G|150G|120G|1000G|2000G/i.test(`${item.price} ${item.use} ${item.description}`)), "比较流量单价和周期规则，避免只看月付起步价"],
+    ["高端专线 / 套餐层级完整", namesFor((item) => categoryOf(item, "高端机场")), "重点核对 IEPL / IPLC 口径、退款政策和长期套餐限制"],
   ];
   for (const [need, items, advice] of guideRows) {
-    lines.push(`| **${need}** | ${items.length ? items.map((item) => mdLink(item.name, `#${item.slug}`)).join("、") : "待补充"} | ${advice} |`);
+    lines.push(`| **${need}** | ${linksFor(items)} | ${advice} |`);
   }
-  lines.push("", "> 选购纪律：新服务先月付，准备一条低价备用线路，不要公开粘贴订阅地址。", "");
+  lines.push("", "> 💡 选购纪律：第一个月月付试水，体验完整晚高峰后再考虑长期套餐；手头保留一条备用机场，避免完全失联。", "");
 
-  lines.push("", '<a name="全部资料"></a>', `## 📊 全部资料（${services.length} 条，按参考排序）`, "", "| 排名 | 名称 | 分类 | 入门价格 | 优惠码 | 线路 | 协议 | 资料口径 | 入口 |", "| :---: | :--- | :--- | :--- | :---: | :--- | :--- | :--- | :--- |");
+  lines.push("", '<a name="all"></a>', `## 📊 全部机场速览（${services.length} 家，按榜单排序）`, "", "| 排名 | 机场 | 分类 | 最低套餐 | 优惠码 | 资料口径 | 入口 |", "| :---: | :--- | :--- | :--- | :---: | :--- | :--- |");
   for (const service of ordered) {
-    lines.push(`| ${service.rank} | ${mdLink(tableValue(service.name), `#${service.slug}`)} | ${tableValue(service.category)} | ${tableValue(service.price)} | \`${tableValue(service.promo)}\` | ${tableValue(service.route)} | ${tableValue(service.protocol)} | ${basisLabel(service)} | ${service.url ? mdLink("官网注册", service.url) : "待配置"} |`);
+    lines.push(`| ${service.rank} | ${mdLink(tableValue(service.name), `#${service.slug}`)} | ${tableValue(service.categories?.join(" / ") || service.category)} | ${tableValue(service.price)} | \`${tableValue(service.promo)}\` | ${basisLabel(service)} | ${entryLinks(service)} |`);
   }
 
+  const expanded = new Set();
   for (const [category, items] of groups) {
     if (!items.length) continue;
-    lines.push("", `<a name="${slugify(category)}"></a>`, `## 🧭 ${category}（${items.length} 条）`, "");
+    lines.push("", `<a name="${slugify(category)}"></a>`, `## ${categoryEmoji[category] || "🧭"} ${category}（${items.length} 家）`, "");
     for (const service of items) {
-      lines.push(`### ${service.rank}. ${service.name}`, "", `**${tableValue(service.price)}** · 线路：${tableValue(service.route)} · 协议：${tableValue(service.protocol)} · 优惠码：\`${tableValue(service.promo)}\``, "", tableValue(service.description), "", `- 适用场景：${tableValue(service.use)}`, `- 资料口径：${tableValue(service.evidence)}`, `- 入口：${service.url ? mdLink("官网注册", service.url) : "待配置"}`, "");
-      {
-        const name = assetSlug(service);
-        lines.push(`![${service.name}线路概览示意图](images/${name}-speed.svg)`, "", `![${service.name}AI与流媒体状态示意图](images/${name}-unlock.svg)`, "");
+      if (expanded.has(service.slug)) {
+        lines.push(`- **${service.rank}. ${mdLink(service.name, `#${service.slug}`)}** —— ${tableValue(service.use)}（${tableValue(service.price)} · ${basisLabel(service)}）`);
+        continue;
       }
+      expanded.add(service.slug);
+      lines.push(`### ${service.rank}. ${service.name} —— ${tableValue(service.use)}`, "", `**${tableValue(service.price)} 起** · 线路：${tableValue(service.route)} · 协议：${tableValue(service.protocol)} · 优惠码：\`${tableValue(service.promo)}\``, "", tableValue(service.description), "");
+      for (const highlight of Array.isArray(service.highlights) ? service.highlights.slice(0, 5) : []) lines.push(`- ${tableValue(highlight)}`);
+      lines.push("", `📌 **资料口径：**${tableValue(service.evidence)}`, "", `👉 **${entryLinks(service)}**`, "");
+      const name = assetSlug(service);
+      lines.push(`![${service.name}线路概览示意图](images/${name}-speed.svg)`, "", `![${service.name}AI与流媒体状态示意图](images/${name}-unlock.svg)`, "", "---", "");
     }
   }
 
@@ -247,7 +272,7 @@ function generate(services, meta) {
     "## 🔄 数据如何自动更新",
     "",
     "1. `.github/workflows/daily-sync.yml` 按北京时间每天 00:30 运行，也支持在 Actions 页面手动运行。",
-    "2. 工作流执行 `node scripts/build-readme.mjs`。脚本优先读取 `DATA_URL` 指向的 HTTPS JSON；没有配置时使用仓库内的 `data/services.json`。",
+    "2. 工作流执行 `node scripts/build-readme.mjs`。脚本优先读取 `DATA_URL` 指向的 HTTPS JSON；没有配置时使用仓库内的 `data/services.json`。当前资料结构参考 `clash-jichang.com/airport/`，注册与资料页统一使用 `clash-jichang.com` 域名。",
     "3. 脚本重新生成 `README.md`，更新日期、数量徽章和表格；文件有变化时，Actions 自动提交。",
     "",
     "### 接入外部 JSON 接口",
@@ -271,8 +296,8 @@ function generate(services, meta) {
     "",
     "**如何手动更新？** 打开仓库的 Actions，选择 `每日同步 README`，点击 `Run workflow`。",
     "",
-    '<a name="免责声明"></a>',
-    "## 📌 免责声明",
+    '<a name="更新与声明"></a>',
+    "## 📌 更新与声明",
     "",
     "本清单只做公开资料整理和技术演示。价格、优惠活动、线路、IP 质量、速度、解锁状态和服务存续都可能变化；除明确标注的记录外，不应把表格内容理解为独立实测结论。部分链接可能包含推广参数，是否使用由你自行决定。",
     "",
