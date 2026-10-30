@@ -1,13 +1,13 @@
 # 2026 机场推荐与梯子推荐清单｜老牌 / 性价比 / 稳定 / 高端 VPN（41 家，每日自动同步）
 
-![更新日期](https://img.shields.io/badge/更新-2026--10--30-00e676) ![收录机场](https://img.shields.io/badge/收录机场-41%20家-00b0ff) ![站长实测](https://img.shields.io/badge/站长实测-0%20家-fbbf24) ![每日同步](https://img.shields.io/badge/每日同步-GitHub%20Actions-2088ff)
+![更新日期](https://img.shields.io/badge/更新-2026--10--31-00e676) ![收录机场](https://img.shields.io/badge/收录机场-41%20家-00b0ff) ![站长实测](https://img.shields.io/badge/站长实测-0%20家-fbbf24) ![每日同步](https://img.shields.io/badge/每日同步-GitHub%20Actions-2088ff)
 
 这是 [clash-jichang.com](https://clash-jichang.com/) 品牌库的 GitHub 镜像：**41 家机场按老牌 / 性价比 / 稳定 / 高端四类整理**，每家给出套餐价格、优惠码、线路口径、资料来源和注册入口。
 > 价格、优惠码、线路和可用性会变化，购买前请在官网核验，并优先月付试用。
 >
 > 订阅链接等同账号密码，请勿公开粘贴或提交到 Issues、日志和截图中。请遵守所在地法律法规及服务条款。
 
-**数据更新时间：2026-10-30（Asia/Shanghai）** · [主站](https://clash-jichang.com/) · [对比总表](https://clash-jichang.com/airport/compare) · [品牌库](https://clash-jichang.com/airport/brands) · [Telegram](https://t.me/JIAN6688)
+**数据更新时间：2026-10-31（Asia/Shanghai）** · [主站](https://clash-jichang.com/) · [对比总表](https://clash-jichang.com/airport/compare) · [品牌库](https://clash-jichang.com/airport/brands) · [Telegram](https://t.me/JIAN6688)
 
 ![2026 机场推荐清单：老牌、性价比、稳定与高端机场](images/banner.svg)
 
@@ -21,7 +21,7 @@
 - [数据如何自动更新](#数据如何自动更新) · [客户端建议](#客户端建议) · [常见问题](#常见问题) · [更新与声明](#更新与声明)
 
 <a name="update"></a>
-## 📢 本期更新（2026-10-30）
+## 📢 本期更新（2026-10-31）
 
 - 当前收录 **41 家机场**，其中有站长实测记录的品牌 **0 家**。
 - 本期主推 **[极连云](#极连云)、[光年梯](#光年梯)、[飞猫云](#飞猫云)**；价格、优惠码和入口以 [clash-jichang.com/airport/](https://clash-jichang.com/airport/) 为准。
