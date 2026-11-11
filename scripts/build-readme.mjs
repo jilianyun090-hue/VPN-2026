@@ -7,6 +7,7 @@
 import { mkdirSync, readFileSync, readdirSync, unlinkSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { applyOverrides } from "./apply-overrides.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const LOCAL_DATA = resolve(ROOT, "data/services.json");
@@ -182,7 +183,8 @@ function generate(services, meta) {
       groups.get(category).push(service);
     }
   }
-  const tested = services.filter((service) => String(service.evidence).startsWith("站长实测") || String(service.evidence).startsWith("✅ 站长实测")).length;
+  const reportedTesting = meta.testingSummary;
+  const tested = reportedTesting?.count ?? services.filter((service) => String(service.evidence).startsWith("站长实测") || String(service.evidence).startsWith("✅ 站长实测")).length;
   const duplicates = services.filter((service) => String(service.evidence).includes("重复记录")).length;
   const home = meta.home || "";
   const telegram = meta.telegram || "";
@@ -223,8 +225,10 @@ function generate(services, meta) {
     '<a name="update"></a>',
     `## 📢 本期更新（${date}）`,
     "",
-    `- 当前收录 **${services.length} 家机场**，其中有站长实测记录的品牌 **${tested} 家**。`,
-    `- 本期主推 **${ordered.slice(0, 3).map((item) => mdLink(item.name, `#${item.slug}`)).join("、")}**；价格、优惠码和入口以 ${home ? mdLink("clash-jichang.com/airport/", `${home}airport/`) : "主站机场页"} 为准。`,
+    reportedTesting
+      ? `- 当前收录 **${services.length} 家机场**；站长实测统计为 **${tested} 家**（${tableValue(reportedTesting.source)}，${tableValue(reportedTesting.reportedAt)}），各条目资料来源仍分别标注。`
+      : `- 当前收录 **${services.length} 家机场**，其中有站长实测记录的品牌 **${tested} 家**。`,
+    `- 本期主推 **${ordered.slice(0, 3).map((item) => mdLink(item.name, `#${item.slug}`)).join("、")}**；价格、优惠码来自 ${home ? mdLink("clash-jichang.com/airport/", `${home}airport/`) : "主站机场页"}，注册入口优先采用站长在 \`data/overrides.json\` 中维护的链接。`,
     "- 排名是资料整理的参考顺序，不代表任何时段的速度、稳定性或解锁保证。",
   ];
   if (duplicates) lines.push(`- 检测到 **${duplicates} 条重复记录**，已在列表中标注，建议你补充或删除重复项。`);
@@ -277,6 +281,7 @@ function generate(services, meta) {
     "1. `.github/workflows/daily-sync.yml` 按北京时间每天 00:30 运行，也支持在 Actions 页面手动运行。",
     "2. 工作流先执行 `node scripts/sync-main-site.mjs`，从主站机场页提取当前顺序、价格、介绍和注册入口，写入 `data/services.json`；再执行 `node scripts/build-readme.mjs` 生成 README 和全部 SVG 示意图。",
     "3. 脚本重新生成 `README.md`，更新日期、数量徽章和表格；文件有变化时，Actions 自动提交。",
+    "4. `data/overrides.json` 保存站长维护的注册入口和实测统计；每次同步、生成时优先应用，避免被主站抓取结果覆盖。",
     "",
     "### 接入外部 JSON 接口",
     "",
@@ -310,7 +315,7 @@ function generate(services, meta) {
   return lines.join("\n");
 }
 
-const payload = await loadPayload();
+const payload = applyOverrides(await loadPayload());
 const { meta, services } = normalize(payload);
 writeImages(services, today());
 writeFileSync(resolve(ROOT, "README.md"), generate(services, meta), "utf8");

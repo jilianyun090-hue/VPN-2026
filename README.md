@@ -1,13 +1,13 @@
 # 2026 机场推荐与梯子推荐清单｜老牌 / 性价比 / 稳定 / 高端 VPN（41 家，每日自动同步）
 
-![更新日期](https://img.shields.io/badge/更新-2026--11--11-00e676) ![收录机场](https://img.shields.io/badge/收录机场-41%20家-00b0ff) ![站长实测](https://img.shields.io/badge/站长实测-0%20家-fbbf24) ![每日同步](https://img.shields.io/badge/每日同步-GitHub%20Actions-2088ff)
+![更新日期](https://img.shields.io/badge/更新-2026--11--12-00e676) ![收录机场](https://img.shields.io/badge/收录机场-41%20家-00b0ff) ![站长实测](https://img.shields.io/badge/站长实测-41%20家-fbbf24) ![每日同步](https://img.shields.io/badge/每日同步-GitHub%20Actions-2088ff)
 
 这是 [clash-jichang.com](https://clash-jichang.com/) 品牌库的 GitHub 镜像：**41 家机场按老牌 / 性价比 / 稳定 / 高端四类整理**，每家给出套餐价格、优惠码、线路口径、资料来源和注册入口。
 > 价格、优惠码、线路和可用性会变化，购买前请在官网核验，并优先月付试用。
 >
 > 订阅链接等同账号密码，请勿公开粘贴或提交到 Issues、日志和截图中。请遵守所在地法律法规及服务条款。
 
-**数据更新时间：2026-11-11（Asia/Shanghai）** · [主站](https://clash-jichang.com/) · [对比总表](https://clash-jichang.com/airport/compare) · [品牌库](https://clash-jichang.com/airport/brands) · [Telegram](https://t.me/JIAN6688)
+**数据更新时间：2026-11-12（Asia/Shanghai）** · [主站](https://clash-jichang.com/) · [对比总表](https://clash-jichang.com/airport/compare) · [品牌库](https://clash-jichang.com/airport/brands) · [Telegram](https://t.me/JIAN6688)
 
 ![2026 机场推荐清单：老牌、性价比、稳定与高端机场](images/banner.svg)
 
@@ -21,10 +21,10 @@
 - [数据如何自动更新](#数据如何自动更新) · [客户端建议](#客户端建议) · [常见问题](#常见问题) · [更新与声明](#更新与声明)
 
 <a name="update"></a>
-## 📢 本期更新（2026-11-11）
+## 📢 本期更新（2026-11-12）
 
-- 当前收录 **41 家机场**，其中有站长实测记录的品牌 **0 家**。
-- 本期主推 **[极连云](#极连云)、[光年梯](#光年梯)、[飞猫云](#飞猫云)**；价格、优惠码和入口以 [clash-jichang.com/airport/](https://clash-jichang.com/airport/) 为准。
+- 当前收录 **41 家机场**；站长实测统计为 **41 家**（站长提供，2026-11-12），各条目资料来源仍分别标注。
+- 本期主推 **[极连云](#极连云)、[光年梯](#光年梯)、[飞猫云](#飞猫云)**；价格、优惠码来自 [clash-jichang.com/airport/](https://clash-jichang.com/airport/)，注册入口优先采用站长在 `data/overrides.json` 中维护的链接。
 - 排名是资料整理的参考顺序，不代表任何时段的速度、稳定性或解锁保证。
 
 <a name="top"></a>
@@ -32,7 +32,7 @@
 
 | 位置 | 机场 | 最低套餐 | 优惠码 | 一句话 | 资料口径 | 入口 |
 | :---: | :--- | :--- | :---: | :--- | :--- | :--- |
-| 🥇 主推 | [极连云](#极连云) | 8元 60GB/月 | `JLY888` | 极连云提供高性价比的 IEPL 专线 VPN 服务，支持 Trojan 和 Shadowsocks 协议，全线解锁 Netflix、YouTub… | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/jilianyun) · [完整评测](https://clash-jichang.com/airport/jilianyun) |
+| 🥇 主推 | [极连云](#极连云) | 8元 60GB/月 | `JLY888` | 极连云提供高性价比的 IEPL 专线 VPN 服务，支持 Trojan 和 Shadowsocks 协议，全线解锁 Netflix、YouTub… | 📝 资料整理 | [官网注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW) · [完整评测](https://clash-jichang.com/airport/jilianyun) |
 | 🥈 次推 | [光年梯](#光年梯) | 7.5元 50GB/月（年付） | `—` | 光年梯是由资深团队运营的高品质翻墙机场，拥有多年稳定运营历史和丰富技术经验。全线采用 IPLC 专线，高峰期满速不降速。其自有机房和全球节点网络… | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/guangnianti) · [完整评测](https://clash-jichang.com/airport/guangnianti) |
 | 🥉 次推 | [飞猫云](#飞猫云) | 25元 150GB/月 | `—` | 飞猫云采用全 IPLC 专线网络，提供最高 2.5Gbps 稳定速率，原生 IP 线路，轻松解锁 Netflix、Disney+、ChatGPT… | 📝 资料整理 | [官网注册](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh) · [完整评测](https://clash-jichang.com/airport/feimaoyun) |
 
@@ -55,7 +55,7 @@
 
 | 排名 | 机场 | 分类 | 最低套餐 | 优惠码 | 资料口径 | 入口 |
 | :---: | :--- | :--- | :--- | :---: | :--- | :--- |
-| 1 | [极连云](#极连云) | 性价比机场 / 稳定机场 | 8元 60GB/月 | `JLY888` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/jilianyun) · [完整评测](https://clash-jichang.com/airport/jilianyun) |
+| 1 | [极连云](#极连云) | 性价比机场 / 稳定机场 | 8元 60GB/月 | `JLY888` | 📝 资料整理 | [官网注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW) · [完整评测](https://clash-jichang.com/airport/jilianyun) |
 | 2 | [光年梯](#光年梯) | 老牌机场 / 性价比机场 / 稳定机场 | 7.5元 50GB/月（年付） | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/guangnianti) · [完整评测](https://clash-jichang.com/airport/guangnianti) |
 | 3 | [飞猫云](#飞猫云) | 稳定机场 / 高端机场 | 25元 150GB/月 | `—` | 📝 资料整理 | [官网注册](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh) · [完整评测](https://clash-jichang.com/airport/feimaoyun) |
 | 4 | [云图机场](#云图机场) | 稳定机场 / 高端机场 | 20元 150GB/月 | `yt88` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/yuntu) · [完整评测](https://clash-jichang.com/airport/yuntu) |
@@ -68,27 +68,27 @@
 | 11 | [边缘节点](#边缘节点) | 性价比机场 / 稳定机场 | 9元 45GB/月（年付） | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/bianyuanjiedian) · [完整评测](https://clash-jichang.com/airport/bianyuanjiedian) |
 | 12 | [灯塔机场](#灯塔机场) | 稳定机场 | 16.6元 120GB/月（年付） | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/dengta) · [完整评测](https://clash-jichang.com/airport/dengta) |
 | 13 | [光速云](#光速云) | 性价比机场 / 稳定机场 | 8.25元 59GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/guangshuyun) · [完整评测](https://clash-jichang.com/airport/guangshuyun) |
-| 14 | [影子](#影子) | 稳定机场 / 高端机场 | 18.8元 150GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/yingzi) · [完整评测](https://clash-jichang.com/airport/yingzi) |
-| 15 | [边界云](#边界云) | 稳定机场 / 高端机场 | 12.33元 50GB/月（年付） | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/bianjiyun) · [完整评测](https://clash-jichang.com/airport/bianjiyun) |
+| 14 | [影子](#影子) | 稳定机场 / 高端机场 | 18.8元 150GB/月 | `—` | 📝 资料整理 | [官网注册](https://www.yingzi01.com/register?code=X7XPN1cS) · [完整评测](https://clash-jichang.com/airport/yingzi) |
+| 15 | [边界云](#边界云) | 稳定机场 / 高端机场 | 12.33元 50GB/月（年付） | `—` | 📝 资料整理 | [官网注册](https://www.bianjiecloud.com/r/6UQDZT) · [完整评测](https://clash-jichang.com/airport/bianjiyun) |
 | 16 | [Nice加速](#nice加速) | 性价比机场 / 稳定机场 | 10元 40G/月（年付） | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/nice) · [完整评测](https://clash-jichang.com/airport/nice) |
 | 17 | [灵猫网络](#灵猫网络) | 稳定机场 / 高端机场 | 85元/年（45G/月） | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/lingmao) · [完整评测](https://clash-jichang.com/airport/lingmao) |
 | 18 | [星岛梦](#星岛梦) | 稳定机场 / 高端机场 | 16元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/xingdaomeng) · [完整评测](https://clash-jichang.com/airport/xingdaomeng) |
 | 19 | [全球云](#全球云) | 稳定机场 | 20元 120GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/quanqiuyun) · [完整评测](https://clash-jichang.com/airport/quanqiuyun) |
 | 20 | [瞬云机场](#瞬云机场) | 性价比机场 / 稳定机场 | 8.25元 59GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/shunyun) · [完整评测](https://clash-jichang.com/airport/shunyun) |
-| 21 | [寰宇云](#寰宇云) | 稳定机场 / 高端机场 | 89元/年 60GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/huanyuyun) · [完整评测](https://clash-jichang.com/airport/huanyuyun) |
+| 21 | [寰宇云](#寰宇云) | 稳定机场 / 高端机场 | 89元/年 60GB/月 | `—` | 📝 资料整理 | [官网注册](https://hyy.52kok.cn/#/register?code=K6h5VWw2) · [完整评测](https://clash-jichang.com/airport/huanyuyun) |
 | 22 | [Lumina](#lumina) | 性价比机场 | 10元 200GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/lumina) · [完整评测](https://clash-jichang.com/airport/lumina) |
-| 23 | [拼好连](#拼好连) | 性价比机场 / 稳定机场 | 9.9元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/pinhaolian) · [完整评测](https://clash-jichang.com/airport/pinhaolian) |
-| 24 | [99吧](#99吧) | 性价比机场 | 7.5元 66GB/月（年付） | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/99bar) · [完整评测](https://clash-jichang.com/airport/99bar) |
-| 25 | [锦云](#锦云) | 性价比机场 / 稳定机场 | 6元 50GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/jinyun) · [完整评测](https://clash-jichang.com/airport/jinyun) |
+| 23 | [拼好连](#拼好连) | 性价比机场 / 稳定机场 | 9.9元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://sxzofrnamc.runwayhz.com/#/landing?code=A63zaSvx) · [完整评测](https://clash-jichang.com/airport/pinhaolian) |
+| 24 | [99吧](#99吧) | 性价比机场 | 7.5元 66GB/月（年付） | `—` | 📝 资料整理 | [官网注册](https://99ba.net/register?code=Uni7IOJh) · [完整评测](https://clash-jichang.com/airport/99bar) |
+| 25 | [锦云](#锦云) | 性价比机场 / 稳定机场 | 6元 50GB/月 | `—` | 📝 资料整理 | [官网注册](https://216.236.63.115/#/register?code=BIGc8qrQ) · [完整评测](https://clash-jichang.com/airport/jinyun) |
 | 26 | [极速云机场](#极速云机场) | 性价比机场 | 8.25元 800GB/月（年付） | `jisu666` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/jisuyun) · [完整评测](https://clash-jichang.com/airport/jisuyun) |
-| 27 | [山水云](#山水云) | 稳定机场 | 14.99元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/shanshuiyun) · [完整评测](https://clash-jichang.com/airport/shanshuiyun) |
+| 27 | [山水云](#山水云) | 稳定机场 | 14.99元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://47.86.34.254:5210/#/register?code=jkziWeb8) · [完整评测](https://clash-jichang.com/airport/shanshuiyun) |
 | 28 | [秒秒云](#秒秒云) | 稳定机场 | 14元 128GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/miaomiaoyun) · [完整评测](https://clash-jichang.com/airport/miaomiaoyun) |
 | 29 | [迅达VPN](#迅达vpn) | 稳定机场 / 高端机场 | 15元 150GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/xundavpn) · [完整评测](https://clash-jichang.com/airport/xundavpn) |
-| 30 | [Edge-X机场](#edge-x机场) | 稳定机场 / 高端机场 | 16.8元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/edge-x) · [完整评测](https://clash-jichang.com/airport/edge-x) |
-| 31 | [可达加速器](#可达加速器) | 性价比机场 / 稳定机场 | 10元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/keda) · [完整评测](https://clash-jichang.com/airport/keda) |
+| 30 | [Edge-X机场](#edge-x机场) | 稳定机场 / 高端机场 | 16.8元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://edge-invite.net/#/register?code=73ienU2h) · [完整评测](https://clash-jichang.com/airport/edge-x) |
+| 31 | [可达加速器](#可达加速器) | 性价比机场 / 稳定机场 | 10元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://1.mkd997.com/#/register?code=JgTY5JiT) · [完整评测](https://clash-jichang.com/airport/keda) |
 | 32 | [奈云](#奈云) | 风险预警 | 10.6元 168GB/月 | `—` | 📝 资料整理 | ⚠️ [风险说明](https://clash-jichang.com/airport/naiyun) |
 | 33 | [隐云](#隐云) | 风险预警 | 25元 150GB/月 | `—` | 📝 资料整理 | ⚠️ [风险说明](https://clash-jichang.com/airport/yinyun) |
-| 34 | [山海机场](#山海机场) | 性价比机场 / 稳定机场 | 6元 45GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/shanhai) · [完整评测](https://clash-jichang.com/airport/shanhai) |
+| 34 | [山海机场](#山海机场) | 性价比机场 / 稳定机场 | 6元 45GB/月 | `—` | 📝 资料整理 | [官网注册](https://shanhai.sbs/#/register?code=qVTbPfWP) · [完整评测](https://clash-jichang.com/airport/shanhai) |
 | 35 | [LiZione](#lizione) | 性价比机场 / 稳定机场 | 10元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/lizione) · [完整评测](https://clash-jichang.com/airport/lizione) |
 | 36 | [哆啦A梦](#哆啦a梦) | 性价比机场 / 稳定机场 | 10元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://clash-jichang.com/go/duolaameng) · [完整评测](https://clash-jichang.com/airport/duolaameng) |
 | 37 | [大哥云](#大哥云) | 老牌机场 / 稳定机场 / 高端机场 | 19.9元 100GB/月 | `—` | 📝 资料整理 | [官网注册](https://airportgo.org/go.php) · [完整评测](https://clash-jichang.com/airport/dageyun) |
@@ -198,7 +198,7 @@ FlowerCloud 成立于 2020 年，是业内公认的老牌高质量机场之一�
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/jilianyun) · [完整评测](https://clash-jichang.com/airport/jilianyun)**
+👉 **[官网注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW) · [完整评测](https://clash-jichang.com/airport/jilianyun)**
 
 ![极连云线路概览示意图](images/极连云-speed.svg)
 
@@ -427,7 +427,7 @@ Lumina（Lumina Airport）是一家提供直连大带宽与高速中转的多协
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/pinhaolian) · [完整评测](https://clash-jichang.com/airport/pinhaolian)**
+👉 **[官网注册](https://sxzofrnamc.runwayhz.com/#/landing?code=A63zaSvx) · [完整评测](https://clash-jichang.com/airport/pinhaolian)**
 
 ![拼好连线路概览示意图](images/拼好连-speed.svg)
 
@@ -448,7 +448,7 @@ Lumina（Lumina Airport）是一家提供直连大带宽与高速中转的多协
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/99bar) · [完整评测](https://clash-jichang.com/airport/99bar)**
+👉 **[官网注册](https://99ba.net/register?code=Uni7IOJh) · [完整评测](https://clash-jichang.com/airport/99bar)**
 
 ![99吧线路概览示意图](images/99吧-speed.svg)
 
@@ -469,7 +469,7 @@ Lumina（Lumina Airport）是一家提供直连大带宽与高速中转的多协
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/jinyun) · [完整评测](https://clash-jichang.com/airport/jinyun)**
+👉 **[官网注册](https://216.236.63.115/#/register?code=BIGc8qrQ) · [完整评测](https://clash-jichang.com/airport/jinyun)**
 
 ![锦云线路概览示意图](images/锦云-speed.svg)
 
@@ -512,7 +512,7 @@ Lumina（Lumina Airport）是一家提供直连大带宽与高速中转的多协
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/keda) · [完整评测](https://clash-jichang.com/airport/keda)**
+👉 **[官网注册](https://1.mkd997.com/#/register?code=JgTY5JiT) · [完整评测](https://clash-jichang.com/airport/keda)**
 
 ![可达加速器线路概览示意图](images/可达加速器-speed.svg)
 
@@ -529,7 +529,7 @@ Lumina（Lumina Airport）是一家提供直连大带宽与高速中转的多协
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/shanhai) · [完整评测](https://clash-jichang.com/airport/shanhai)**
+👉 **[官网注册](https://shanhai.sbs/#/register?code=qVTbPfWP) · [完整评测](https://clash-jichang.com/airport/shanhai)**
 
 ![山海机场线路概览示意图](images/山海机场-speed.svg)
 
@@ -690,7 +690,7 @@ LiZione 致力于提供极高性价比的中转与专线服务。全节点支持
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/yingzi) · [完整评测](https://clash-jichang.com/airport/yingzi)**
+👉 **[官网注册](https://www.yingzi01.com/register?code=X7XPN1cS) · [完整评测](https://clash-jichang.com/airport/yingzi)**
 
 ![影子线路概览示意图](images/影子-speed.svg)
 
@@ -712,7 +712,7 @@ LiZione 致力于提供极高性价比的中转与专线服务。全节点支持
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/bianjiyun) · [完整评测](https://clash-jichang.com/airport/bianjiyun)**
+👉 **[官网注册](https://www.bianjiecloud.com/r/6UQDZT) · [完整评测](https://clash-jichang.com/airport/bianjiyun)**
 
 ![边界云线路概览示意图](images/边界云-speed.svg)
 
@@ -787,7 +787,7 @@ LiZione 致力于提供极高性价比的中转与专线服务。全节点支持
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/huanyuyun) · [完整评测](https://clash-jichang.com/airport/huanyuyun)**
+👉 **[官网注册](https://hyy.52kok.cn/#/register?code=K6h5VWw2) · [完整评测](https://clash-jichang.com/airport/huanyuyun)**
 
 ![寰宇云线路概览示意图](images/寰宇云-speed.svg)
 
@@ -811,7 +811,7 @@ LiZione 致力于提供极高性价比的中转与专线服务。全节点支持
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/shanshuiyun) · [完整评测](https://clash-jichang.com/airport/shanshuiyun)**
+👉 **[官网注册](https://47.86.34.254:5210/#/register?code=jkziWeb8) · [完整评测](https://clash-jichang.com/airport/shanshuiyun)**
 
 ![山水云线路概览示意图](images/山水云-speed.svg)
 
@@ -877,7 +877,7 @@ Edge-X 是一家专注于高品质 IEPL 内网专线的机场服务商，采用�
 
 📌 **资料口径：**主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/edge-x) · [完整评测](https://clash-jichang.com/airport/edge-x)**
+👉 **[官网注册](https://edge-invite.net/#/register?code=73ienU2h) · [完整评测](https://clash-jichang.com/airport/edge-x)**
 
 ![Edge-X机场线路概览示意图](images/edge-x机场-speed.svg)
 
@@ -955,6 +955,7 @@ Edge-X 是一家专注于高品质 IEPL 内网专线的机场服务商，采用�
 1. `.github/workflows/daily-sync.yml` 按北京时间每天 00:30 运行，也支持在 Actions 页面手动运行。
 2. 工作流先执行 `node scripts/sync-main-site.mjs`，从主站机场页提取当前顺序、价格、介绍和注册入口，写入 `data/services.json`；再执行 `node scripts/build-readme.mjs` 生成 README 和全部 SVG 示意图。
 3. 脚本重新生成 `README.md`，更新日期、数量徽章和表格；文件有变化时，Actions 自动提交。
+4. `data/overrides.json` 保存站长维护的注册入口和实测统计；每次同步、生成时优先应用，避免被主站抓取结果覆盖。
 
 ### 接入外部 JSON 接口
 

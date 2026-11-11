@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { applyOverrides } from "./apply-overrides.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const OUTPUT = resolve(ROOT, "data/services.json");
@@ -251,7 +252,7 @@ async function loadHtml() {
   return response.text();
 }
 
-const payload = extractDocument(await loadHtml());
+const payload = applyOverrides(extractDocument(await loadHtml()));
 if (payload.services.length < 1) throw new Error("主站未提取到机场数据");
 writeFileSync(OUTPUT, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 console.log(`已从 ${SOURCE_URL} 同步 ${payload.services.length} 家机场到 data/services.json`);
