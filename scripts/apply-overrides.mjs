@@ -22,7 +22,8 @@ export function applyOverrides(payload) {
     testingSummary: { ...overrides.testingSummary },
     services: services.map((service) => {
       const url = overrides.registrationUrls?.[service.name];
-      return url ? { ...service, url } : service;
+      const promo = overrides.promoCodes?.[service.name];
+      return { ...service, ...(url ? { url } : {}), ...(promo ? { promo } : {}) };
     }),
   };
 }

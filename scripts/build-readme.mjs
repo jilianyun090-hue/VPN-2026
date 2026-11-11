@@ -121,13 +121,7 @@ function writeImages(services, date) {
 }
 
 function basisLabel(service) {
-  const evidence = String(service.evidence || "");
-  if (evidence.startsWith("站长实测") || evidence.startsWith("✅ 站长实测")) return "✅ 有实测记录";
-  if (evidence.startsWith("资料整理") || evidence.includes("待独立核验") || evidence.includes("用户提供")) {
-    return "📝 资料整理";
-  }
-  if (evidence.startsWith("套餐已核验") || evidence.includes("📋 套餐已核验")) return "📋 套餐已核验";
-  return "📝 资料整理";
+  return service.reviewUrl ? mdLink("完整评测", service.reviewUrl) : "—";
 }
 
 function normalize(payload) {
@@ -194,10 +188,7 @@ function generate(services, meta) {
   const categoryOf = (service, category) => (Array.isArray(service.categories) ? service.categories : [service.category]).includes(category);
   const namesFor = (predicate, limit = 3) => ordered.filter(predicate).slice(0, limit);
   const linksFor = (items) => items.length ? items.map((item) => mdLink(item.name, `#${item.slug}`)).join("、") : "待补充";
-  const entryLinks = (service) => {
-    if (service.risk) return service.reviewUrl ? `⚠️ ${mdLink("风险说明", service.reviewUrl)}` : "⚠️ 风险条目";
-    return service.url ? `${mdLink("官网注册", service.url)}${service.reviewUrl ? ` · ${mdLink("完整评测", service.reviewUrl)}` : ""}` : "待配置";
-  };
+  const entryLinks = (service) => service.url ? mdLink("官网注册", service.url) : "待配置";
   const topLabel = ["🥇 主推", "🥈 次推", "🥉 次推"];
   const lines = [
     `# 2026 机场推荐与梯子推荐清单｜老牌 / 性价比 / 稳定 / 高端 VPN（${services.length} 家，每日自动同步）`,
@@ -228,7 +219,7 @@ function generate(services, meta) {
     reportedTesting
       ? `- 当前收录 **${services.length} 家机场**；站长实测统计为 **${tested} 家**（${tableValue(reportedTesting.source)}，${tableValue(reportedTesting.reportedAt)}），各条目资料来源仍分别标注。`
       : `- 当前收录 **${services.length} 家机场**，其中有站长实测记录的品牌 **${tested} 家**。`,
-    `- 本期主推 **${ordered.slice(0, 3).map((item) => mdLink(item.name, `#${item.slug}`)).join("、")}**；价格、优惠码来自 ${home ? mdLink("clash-jichang.com/airport/", `${home}airport/`) : "主站机场页"}，注册入口优先采用站长在 \`data/overrides.json\` 中维护的链接。`,
+    `- 本期主推 **${ordered.slice(0, 3).map((item) => mdLink(item.name, `#${item.slug}`)).join("、")}**；价格来自 ${home ? mdLink("clash-jichang.com/airport/", `${home}airport/`) : "主站机场页"}，优惠码和注册入口优先采用站长在 \`data/overrides.json\` 中维护的配置。`,
     "- 排名是资料整理的参考顺序，不代表任何时段的速度、稳定性或解锁保证。",
   ];
   if (duplicates) lines.push(`- 检测到 **${duplicates} 条重复记录**，已在列表中标注，建议你补充或删除重复项。`);
@@ -268,7 +259,7 @@ function generate(services, meta) {
       expanded.add(service.slug);
       lines.push(`### ${service.rank}. ${service.name} —— ${tableValue(service.use)}`, "", `**${tableValue(service.price)} 起** · 线路：${tableValue(service.route)} · 协议：${tableValue(service.protocol)} · 优惠码：\`${tableValue(service.promo)}\``, "", tableValue(service.description), "");
       for (const highlight of Array.isArray(service.highlights) ? service.highlights.slice(0, 5) : []) lines.push(`- ${tableValue(highlight)}`);
-      lines.push("", `📌 **资料口径：**${tableValue(service.evidence)}`, "", `👉 **${entryLinks(service)}**`, "");
+      lines.push("", `📌 **资料口径：**${basisLabel(service)} · ${tableValue(service.evidence)}`, "", `👉 **${entryLinks(service)}**`, "");
       const name = assetSlug(service);
       lines.push(`![${service.name}线路概览示意图](images/${name}-speed.svg)`, "", `![${service.name}AI与流媒体状态示意图](images/${name}-unlock.svg)`, "", "---", "");
     }
@@ -281,7 +272,7 @@ function generate(services, meta) {
     "1. `.github/workflows/daily-sync.yml` 按北京时间每天 00:30 运行，也支持在 Actions 页面手动运行。",
     "2. 工作流先执行 `node scripts/sync-main-site.mjs`，从主站机场页提取当前顺序、价格、介绍和注册入口，写入 `data/services.json`；再执行 `node scripts/build-readme.mjs` 生成 README 和全部 SVG 示意图。",
     "3. 脚本重新生成 `README.md`，更新日期、数量徽章和表格；文件有变化时，Actions 自动提交。",
-    "4. `data/overrides.json` 保存站长维护的注册入口和实测统计；每次同步、生成时优先应用，避免被主站抓取结果覆盖。",
+    "4. `data/overrides.json` 保存站长维护的注册入口、优惠码和实测统计；每次同步、生成时优先应用，避免被主站抓取结果覆盖。",
     "",
     "### 接入外部 JSON 接口",
     "",
