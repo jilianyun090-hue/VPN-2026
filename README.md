@@ -58,7 +58,7 @@
 | 1 | [极连云](#极连云) | 性价比机场 / 稳定机场 | 8元 60GB/月 | `JLY888` | [完整评测](https://clash-jichang.com/airport/jilianyun) | [官网注册](https://haozevpn.jlyvipaff.com/#/?code=6aTAi9bW) |
 | 2 | [光年梯](#光年梯) | 老牌机场 / 性价比机场 / 稳定机场 | 7.5元 50GB/月（年付） | `GNT80` | [完整评测](https://clash-jichang.com/airport/guangnianti) | [官网注册](https://clash-jichang.com/go/guangnianti) |
 | 3 | [飞猫云](#飞猫云) | 稳定机场 / 高端机场 | 25元 150GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/feimaoyun) | [官网注册](https://flycat.flycatvipaff.cc/#/?code=1arEKHqh) |
-| 4 | [云图机场](#云图机场) | 稳定机场 / 高端机场 | 20元 150GB/月 | `yt88` | [完整评测](https://clash-jichang.com/airport/yuntu) | [官网注册](https://clash-jichang.com/go/yuntu) |
+| 4 | [云图机场](#云图机场) | 稳定机场 / 高端机场 | 20元 150GB/月 | `yt88` | [完整评测](https://clash-jichang.com/airport/yuntu) | [官网注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a) |
 | 5 | [鲲鹏加速](#鲲鹏加速) | 稳定机场 | 12元 99GB/月 | `airport` | [完整评测](https://clash-jichang.com/airport/kunpeng) | [官网注册](https://clash-jichang.com/go/kunpeng) |
 | 6 | [极速cloud](#极速cloud) | 性价比机场 / 稳定机场 | 8.9元 100GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/#%E6%9E%81%E9%80%9Fcloud) | [官网注册](https://august.jsjc456789.com) |
 | 7 | [九云机场](#九云机场) | 性价比机场 / 稳定机场 | 6元 150GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/#%E4%B9%9D%E4%BA%91) | [官网注册](https://daoyi.jiuyyq.com) |
@@ -66,9 +66,9 @@
 | 9 | [速界](#速界) | 性价比机场 / 稳定机场 | 7.5元 50GB/月（年付） | `sujie888` | [完整评测](https://clash-jichang.com/airport/sujie) | [官网注册](https://clash-jichang.com/go/sujie) |
 | 10 | [快狸](#快狸) | 性价比机场 / 稳定机场 | 10元 30GB/月（年付） | `kl888` | [完整评测](https://clash-jichang.com/airport/kuaili) | [官网注册](https://clash-jichang.com/go/kuaili) |
 | 11 | [边缘节点](#边缘节点) | 性价比机场 / 稳定机场 | 9元 45GB/月（年付） | `airport` | [完整评测](https://clash-jichang.com/airport/bianyuanjiedian) | [官网注册](https://clash-jichang.com/go/bianyuanjiedian) |
-| 12 | [灯塔机场](#灯塔机场) | 稳定机场 | 16.6元 120GB/月（年付） | `airport` | [完整评测](https://clash-jichang.com/airport/dengta) | [官网注册](https://clash-jichang.com/go/dengta) |
+| 12 | [灯塔机场](#灯塔机场) | 稳定机场 | 16.6元 120GB/月（年付） | `airport` | [完整评测](https://clash-jichang.com/airport/dengta) | [官网注册](https://www.dengta12.com/reg?ref=Fz0wIDwv&utm_source=invite&utm_medium=referral&utm_campaign=web) |
 | 13 | [光速云](#光速云) | 性价比机场 / 稳定机场 | 8.25元 59GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/guangshuyun) | [官网注册](https://clash-jichang.com/go/guangshuyun) |
-| 14 | [影子](#影子) | 稳定机场 / 高端机场 | 18.8元 150GB/月 | `airport` | [完整评测](https://clash-jichang.com/airport/yingzi) | [官网注册](https://www.yingzi01.com/register?code=X7XPN1cS) |
+| 14 | [影子](#影子) | 稳定机场 / 高端机场 | 18.8元 150GB/月 | `airport` | [完整评测](https://clash-jichang.com/airport/yingzi) | [官网注册](https://www.yingzi03.com/register?code=X7XPN1cS) |
 | 15 | [边界云](#边界云) | 稳定机场 / 高端机场 | 12.33元 50GB/月（年付） | `airport` | [完整评测](https://clash-jichang.com/airport/bianjiyun) | [官网注册](https://www.bianjiecloud.com/r/6UQDZT) |
 | 16 | [Nice加速](#nice加速) | 性价比机场 / 稳定机场 | 10元 40G/月（年付） | `airport` | [完整评测](https://clash-jichang.com/airport/nice) | [官网注册](https://clash-jichang.com/go/nice) |
 | 17 | [灵猫网络](#灵猫网络) | 稳定机场 / 高端机场 | 85元/年（45G/月） | `airport` | [完整评测](https://clash-jichang.com/airport/lingmao) | [官网注册](https://clash-jichang.com/go/lingmao) |
@@ -76,7 +76,7 @@
 | 19 | [全球云](#全球云) | 稳定机场 | 20元 120GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/quanqiuyun) | [官网注册](https://clash-jichang.com/go/quanqiuyun) |
 | 20 | [瞬云机场](#瞬云机场) | 性价比机场 / 稳定机场 | 8.25元 59GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/shunyun) | [官网注册](https://clash-jichang.com/go/shunyun) |
 | 21 | [寰宇云](#寰宇云) | 稳定机场 / 高端机场 | 89元/年 60GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/huanyuyun) | [官网注册](https://hyy.52kok.cn/#/register?code=K6h5VWw2) |
-| 22 | [Lumina](#lumina) | 性价比机场 | 10元 200GB/月 | `airport` | [完整评测](https://clash-jichang.com/airport/lumina) | [官网注册](https://clash-jichang.com/go/lumina) |
+| 22 | [Lumina](#lumina) | 性价比机场 | 10元 200GB/月 | `airport` | [完整评测](https://clash-jichang.com/airport/lumina) | [官网注册](https://luminak.net/#/register?code=dCgHyjFi) |
 | 23 | [拼好连](#拼好连) | 性价比机场 / 稳定机场 | 9.9元 100GB/月 | `airport` | [完整评测](https://clash-jichang.com/airport/pinhaolian) | [官网注册](https://sxzofrnamc.runwayhz.com/#/landing?code=A63zaSvx) |
 | 24 | [99吧](#99吧) | 性价比机场 | 7.5元 66GB/月（年付） | `2026-99` | [完整评测](https://clash-jichang.com/airport/99bar) | [官网注册](https://99ba.net/register?code=Uni7IOJh) |
 | 25 | [锦云](#锦云) | 性价比机场 / 稳定机场 | 6元 50GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/jinyun) | [官网注册](https://216.236.63.115/#/register?code=BIGc8qrQ) |
@@ -407,7 +407,7 @@ Lumina（Lumina Airport）是一家提供直连大带宽与高速中转的多协
 
 📌 **资料口径：**[完整评测](https://clash-jichang.com/airport/lumina) · 主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/lumina)**
+👉 **[官网注册](https://luminak.net/#/register?code=dCgHyjFi)**
 
 ![Lumina线路概览示意图](images/lumina-speed.svg)
 
@@ -625,7 +625,7 @@ LiZione 致力于提供极高性价比的中转与专线服务。全节点支持
 
 📌 **资料口径：**[完整评测](https://clash-jichang.com/airport/yuntu) · 主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/yuntu)**
+👉 **[官网注册](https://super.yuntujc.cc/#/register?code=qPHQtI9a)**
 
 ![云图机场线路概览示意图](images/云图机场-speed.svg)
 
@@ -669,7 +669,7 @@ LiZione 致力于提供极高性价比的中转与专线服务。全节点支持
 
 📌 **资料口径：**[完整评测](https://clash-jichang.com/airport/dengta) · 主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://clash-jichang.com/go/dengta)**
+👉 **[官网注册](https://www.dengta12.com/reg?ref=Fz0wIDwv&utm_source=invite&utm_medium=referral&utm_campaign=web)**
 
 ![灯塔机场线路概览示意图](images/灯塔机场-speed.svg)
 
@@ -690,7 +690,7 @@ LiZione 致力于提供极高性价比的中转与专线服务。全节点支持
 
 📌 **资料口径：**[完整评测](https://clash-jichang.com/airport/yingzi) · 主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://www.yingzi01.com/register?code=X7XPN1cS)**
+👉 **[官网注册](https://www.yingzi03.com/register?code=X7XPN1cS)**
 
 ![影子线路概览示意图](images/影子-speed.svg)
 
