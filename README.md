@@ -1,13 +1,13 @@
 # 2026 机场推荐与梯子推荐清单｜老牌 / 性价比 / 稳定 / 高端 VPN（41 家，每日自动同步）
 
-![更新日期](https://img.shields.io/badge/更新-2026--11--16-00e676) ![收录机场](https://img.shields.io/badge/收录机场-41%20家-00b0ff) ![站长实测](https://img.shields.io/badge/站长实测-41%20家-fbbf24) ![每日同步](https://img.shields.io/badge/每日同步-GitHub%20Actions-2088ff)
+![更新日期](https://img.shields.io/badge/更新-2026--11--17-00e676) ![收录机场](https://img.shields.io/badge/收录机场-41%20家-00b0ff) ![站长实测](https://img.shields.io/badge/站长实测-41%20家-fbbf24) ![每日同步](https://img.shields.io/badge/每日同步-GitHub%20Actions-2088ff)
 
 这是 [clash-jichang.com](https://clash-jichang.com/) 品牌库的 GitHub 镜像：**41 家机场按老牌 / 性价比 / 稳定 / 高端四类整理**，每家给出套餐价格、优惠码、线路口径、资料来源和注册入口。
 > 价格、优惠码、线路和可用性会变化，购买前请在官网核验，并优先月付试用。
 >
 > 订阅链接等同账号密码，请勿公开粘贴或提交到 Issues、日志和截图中。请遵守所在地法律法规及服务条款。
 
-**数据更新时间：2026-11-16（Asia/Shanghai）** · [主站](https://clash-jichang.com/) · [对比总表](https://clash-jichang.com/airport/compare) · [品牌库](https://clash-jichang.com/airport/brands) · [Telegram](https://t.me/JIAN6688)
+**数据更新时间：2026-11-17（Asia/Shanghai）** · [主站](https://clash-jichang.com/) · [对比总表](https://clash-jichang.com/airport/compare) · [品牌库](https://clash-jichang.com/airport/brands) · [Telegram](https://t.me/JIAN6688)
 
 ![2026 机场推荐清单：老牌、性价比、稳定与高端机场](images/banner.svg)
 
@@ -21,7 +21,7 @@
 - [数据如何自动更新](#数据如何自动更新) · [客户端建议](#客户端建议) · [常见问题](#常见问题) · [更新与声明](#更新与声明)
 
 <a name="update"></a>
-## 📢 本期更新（2026-11-16）
+## 📢 本期更新（2026-11-17）
 
 - 当前收录 **41 家机场**；站长实测统计为 **41 家**（站长提供，2026-11-12），各条目资料来源仍分别标注。
 - 本期主推 **[极连云](#极连云)、[光年梯](#光年梯)、[飞猫云](#飞猫云)**；价格来自 [clash-jichang.com/airport/](https://clash-jichang.com/airport/)，优惠码和注册入口优先采用站长在 `data/overrides.json` 中维护的配置。
@@ -91,10 +91,10 @@
 | 34 | [山海机场](#山海机场) | 性价比机场 / 稳定机场 | 6元 45GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/shanhai) | [官网注册](https://shanhai.sbs/#/register?code=qVTbPfWP) |
 | 35 | [LiZione](#lizione) | 性价比机场 / 稳定机场 | 10元 100GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/lizione) | [官网注册](https://clash-jichang.com/go/lizione) |
 | 36 | [哆啦A梦](#哆啦a梦) | 性价比机场 / 稳定机场 | 10元 100GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/duolaameng) | [官网注册](https://clash-jichang.com/go/duolaameng) |
-| 37 | [大哥云](#大哥云) | 老牌机场 / 稳定机场 / 高端机场 | 19.9元 100GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/dageyun) | [官网注册](https://airportgo.org/go.php) |
-| 38 | [龙猫云](#龙猫云) | 老牌机场 / 稳定机场 / 高端机场 | 15元 150GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/longmaoyun) | [官网注册](https://airportgo.org/go.php) |
-| 39 | [飞鸟机场](#飞鸟机场) | 老牌机场 / 稳定机场 / 高端机场 | 15元 100GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/feiniaojichang) | [官网注册](https://airportgo.org/go.php) |
-| 40 | [青云梯](#青云梯) | 性价比机场 / 稳定机场 | 8元 60GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/qingyunti) | [官网注册](https://airportgo.org/go.php) |
+| 37 | [大哥云](#大哥云) | 老牌机场 / 稳定机场 / 高端机场 | 19.9元 100GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/dageyun) | [官网注册](https://clash-jichang.com/go/dageyun) |
+| 38 | [龙猫云](#龙猫云) | 老牌机场 / 稳定机场 / 高端机场 | 15元 150GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/longmaoyun) | [官网注册](https://clash-jichang.com/go/longmaoyun) |
+| 39 | [飞鸟机场](#飞鸟机场) | 老牌机场 / 稳定机场 / 高端机场 | 15元 100GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/feiniaojichang) | [官网注册](https://clash-jichang.com/go/feiniaojichang) |
+| 40 | [青云梯](#青云梯) | 性价比机场 / 稳定机场 | 8元 60GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/qingyunti) | [官网注册](https://clash-jichang.com/go/qingyunti) |
 | 41 | [花云 (FlowerCloud)](#花云-flowercloud) | 老牌机场 / 稳定机场 / 高端机场 | 128元/年 20GB/月 | `—` | [完整评测](https://clash-jichang.com/airport/huayunjichang) | [官网注册](https://clash-jichang.com/go/huayunjichang) |
 
 <a name="老牌机场"></a>
@@ -126,7 +126,7 @@
 
 📌 **资料口径：**[完整评测](https://clash-jichang.com/airport/dageyun) · 主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://airportgo.org/go.php)**
+👉 **[官网注册](https://clash-jichang.com/go/dageyun)**
 
 ![大哥云线路概览示意图](images/大哥云-speed.svg)
 
@@ -143,7 +143,7 @@
 
 📌 **资料口径：**[完整评测](https://clash-jichang.com/airport/longmaoyun) · 主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://airportgo.org/go.php)**
+👉 **[官网注册](https://clash-jichang.com/go/longmaoyun)**
 
 ![龙猫云线路概览示意图](images/龙猫云-speed.svg)
 
@@ -160,7 +160,7 @@
 
 📌 **资料口径：**[完整评测](https://clash-jichang.com/airport/feiniaojichang) · 主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://airportgo.org/go.php)**
+👉 **[官网注册](https://clash-jichang.com/go/feiniaojichang)**
 
 ![飞鸟机场线路概览示意图](images/飞鸟机场-speed.svg)
 
@@ -580,7 +580,7 @@ LiZione 致力于提供极高性价比的中转与专线服务。全节点支持
 
 📌 **资料口径：**[完整评测](https://clash-jichang.com/airport/qingyunti) · 主站公开资料整理（价格、入口和介绍均来自 clash-jichang.com/airport/）
 
-👉 **[官网注册](https://airportgo.org/go.php)**
+👉 **[官网注册](https://clash-jichang.com/go/qingyunti)**
 
 ![青云梯线路概览示意图](images/青云梯-speed.svg)
 
